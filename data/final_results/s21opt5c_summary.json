@@ -1,0 +1,134 @@
+{
+  "D2_audit": [
+    {
+      "cache_records": 28273,
+      "failure": 0,
+      "four_coset_coverage": 27185,
+      "new_records": 27089,
+      "p": 0.0008,
+      "unknown_records": 27185
+    },
+    {
+      "cache_records": 28476,
+      "failure": 0,
+      "four_coset_coverage": 27185,
+      "new_records": 27088,
+      "p": 0.0009,
+      "unknown_records": 27185
+    }
+  ],
+  "D2_unknown_records": 27185,
+  "background": {
+    "anchor_diagnostics": [
+      {
+        "anchor": "0.0005",
+        "decoder_excess_A3": -4119.024000000209,
+        "intrinsic_A3": 293424.6016000015,
+        "total_A3": 289305.57760000136,
+        "total_A3_se": 53402.54675044879
+      },
+      {
+        "anchor": "0.001",
+        "decoder_excess_A3": -4119.024000000209,
+        "intrinsic_A3": 293424.6016000015,
+        "total_A3": 289305.57760000136,
+        "total_A3_se": 53402.54675044879
+      }
+    ],
+    "decoder_excess_A3": -4119.024000000209,
+    "intrinsic_A3": 293424.6016000015,
+    "policy": "Fixed hierarchical background inherited from OPT4D; only the three dominant OPT4D strata are rescored versus p-specific prior.",
+    "total_A3": 289305.57760000136,
+    "total_A3_se": 53402.54675044879
+  },
+  "curve": [
+    {
+      "A3_LER_coefficient": 1992091.6680600047,
+      "A3_LER_coefficient_se": 434822.8687516391,
+      "A3_decoder_excess": 1698667.06646,
+      "A3_intrinsic": 293424.6016000047,
+      "D2_cache_records": 28273,
+      "D2_four_coset_pass": true,
+      "D2_new_records": 27089,
+      "D2_unknown_records": 27185,
+      "LER_leading_order": 0.0010199509340467225,
+      "LER_leading_order_95pct": [
+        0.0005835974887970776,
+        0.0014563043792963674
+      ],
+      "LER_leading_order_se": 0.00022262930880083927,
+      "active_locations_per_accepted_CS": 8068.108329075114,
+      "average_attempts_per_CS": 2.5549310168625445,
+      "expected_active_locations_per_attempt": 3157.8576,
+      "operational_acceptance": 0.3914,
+      "p": 0.0008,
+      "target_closed_boundary_harmful_samples": 17
+    },
+    {
+      "A3_LER_coefficient": 1862971.3094200045,
+      "A3_LER_coefficient_se": 415213.6333782501,
+      "A3_decoder_excess": 1569546.7078199997,
+      "A3_intrinsic": 293424.6016000047,
+      "D2_cache_records": 28476,
+      "D2_four_coset_pass": true,
+      "D2_new_records": 27088,
+      "D2_unknown_records": 27185,
+      "LER_leading_order": 0.001358106084567183,
+      "LER_leading_order_95pct": [
+        0.0007648322366510041,
+        0.001951379932483362
+      ],
+      "LER_leading_order_se": 0.00030269073873274435,
+      "active_locations_per_accepted_CS": 8941.389524382903,
+      "average_attempts_per_CS": 3.0102347983142685,
+      "expected_active_locations_per_attempt": 2970.3296,
+      "operational_acceptance": 0.3322,
+      "p": 0.0009,
+      "target_closed_boundary_harmful_samples": 16
+    }
+  ],
+  "elapsed_seconds": 26066.503448724747,
+  "fresh_global_resample": false,
+  "frozen_decoder": {
+    "bp_max_iter": 30,
+    "bp_method": "minimum_sum",
+    "gap": 10.0,
+    "max_correction_effects": 8,
+    "ms_scaling_factor": 0.625,
+    "osd_method": "osd_cs",
+    "osd_order": 2,
+    "sector_candidates": 8,
+    "threshold_sweep": false
+  },
+  "harmful_witness_count": 24,
+  "main_gate": {
+    "D2_all_success": true,
+    "D2_four_coset_all": true,
+    "OPT4D_complete": true,
+    "OPT5A_pass": true,
+    "decoder_hyperparameters_frozen": true,
+    "matrix_rank_pass": true,
+    "p_specific_prior_only": true,
+    "passed": true,
+    "truth_bits_decoder_visible": false
+  },
+  "matrix": {
+    "H_aug_rank": 265,
+    "H_rank": 263,
+    "closure_conditioned_effect_classes": 3340,
+    "latent_zero_op_residuals": 3,
+    "raw_effect_classes": 3343
+  },
+  "next_if_pass": "Combine this direct-CS LER/resource curve with the Sahay 3T->CS baseline and solve for the crossover/advantage region.",
+  "observed_queries": 73026,
+  "p_values": [
+    0.0008,
+    0.0009
+  ],
+  "physical_samples_shared_across_all_p": true,
+  "reporting_label": "hierarchical reconstructed A3(p): OPT4D dominant-strata p-specific rescoring + fixed OPT4B/OPT4C background",
+  "stage": "S21-OPT5C dense p-specific A3 rescoring",
+  "status": "CROSSOVER_BRACKET_A3_COMPLETE",
+  "total_shared_exact3_samples": 140000,
+  "truth_bits_decoder_visible": false
+}

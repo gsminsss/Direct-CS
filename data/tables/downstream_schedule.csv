@@ -1,0 +1,14 @@
+quantity,value,unit
+escape_to_d5_plus_two_d5_rounds,1028,active_locations_per_patch
+direct_d5_to_d13_expansion,1104,active_locations_per_patch
+optimized_total,2132,active_locations_per_patch
+previous_downstream_total,3535,active_locations_per_patch
+CX,624,locations_in_direct_expansion
+R,160,locations_in_direct_expansion
+RX,152,locations_in_direct_expansion
+M,84,locations_in_direct_expansion
+MX,84,locations_in_direct_expansion
+operational_detector_bits,263,bits
+future_truth_bits,168,bits
+per_probe_unique_physical_pauli_mechanisms,18330,mechanisms_per_patch
+joint_complete_first_order_mechanism_universe,19590,mechanisms_per_patch

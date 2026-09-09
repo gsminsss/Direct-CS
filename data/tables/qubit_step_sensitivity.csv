@@ -1,0 +1,5 @@
+p,patch_assumption,active_location_ratio,qstep_ratio_low,qstep_ratio_high
+0.0005,ready,0.89,1.1,1.31
+0.001,ready,1.1,1.35,1.93
+0.0005,fresh,0.56,0.68,0.75
+0.001,fresh,0.74,0.89,1.11

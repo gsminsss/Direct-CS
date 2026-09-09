@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript."
+title: "Direct Cultivation of Entangled |CS> Magic States: code and data"
+type: software
+authors:
+  - family-names: Min
+    given-names: Gun Sik
+  - family-names: Heo
+    given-names: Jun
+version: "2026-09-09"
+date-released: 2026-09-09
+repository-code: "https://github.com/REPLACE_WITH_OWNER/direct-cs-cultivation"

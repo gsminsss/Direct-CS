@@ -1,0 +1,158 @@
+{
+  "D2_unknown_records": 27185,
+  "decision_rule": {
+    "dense_p_sweep_next": "After this precision stage, keep the decoder architecture frozen and perform the physical-p crossover sweep with p-specific priors.",
+    "paper_reporting": "Report the result explicitly as a hierarchical stratified/reconstructed A3 estimate (OPT4B+OPT4C+fresh OPT4D), not as a fresh global resample.",
+    "precision_goal": "Use the fresh OPT4D rows to reduce uncertainty in the three dominant decoder-excess strata."
+  },
+  "decoder_ps": [
+    0.0005,
+    0.001
+  ],
+  "elapsed_seconds": 32852.56042790413,
+  "harmful_witness_count": 24,
+  "matrix": {
+    "H_aug_rank": 265,
+    "H_rank": 263,
+    "closure_conditioned_effect_classes": 3340,
+    "latent_zero_op_residuals": 3,
+    "raw_effect_classes": 3343
+  },
+  "observed_queries": 73026,
+  "opt4c_informed_targeting": true,
+  "paired_decoder_prior_difference": {
+    "A3_high": 1830691.2197600054,
+    "A3_low": 2121212.0267000054,
+    "decoder_excess_high": 1537266.6181599998,
+    "decoder_excess_low": 1827787.4250999996,
+    "delta_high_minus_low": -290520.80694000004,
+    "intrinsic_high": 293424.60160000547,
+    "intrinsic_low": 293424.60160000564
+  },
+  "results": {
+    "0.0005": {
+      "decoder_p": 0.0005,
+      "fresh_target_aggregate": {
+        "A3_closed_boundary_binary_harmful_estimate": 2049444.8665599998,
+        "A3_closed_boundary_binary_harmful_naive_se": 498635.5470432329,
+        "A3_closed_boundary_infidelity_estimate": 1831906.449100004,
+        "A3_closed_boundary_infidelity_naive_95pct": [
+          949079.5610956157,
+          2714733.3371043922
+        ],
+        "A3_closed_boundary_infidelity_naive_se": 450430.1583947657,
+        "A3_decoder_excess_estimate": 1831906.4490999999,
+        "A3_decoder_excess_naive_se_conservative": 450430.1583947657,
+        "A3_intrinsic_oracle_estimate": 4.129235133287778e-09,
+        "A3_intrinsic_oracle_naive_se": 2.7462443005779533e-10,
+        "D3_detectable_residual_accept_estimate": 8202626751.14428,
+        "D3_detectable_residual_accept_naive_se": 20091486.74622596,
+        "R3_operational_rejection_estimate": 4652060284.35876,
+        "R3_operational_rejection_naive_se": 16791084.632369,
+        "closed_boundary_harmful_samples": 18,
+        "p3_predictions": {
+          "0.0001": 1.8319064491000043e-06,
+          "0.0002": 1.4655251592800034e-05,
+          "0.0005": 0.00022898830613750053,
+          "0.001": 0.0018319064491000043
+        },
+        "total_conditional_exact3_shots": 140000
+      },
+      "fresh_zero_event_target_binary_A3_upper95_sum": 0.0,
+      "fresh_zero_event_target_bounds": [],
+      "pilot_non_target_zero_event_binary_A3_upper95_sum": 72927899.61716409,
+      "reconstructed_global_aggregate": {
+        "A3_closed_boundary_binary_harmful_estimate": 2364837.59616,
+        "A3_closed_boundary_binary_harmful_naive_se": 501735.75656598614,
+        "A3_closed_boundary_infidelity_estimate": 2121212.0267000054,
+        "A3_closed_boundary_infidelity_naive_95pct": [
+          1232202.1789632803,
+          3010221.8744367305
+        ],
+        "A3_closed_boundary_infidelity_naive_se": 453584.7876538273,
+        "A3_decoder_excess_estimate": 1827787.4250999996,
+        "A3_decoder_excess_naive_se_conservative": 456736.0023310163,
+        "A3_intrinsic_oracle_estimate": 293424.60160000564,
+        "A3_intrinsic_oracle_naive_se": 53559.464470348714,
+        "D3_detectable_residual_accept_estimate": 8473833130.910681,
+        "D3_detectable_residual_accept_naive_se": 21861468.928486917,
+        "R3_operational_rejection_estimate": 11701452678.61196,
+        "R3_operational_rejection_naive_se": 19814920.507256974,
+        "closed_boundary_harmful_samples": 66,
+        "p3_predictions": {
+          "0.0001": 2.1212120267000057e-06,
+          "0.0002": 1.6969696213600046e-05,
+          "0.0005": 0.0002651515033375007,
+          "0.001": 0.0021212120267000054
+        },
+        "total_conditional_exact3_shots": 205200
+      }
+    },
+    "0.001": {
+      "decoder_p": 0.001,
+      "fresh_target_aggregate": {
+        "A3_closed_boundary_binary_harmful_estimate": 1791204.14928,
+        "A3_closed_boundary_binary_harmful_naive_se": 464006.04614738433,
+        "A3_closed_boundary_infidelity_estimate": 1541385.642160004,
+        "A3_closed_boundary_infidelity_naive_95pct": [
+          751889.1536276774,
+          2330882.1306923307
+        ],
+        "A3_closed_boundary_infidelity_naive_se": 402811.7326439649,
+        "A3_decoder_excess_estimate": 1541385.64216,
+        "A3_decoder_excess_naive_se_conservative": 402811.7326439649,
+        "A3_intrinsic_oracle_estimate": 3.983023762677007e-09,
+        "A3_intrinsic_oracle_naive_se": 2.693869338020536e-10,
+        "D3_detectable_residual_accept_estimate": 8159685900.573481,
+        "D3_detectable_residual_accept_naive_se": 20120756.843567267,
+        "R3_operational_rejection_estimate": 4712360976.33392,
+        "R3_operational_rejection_naive_se": 16915853.76354769,
+        "closed_boundary_harmful_samples": 16,
+        "p3_predictions": {
+          "0.0001": 1.5413856421600043e-06,
+          "0.0002": 1.2331085137280034e-05,
+          "0.0005": 0.00019267320527000052,
+          "0.001": 0.0015413856421600041
+        },
+        "total_conditional_exact3_shots": 140000
+      },
+      "fresh_zero_event_target_binary_A3_upper95_sum": 0.0,
+      "fresh_zero_event_target_bounds": [],
+      "pilot_non_target_zero_event_binary_A3_upper95_sum": 72927899.61716409,
+      "reconstructed_global_aggregate": {
+        "A3_closed_boundary_binary_harmful_estimate": 2106596.87888,
+        "A3_closed_boundary_binary_harmful_naive_se": 467336.03702589317,
+        "A3_closed_boundary_infidelity_estimate": 1830691.2197600054,
+        "A3_closed_boundary_infidelity_naive_95pct": [
+          1034286.8622918682,
+          2627095.5772281424
+        ],
+        "A3_closed_boundary_infidelity_naive_se": 406336.2203336873,
+        "A3_decoder_excess_estimate": 1537266.6181599998,
+        "A3_decoder_excess_naive_se_conservative": 409850.87555038533,
+        "A3_intrinsic_oracle_estimate": 293424.60160000547,
+        "A3_intrinsic_oracle_naive_se": 53559.464470348714,
+        "D3_detectable_residual_accept_estimate": 8429723471.46228,
+        "D3_detectable_residual_accept_naive_se": 21882654.59323486,
+        "R3_operational_rejection_estimate": 11763518399.234318,
+        "R3_operational_rejection_naive_se": 19911322.851165317,
+        "closed_boundary_harmful_samples": 64,
+        "p3_predictions": {
+          "0.0001": 1.8306912197600057e-06,
+          "0.0002": 1.4645529758080046e-05,
+          "0.0005": 0.0002288364024700007,
+          "0.001": 0.0018306912197600055
+        },
+        "total_conditional_exact3_shots": 205200
+      }
+    }
+  },
+  "seed": 20271031,
+  "stage": "S21-OPT4D targeted high-stat optimized exact-three follow-up",
+  "status": "FINAL_TARGETED_PRECISION_COMPLETE",
+  "target_selection_frozen_before_OPT4D_outcomes": true,
+  "target_strata_count": 3,
+  "threshold_sweep": false,
+  "total_fresh_target_shots": 140000,
+  "truth_bits_decoder_visible": false
+}

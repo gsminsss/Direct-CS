@@ -1,0 +1,1822 @@
+[
+  {
+    "actual_A": "I",
+    "actual_B": "Y",
+    "decoder_p": 0.0005,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "X",
+    "record_A": "0x0",
+    "record_B": "0x20000002000082000000000000000000000000000080000000",
+    "sample_index": 9799,
+    "shot_seed": 9799020339624,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "zero_structural",
+    "tier_B": "d2_high",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 40,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x80000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 858,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x2000082000000000000000000000000000000000000",
+          "patch": "B",
+          "pauli": "X",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 1028,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x20000000000000000000000000000000000000000000000000",
+          "patch": "B",
+          "pauli": "Z",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "Z",
+    "decoder_p": 0.0005,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x0",
+    "record_B": "0x1000000200440000000000000000000",
+    "sample_index": 13882,
+    "shot_seed": 13882020368205,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "zero_structural",
+    "tier_B": "firewall_exact",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 550,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x400000000000000000000",
+          "patch": "B",
+          "pauli": "Z",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 371,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x40000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 527,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x1000000200000000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "Z",
+    "actual_B": "I",
+    "decoder_p": 0.0005,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x4000044000000c00000000000000000000",
+    "record_B": "0x0",
+    "sample_index": 15223,
+    "shot_seed": 15223020377592,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "firewall_exact",
+    "tier_B": "zero_structural",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 577,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x400000000000000000000",
+          "patch": "A",
+          "pauli": "Z",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 578,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x4c000000800000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 651,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x4000008000000000000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "X",
+    "decoder_p": 0.0005,
+    "infidelity": 0.75,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x0",
+    "record_B": "0x10000002000000000000c0000",
+    "sample_index": 17795,
+    "shot_seed": 17795020395596,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "zero_structural",
+    "tier_B": "firewall_exact",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 211,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x10000c0000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 345,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x200000001000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 539,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x1000000000000000000000000",
+          "patch": "B",
+          "pauli": "X",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "Z",
+    "decoder_p": 0.0005,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x0",
+    "record_B": "0x20000000000000000000400010c0010100000000000000000000000000000",
+    "sample_index": 18922,
+    "shot_seed": 18922020403485,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "zero_structural",
+    "tier_B": "d2_high",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 1119,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x2000000000000000000000000000000000000000000000000000000000000",
+          "patch": "B",
+          "pauli": "Z",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 848,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x40000040000000000000000000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 744,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x1080010100000000000000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "I",
+    "decoder_p": 0.0005,
+    "infidelity": 0.75,
+    "pred_A": "X",
+    "pred_B": "I",
+    "record_A": "0x100000010000008c0010000020000000000000000000000000",
+    "record_B": "0x0",
+    "sample_index": 20060,
+    "shot_seed": 20060020411451,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "d2_high",
+    "tier_B": "zero_structural",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 809,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x10000008c0000000000000000000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 657,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x10000020000000000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 1837,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x10000000000000000000000000000000000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "X",
+    "decoder_p": 0.0005,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "Y",
+    "record_A": "0x0",
+    "record_B": "0x6800010100000040800000000",
+    "sample_index": 26026,
+    "shot_seed": 26026020453213,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "zero_structural",
+    "tier_B": "firewall_exact",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 596,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x800000000000000000000000",
+          "patch": "B",
+          "pauli": "X",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 284,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x10100000000800000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 175,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x6000000000000040000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "Z",
+    "decoder_p": 0.0005,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x0",
+    "record_B": "0x2000000000000000000000000020000002000000040010000c00000000000",
+    "sample_index": 58940,
+    "shot_seed": 58940020683611,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "zero_structural",
+    "tier_B": "d2_high",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 986,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x2000000000000000000000000000000000000000000000000000000000000",
+          "patch": "B",
+          "pauli": "Z",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 371,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x40010000c00000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 737,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x20000002000000000000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "Z",
+    "decoder_p": 0.0005,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x0",
+    "record_B": "0x80000080000200000000000000000000000000",
+    "sample_index": 15314,
+    "shot_seed": 15314030378248,
+    "stratum": "CORE_POST1+DOWN_DIRECT_D5_D132",
+    "tier_A": "zero_structural",
+    "tier_B": "firewall_exact",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 620,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x208000000000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 772,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x80000080000000000000000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 296,
+          "b": -1,
+          "check": "C12",
+          "check_index": 5,
+          "coordinate": 1,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "Z"
+          ],
+          "gate_index": 4,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 3,
+          "option_index": 2
+        }
+      ],
+      "sampled_groups": [
+        "CORE_POST",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "I",
+    "decoder_p": 0.0005,
+    "infidelity": 1.0,
+    "pred_A": "Z",
+    "pred_B": "I",
+    "record_A": "0x400000c1000000c0000000000",
+    "record_B": "0x0",
+    "sample_index": 19136,
+    "shot_seed": 19136030405002,
+    "stratum": "CORE_POST1+DOWN_DIRECT_D5_D132",
+    "tier_A": "firewall_exact",
+    "tier_B": "zero_structural",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 204,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x60000141000000d0000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 535,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x18000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 305,
+          "b": -1,
+          "check": "C12",
+          "check_index": 5,
+          "coordinate": 3,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "Z"
+          ],
+          "gate_index": 3,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 3,
+          "option_index": 2
+        }
+      ],
+      "sampled_groups": [
+        "CORE_POST",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "X",
+    "decoder_p": 0.0005,
+    "infidelity": 0.75,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x0",
+    "record_B": "0x21000000000000000000000000000000000014000000020000000000",
+    "sample_index": 4778,
+    "shot_seed": 4778040304515,
+    "stratum": "CAT_POST1+DOWN_DIRECT_D5_D132",
+    "tier_A": "zero_structural",
+    "tier_B": "firewall_exact",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 1072,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x21000000000000000000000000000000000000000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 533,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x4000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 4,
+          "b": 3,
+          "fault_class": "Y",
+          "group": "CAT_POST",
+          "kind": "cat",
+          "option_count": 3,
+          "option_index": 1
+        }
+      ],
+      "sampled_groups": [
+        "CAT_POST",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "X",
+    "decoder_p": 0.0005,
+    "infidelity": 0.7499999999999999,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x0",
+    "record_B": "0x2000000000000030000400000",
+    "sample_index": 6696,
+    "shot_seed": 6696040317941,
+    "stratum": "CAT_POST1+DOWN_DIRECT_D5_D132",
+    "tier_A": "zero_structural",
+    "tier_B": "firewall_exact",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 454,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x10000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 31,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x400000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 4,
+          "b": 3,
+          "fault_class": "Y",
+          "group": "CAT_POST",
+          "kind": "cat",
+          "option_count": 3,
+          "option_index": 1
+        }
+      ],
+      "sampled_groups": [
+        "CAT_POST",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "Y",
+    "decoder_p": 0.001,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "X",
+    "record_A": "0x0",
+    "record_B": "0x20000002000082000000000000000000000000000080000000",
+    "sample_index": 9799,
+    "shot_seed": 9799020339624,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "zero_structural",
+    "tier_B": "d2_high",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 40,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x80000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 858,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x2000082000000000000000000000000000000000000",
+          "patch": "B",
+          "pauli": "X",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 1028,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x20000000000000000000000000000000000000000000000000",
+          "patch": "B",
+          "pauli": "Z",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "Z",
+    "decoder_p": 0.001,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x0",
+    "record_B": "0x1000000200440000000000000000000",
+    "sample_index": 13882,
+    "shot_seed": 13882020368205,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "zero_structural",
+    "tier_B": "firewall_exact",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 550,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x400000000000000000000",
+          "patch": "B",
+          "pauli": "Z",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 371,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x40000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 527,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x1000000200000000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "Z",
+    "actual_B": "I",
+    "decoder_p": 0.001,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x4000044000000c00000000000000000000",
+    "record_B": "0x0",
+    "sample_index": 15223,
+    "shot_seed": 15223020377592,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "firewall_exact",
+    "tier_B": "zero_structural",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 577,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x400000000000000000000",
+          "patch": "A",
+          "pauli": "Z",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 578,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x4c000000800000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 651,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x4000008000000000000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "X",
+    "decoder_p": 0.001,
+    "infidelity": 0.75,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x0",
+    "record_B": "0x10000002000000000000c0000",
+    "sample_index": 17795,
+    "shot_seed": 17795020395596,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "zero_structural",
+    "tier_B": "firewall_exact",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 211,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x10000c0000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 345,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x200000001000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 539,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x1000000000000000000000000",
+          "patch": "B",
+          "pauli": "X",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "I",
+    "decoder_p": 0.001,
+    "infidelity": 0.75,
+    "pred_A": "X",
+    "pred_B": "I",
+    "record_A": "0x100000010000008c0010000020000000000000000000000000",
+    "record_B": "0x0",
+    "sample_index": 20060,
+    "shot_seed": 20060020411451,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "d2_high",
+    "tier_B": "zero_structural",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 809,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x10000008c0000000000000000000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 657,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x10000020000000000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 1837,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x10000000000000000000000000000000000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "X",
+    "decoder_p": 0.001,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "Y",
+    "record_A": "0x0",
+    "record_B": "0x6800010100000040800000000",
+    "sample_index": 26026,
+    "shot_seed": 26026020453213,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "zero_structural",
+    "tier_B": "firewall_exact",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 596,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x800000000000000000000000",
+          "patch": "B",
+          "pauli": "X",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 284,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x10100000000800000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 175,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x6000000000000040000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "X",
+    "decoder_p": 0.001,
+    "infidelity": 0.75,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x0",
+    "record_B": "0x400000000000000000000000000000000000100020030000000000008300000000",
+    "sample_index": 26838,
+    "shot_seed": 26838020458897,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "zero_structural",
+    "tier_B": "d2_high",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 1171,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x400000000000000000000000000000000000000000000000000000000000000000",
+          "patch": "B",
+          "pauli": "X",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 200,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x8300000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 584,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x100020030000000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "I",
+    "decoder_p": 0.001,
+    "infidelity": 0.75,
+    "pred_A": "I",
+    "pred_B": "X",
+    "record_A": "0x0",
+    "record_B": "0x600001c010000070000000000",
+    "sample_index": 60525,
+    "shot_seed": 60525020694706,
+    "stratum": "DOWN_DIRECT_D5_D133",
+    "tier_A": "zero_structural",
+    "tier_B": "firewall_exact",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 180,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x10000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 232,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x6000014000000070000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 618,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x8000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [],
+      "sampled_groups": [
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "Z",
+    "decoder_p": 0.001,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x0",
+    "record_B": "0x80000080000200000000000000000000000000",
+    "sample_index": 15314,
+    "shot_seed": 15314030378248,
+    "stratum": "CORE_POST1+DOWN_DIRECT_D5_D132",
+    "tier_A": "zero_structural",
+    "tier_B": "firewall_exact",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 620,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x208000000000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 772,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x80000080000000000000000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 296,
+          "b": -1,
+          "check": "C12",
+          "check_index": 5,
+          "coordinate": 1,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "Z"
+          ],
+          "gate_index": 4,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 3,
+          "option_index": 2
+        }
+      ],
+      "sampled_groups": [
+        "CORE_POST",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "I",
+    "decoder_p": 0.001,
+    "infidelity": 1.0,
+    "pred_A": "Z",
+    "pred_B": "I",
+    "record_A": "0x400000c1000000c0000000000",
+    "record_B": "0x0",
+    "sample_index": 19136,
+    "shot_seed": 19136030405002,
+    "stratum": "CORE_POST1+DOWN_DIRECT_D5_D132",
+    "tier_A": "firewall_exact",
+    "tier_B": "zero_structural",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 204,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x60000141000000d0000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 535,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x18000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 305,
+          "b": -1,
+          "check": "C12",
+          "check_index": 5,
+          "coordinate": 3,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "Z"
+          ],
+          "gate_index": 3,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 3,
+          "option_index": 2
+        }
+      ],
+      "sampled_groups": [
+        "CORE_POST",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "X",
+    "decoder_p": 0.001,
+    "infidelity": 0.75,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x0",
+    "record_B": "0x21000000000000000000000000000000000014000000020000000000",
+    "sample_index": 4778,
+    "shot_seed": 4778040304515,
+    "stratum": "CAT_POST1+DOWN_DIRECT_D5_D132",
+    "tier_A": "zero_structural",
+    "tier_B": "firewall_exact",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 1072,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x21000000000000000000000000000000000000000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 533,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x4000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 4,
+          "b": 3,
+          "fault_class": "Y",
+          "group": "CAT_POST",
+          "kind": "cat",
+          "option_count": 3,
+          "option_index": 1
+        }
+      ],
+      "sampled_groups": [
+        "CAT_POST",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "X",
+    "decoder_p": 0.001,
+    "infidelity": 0.7499999999999999,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x0",
+    "record_B": "0x2000000000000030000400000",
+    "sample_index": 6696,
+    "shot_seed": 6696040317941,
+    "stratum": "CAT_POST1+DOWN_DIRECT_D5_D132",
+    "tier_A": "zero_structural",
+    "tier_B": "firewall_exact",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 454,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x10000000000000000000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        },
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 31,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x400000",
+          "patch": "B",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 4,
+          "b": 3,
+          "fault_class": "Y",
+          "group": "CAT_POST",
+          "kind": "cat",
+          "option_count": 3,
+          "option_index": 1
+        }
+      ],
+      "sampled_groups": [
+        "CAT_POST",
+        "DOWN_DIRECT_D5_D13",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  }
+]

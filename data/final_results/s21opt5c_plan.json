@@ -1,0 +1,53 @@
+{
+  "decoder_hyperparameters_retuned": false,
+  "fixed_hierarchical_background": {
+    "anchor_diagnostics": [
+      {
+        "anchor": "0.0005",
+        "decoder_excess_A3": -4119.024000000209,
+        "intrinsic_A3": 293424.6016000015,
+        "total_A3": 289305.57760000136,
+        "total_A3_se": 53402.54675044879
+      },
+      {
+        "anchor": "0.001",
+        "decoder_excess_A3": -4119.024000000209,
+        "intrinsic_A3": 293424.6016000015,
+        "total_A3": 289305.57760000136,
+        "total_A3_se": 53402.54675044879
+      }
+    ],
+    "decoder_excess_A3": -4119.024000000209,
+    "intrinsic_A3": 293424.6016000015,
+    "policy": "Fixed hierarchical background inherited from OPT4D; only the three dominant OPT4D strata are rescored versus p-specific prior.",
+    "total_A3": 289305.57760000136,
+    "total_A3_se": 53402.54675044879
+  },
+  "opt4d_seed_reused": 20271031,
+  "p_specific_sector_prior": true,
+  "p_values": [
+    0.0008,
+    0.0009
+  ],
+  "physical_samples_shared_across_all_p": true,
+  "reporting_label": "hierarchical reconstructed A3(p), not fresh global resample",
+  "stage": "S21-OPT5C dense p-specific A3 rescoring",
+  "target_strata": [
+    {
+      "key": "DOWN_DIRECT_D5_D133",
+      "location_triples": 12912035864,
+      "shots": 100000
+    },
+    {
+      "key": "CORE_POST1+DOWN_DIRECT_D5_D132",
+      "location_triples": 1463283276,
+      "shots": 20000
+    },
+    {
+      "key": "CAT_POST1+DOWN_DIRECT_D5_D132",
+      "location_triples": 954315180,
+      "shots": 20000
+    }
+  ],
+  "total_exact3_samples": 140000
+}

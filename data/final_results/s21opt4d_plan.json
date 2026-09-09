@@ -1,0 +1,37 @@
+{
+  "decoder_ps": [
+    0.0005,
+    0.001
+  ],
+  "note": "The non-target upper bound is a crude sum of per-stratum pilot k=0 one-sided bounds and is reported only as a screening diagnostic.",
+  "pilot_non_target_zero_event_binary_A3_upper95_sum": 72927899.61716409,
+  "seed": 20271031,
+  "selection_basis": "OPT4C-informed; dominant three strata fixed before OPT4D outcomes",
+  "stage": "S21-OPT4D targeted high-stat fixed-before-OPT4C-outcomes plan",
+  "target_strata_count": 3,
+  "targets": [
+    {
+      "key": "DOWN_DIRECT_D5_D133",
+      "location_triples": 12912035864,
+      "pilot_harmful_low_p": 0,
+      "pilot_truth_closed_accept_low_p": 31,
+      "shots": 100000
+    },
+    {
+      "key": "CORE_POST1+DOWN_DIRECT_D5_D132",
+      "location_triples": 1463283276,
+      "pilot_harmful_low_p": 0,
+      "pilot_truth_closed_accept_low_p": 6,
+      "shots": 20000
+    },
+    {
+      "key": "CAT_POST1+DOWN_DIRECT_D5_D132",
+      "location_triples": 954315180,
+      "pilot_harmful_low_p": 0,
+      "pilot_truth_closed_accept_low_p": 10,
+      "shots": 20000
+    }
+  ],
+  "threshold_sweep": false,
+  "total_fresh_target_shots": 140000
+}

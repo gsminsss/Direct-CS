@@ -1,0 +1,51 @@
+{
+  "closure_conditioned_decoder_model": {
+    "OPT3C0_zero_record_truth_closed_identity_only_required": true,
+    "decoder_effect_classes": 3340,
+    "examples": [
+      "JointEffectData(syndrome=0, pauli=1, loc_weight={1499: 0.06666666666666667, 1501: 0.06666666666666667, 1641: 0.26666666666666666, 1643: 0.26666666666666666, 1645: 0.26666666666666666, 1647: 0.26666666666666666, 1666: 0.06666666666666667, 1668: 0.13333333333333333, 1808: 0.26666666666666666, 1810: 0.26666666666666666, 1812: 0.26666666666666666, 1814: 0.26666666666666666, 1833: 0.13333333333333333, 1834: 0.26666666666666666, 1835: 0.26666666666666666, 1836: 0.26666666666666666, 1837: 0.26666666666",
+      "JointEffectData(syndrome=0, pauli=2, loc_weight={1332: 0.13333333333333333, 1340: 0.13333333333333333, 1359: 0.26666666666666666, 1384: 0.26666666666666666, 1409: 0.26666666666666666, 1434: 0.26666666666666666, 1484: 0.06666666666666667, 1493: 0.06666666666666667, 1505: 0.26666666666666666, 1536: 0.26666666666666666, 1562: 0.26666666666666666, 1588: 0.26666666666666666, 1656: 0.26666666666666666, 1657: 0.13333333333333333, 1665: 0.26666666666666666, 1666: 0.06666666666666667, 1672: 0.26666666666",
+      "JointEffectData(syndrome=0, pauli=3, loc_weight={1666: 0.06666666666666667, 1833: 0.13333333333333333}, loc_count={1666: 1, 1833: 2}, example_mechanism=(1666, ((27, 'X'), (237, 'Z'))))"
+    ],
+    "latent_zero_syndrome_nonidentity_excluded": 3,
+    "policy": "excluded from decoder columns only; retained in physical sampling/truth scoring",
+    "raw_effect_classes": 3343
+  },
+  "dependencies": {
+    "b1": "code/pipeline/direct_cs_s18b1_638_d2_calibration.py",
+    "b3": "code/pipeline/direct_cs_s18b3_firewalled_fresh_validation.py",
+    "cert": "code/pipeline/direct_cs_s17b_v13d_joint_postselection_certificate.py",
+    "d1": "code/pipeline/direct_cs_s17c_d_hybrid_bposd_abstention.py",
+    "d2": "code/pipeline/direct_cs_s17c_d2_logical_coset_list_decoder.py",
+    "s10": "code/pipeline/direct_cs_s10_complete_physical_factory_mc.py"
+  },
+  "detector_contract": {
+    "future_truth": 168,
+    "operational": 263,
+    "truth_visible": false
+  },
+  "downstream_locations_per_patch": 2132,
+  "firewall_zero": {
+    "pauli": "I",
+    "pauli_int": 0,
+    "possible_paulis": [
+      "I"
+    ],
+    "record": "0x0",
+    "status": "exact"
+  },
+  "frozen_decoder": {
+    "bp_max_iter": 30,
+    "bp_method": "minimum_sum",
+    "gap": 10.0,
+    "max_correction_effects": 8,
+    "ms_scaling_factor": 0.625,
+    "osd_method": "osd_cs",
+    "osd_order": 2,
+    "sector_candidates": 8,
+    "threshold_sweep": false
+  },
+  "full_factory_potential_locations": 5154,
+  "matrix_pass": true,
+  "stage": "S21-OPT5A practical decoder freeze"
+}

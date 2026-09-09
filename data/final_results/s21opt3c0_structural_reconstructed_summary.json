@@ -1,0 +1,65 @@
+{
+  "detector_contract": {
+    "future_truth_scoring_bits": 168,
+    "operational_decoder_bits": 263,
+    "total": 431,
+    "truth_bits_decoder_visible": false
+  },
+  "firewall": {
+    "compressed_bytes": 16465062,
+    "exact_pauli_histogram": {
+      "I": 3482992,
+      "X": 531739,
+      "Y": 106659,
+      "Z": 682769
+    },
+    "possible_pauli_multiplicity_histogram": {
+      "1": 4804159,
+      "2": 13552,
+      "3": 581,
+      "4": 64
+    },
+    "record_count": 4818356,
+    "sha256": "f619a26b6f90c47c27e67952eaa8334c58073d3734bbcc4130f2f10d98454982",
+    "status_counts": {
+      "ambiguous_reject": 14197,
+      "exact": 4804159
+    },
+    "zero_record": {
+      "pauli": "I",
+      "pauli_int": 0,
+      "possible_paulis": [
+        "I"
+      ],
+      "record": "0x0",
+      "status": "exact"
+    }
+  },
+  "main_structural_gate": {
+    "canonical_64_operational_signatures_unique": true,
+    "canonical_future_truth_all_zero": true,
+    "canonical_zero_signature_identity_only": true,
+    "detector_partition_263_plus_168": true,
+    "passed": true,
+    "preflight_pass": true,
+    "truth_bits_hidden": true,
+    "zero_operational_record_exact_identity_only_in_firewall": true
+  },
+  "remaining_gate": "practical decoder matrix rank / BP+OSD freeze; not inferable solely from firewall artifact",
+  "scope": "structural firewall only; practical BP+OSD matrix-rank/freeze not certified by these three uploaded artifacts",
+  "sector_map": {
+    "count": 64,
+    "nonzero_future_truth_sectors": 0,
+    "unique_operational_signatures": 64,
+    "weight_histogram": {
+      "0": 1,
+      "1": 21,
+      "2": 42
+    },
+    "zero_signature_paulis": [
+      "I"
+    ]
+  },
+  "stage": "S21-OPT3C0 structural firewall reconstructed from uploaded artifacts",
+  "status": "PASS"
+}

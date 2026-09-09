@@ -1,0 +1,916 @@
+DIRECT-|CS> MAGIC-STATE CULTIVATION PROJECT
+CANONICAL DESIGN MEMO / SOURCE OF TRUTH
+Version: 2026-08-20
+Language: Korean
+Purpose: 다른 ChatGPT 채팅/연구 환경에서 이 프로젝트를 정확히 이어가기 위한 단일 기준 문서
+
+======================================================================
+0. 가장 먼저 읽을 것 / SOURCE-OF-TRUTH RULES
+======================================================================
+
+이 문서는 과거 대화의 중간 추정이 아니라 현재까지의 감사(audit) 이후 상태를 정리한 canonical memo이다.
+새 채팅에서는 아래 우선순위를 따른다.
+
+(1) 이 파일 CANONICAL_DESIGN_MEMO_KO.txt
+(2) REPRODUCIBILITY_STATUS.txt
+(3) src_current/ 의 현재 실행 코드
+(4) results/ 의 보고서
+(5) archive_superseded/ 및 original_snapshots/ 는 역사적 참고용
+
+아래 항목은 반드시 과거의 더 강한 주장보다 우선한다.
+
+- 초기 iToffoli projector 아이디어는 폐기.
+- 현재 hardware primitive story는 native/efficient CZZ -> C(H⊗H) compilation.
+- 5-check [5,2,3]는 최소 theorem/baseline.
+- 6-check [6,2,4]가 현재 performance main protocol.
+- standalone Steane cultivation core는 d_f=3가 아니다. immediate escape가 gadget의 일부여야 한다.
+- 초기 partial interface model에서 나온 "ZXZ FAIL / XZZ PASS" 결론은 폐기.
+- 현재 working escape schedule은 full surface-detector network를 포함한 ZXZ.
+- Step 4 full-ZXZ 26M-pair 결과는 보고서가 보존되어 있지만 standalone generator 코드가 현재 bundle에 완전 보존되어 있지 않다.
+  따라서 논문 최종 제출 전에 Stim/PyMatching/Sinter pipeline으로 반드시 독립 재현한다.
+- Step 7의 A_W2 ≈ 138 ± 50은 preliminary importance-sampling estimate이다.
+  보존된 importance script는 보고서의 "10 strata" 표현과 완전히 동일한 구현이 아니므로 paper-final coefficient로 인용 금지.
+- 0.47 acceptance는 full factory acceptance가 아니라 factorized pre-escape screening product.
+- p_CZZ=4e-4는 Tasler-style 99.96% microscopic design fidelity를 참고한 illustrative screening 값이지 experimental error rate가 아니다.
+
+======================================================================
+1. 연구 목표
+======================================================================
+
+목표:
+두 logical qubit의 entangled non-Clifford resource
+
+    |CS> = CS |++>
+         = (|00> + |01> + |10> + i|11>)/2
+
+를 T-state 3개를 먼저 생성한 뒤 합성하는 대신,
+두 [[7,1,3]] Steane/color-code blocks에서 직접 cultivate하고
+즉시 larger rotated surface-code patches로 escape시키는 fault-tolerant factory를 설계한다.
+
+현재 핵심 연구 서사:
+
+    direct entangled |CS> cultivation
+    + commuting Clifford-involution checks
+    + classical coded logical measurement record
+    + native-CZZ-assisted physical compilation
+    + explicit gadget-composability audit
+    + immediate Steane->surface escape
+
+======================================================================
+2. 정확한 logical algebra
+======================================================================
+
+Target:
+
+    |CS> = CS|++>.
+
+두 commuting Hermitian Clifford involutions:
+
+    C1 = X_A S_B CZ_AB
+    C2 = X_B S_A CZ_AB
+
+(여기서는 logical operator notation; physical Steane convention은 아래 참조.)
+
+성질:
+
+    C1† = C1,  C1^2 = I
+    C2† = C2,  C2^2 = I
+    [C1,C2] = 0
+    C1|CS> = |CS>
+    C2|CS> = |CS>
+
+joint outcomes r1,r2 ∈ {+1,-1}에 대해
+
+    a = (1-r1)/2
+    b = (1-r2)/2
+
+이면 output branch는
+
+    Z_A^a Z_B^b |CS>
+
+(up to global phase).
+
+즉 모든 ideal branch가 usable하고 Pauli frame으로 흡수된다.
+
+초기 |++>에서 ideal branch probabilities는 동일하지 않다:
+
+    P(++ ) = 5/8
+    P(+-) = P(-+) = P(--) = 1/8.
+
+중요:
+첫 C1,C2의 joint eigenspace는 branch마다 1차원이다.
+따라서 preparation에서 발생한 code-space logical input 변화는
+C1,C2 measurement 뒤 최종 branch state로 다시 투영된다.
+이 성질이 proof-first preparation simplification의 핵심이다.
+
+======================================================================
+3. Logical record code
+======================================================================
+
+3.1 Minimal 5-check baseline
+
+기존 sequence:
+
+    C1, C2 | D_mid | C12, C1, C2
+
+where C12=C1C2.
+
+ideal record:
+
+    g5(a,b) = (a,b,a⊕b,a,b)
+
+valid codewords:
+
+    00000
+    01101
+    10110
+    11011
+
+minimum Hamming distance:
+
+    d_record = 3.
+
+4개의 binary messages를 distance 3으로 encode하는 length 5 record는
+radius-1 Hamming bound 관점에서 자연스러운 최소 construction.
+
+그러나 CAT7 physical readout multiplicity를 포함하면,
+record-bit physical parity flip probability
+
+    q = [1-(1-2p_m)^7]/2
+
+이고 wrong valid record probability:
+
+    P_wrong,5
+      = 2 q^3 (1-q)^2 + q^4(1-q)
+      = 686 p_m^3 + O(p_m^4).
+
+p_m=1e-3에서 conditional record-only logical error ≈ 6.90e-7.
+따라서 5-check는 theorem/minimal baseline으로 유지하되 성능 main으로 쓰지 않는다.
+
+
+3.2 Main 6-check performance protocol
+
+현재 main sequence:
+
+    C1, C2, C12 | D_mid | C1, C2, C12.
+
+record:
+
+    g6(a,b) = (a,b,a⊕b,a,b,a⊕b).
+
+nonzero pairwise differences:
+
+    101101
+    011011
+    110110
+
+모두 weight 4:
+
+    d_record = 4.
+
+4 binary codewords를 pairwise distance >=4로 두려면 length 5는 불가능:
+각 coordinate가 6 pair distance sum에 최대 4만 기여하므로
+5 coordinates 총합 <=20.
+하지만 6 pairs 모두 distance >=4이면 합 >=24.
+따라서 length 6이 최소.
+
+wrong-record probability:
+
+    P_wrong,6
+      = 3 q^4(1-q)^2
+      = 7203 p_m^4 + O(p_m^5).
+
+p_m=1e-3:
+    ≈ 7.23e-9.
+
+즉 5-check 대비 약 95배 감소.
+6-check는 overall d_f를 4로 올리기 위한 것이 아니라
+큰 record-readout O(p^3) coefficient를 제거하기 위한 performance optimization이다.
+
+======================================================================
+4. Steane convention과 physical coordinate operators
+======================================================================
+
+Steane logical convention:
+
+    X_L = X^{⊗7}
+    Z_L = Z^{⊗7}.
+
+표준 codeword phase convention에서:
+
+    S^{⊗7} = S_L†
+    (S†)^{⊗7} = S_L.
+
+따라서 logical checks를 coordinate-wise 만들기 위한 physical operators:
+
+    c1 = X_A S_B† CZ_AB
+    c2 = S_A† X_B CZ_AB
+
+and
+
+    c12 = c1 c2
+        = H_-^(A) H_-^(B),
+
+where
+
+    H_- = (X-Y)/sqrt(2).
+
+Logical level에서는 C1C2가 H_+⊗H_+ 형태와 연결된다
+(physical/logical S orientation 차이에 주의).
+
+======================================================================
+5. Explicit Q_k compilation
+======================================================================
+
+K = H S  (matrix convention; chronological implementation은 S 후 H).
+
+Exact identities:
+
+    c_k = Q_k (H⊗H) Q_k†.
+
+한 가능한 explicit choice:
+
+    Q1 = (I⊗K) CX_{A->B} (K⊗I)
+    Q2 = (K⊗I) CX_{B->A} (I⊗K)
+    Q12 = K⊗K.
+
+c1,c2는 entangling operator이므로 local Q만으로는 만들 수 없다.
+Q1,Q2의 1개의 entangling CX는 이 의미에서 최소.
+Q12는 product operator라 entangling Q가 필요 없다.
+
+======================================================================
+6. Native 3Q primitive: iToffoli가 아니라 CZZ
+======================================================================
+
+필요한 controlled target primitive:
+
+    G_* = C(H⊗H)
+        = |0><0|_a ⊗ I
+          + |1><1|_a ⊗ H_A H_B.
+
+CZZ:
+
+    CZZ
+      = |0><0|_a ⊗ I
+        + |1><1|_a ⊗ Z_A Z_B.
+
+R = R_y(pi/4) 이면
+
+    R Z R† = H.
+
+따라서
+
+    G_*
+      = (I_a⊗R_A R_B)
+        CZZ
+        (I_a⊗R_A† R_B†).
+
+즉 one native/efficient CZZ + local rotations으로 exact implementation 가능.
+
+주의:
+iToffoli와 G_*는 spectrum이 달라 단순 unitary conjugation으로 동일해지지 않는다.
+따라서 "native iToffoli CS cultivation"이라는 표현은 사용하지 않는다.
+
+권장 표현:
+    native-CZZ-assisted direct-|CS> cultivation
+또는
+    cultivation based on a native or efficiently synthesized C(H⊗H)-class 3Q interaction.
+
+======================================================================
+7. 6-check physical check-core inventory
+======================================================================
+
+현재 6-check main core의 check-gate inventory:
+
+    42 CZZ
+    56 CX
+    224 composite 1Q
+
+총:
+
+    322 physical check locations
+
+(여기에 CAT preparation/verification/readout, physical ED, preparation, escape는 별도.)
+
+5-check baseline은 35 CZZ + 56 CX + 196 1Q였음.
+
+======================================================================
+8. Verified CAT7 gadget
+======================================================================
+
+CAT7 balanced tree (data cat 0..6):
+
+    0->4
+    0->2, 4->6
+    0->1, 2->3, 4->5
+
+verifier CAT4 (7..10):
+
+    7->9
+    7->8, 9->10
+
+partial-transversal verification:
+
+    0->7
+    2->9
+    4->8
+    5->10
+
+verifier qubits 7..10을 Z 측정.
+accept iff all outcomes are equal (0000 or 1111).
+
+Step-2 preserved code:
+    src_current/direct_cs_step2_certificate.py
+
+enumeration:
+
+single physical fault Pauli cases:
+    232 total
+    96 accepted
+    accepted with X-support >1: 0
+
+two-location Pauli cases:
+    25,398 total
+    5,524 accepted
+    accepted with X-support >2: 0
+
+따라서 필요한 nested support contract:
+
+    1 fault -> accepted X support <=1
+    2 faults -> accepted X support <=2
+
+는 preserved executable에서 재현 가능.
+
+======================================================================
+9. Midpoint full Steane ED
+======================================================================
+
+proof-first full ED는 0145, 0235, 0246 Z-syndrome gadgets
++ transversal H
++ 동일 Z-syndrome gadgets
++ transversal H back
+구조로 X/Z syndrome 모두 검사.
+
+한 block:
+
+    40 CX
+    14 H
+    14 prep
+    14 measurement
+    = 82 active locations.
+
+Step-2 executable results:
+
+- 21개의 incoming weight-1 X/Y/Z 모두 fault-free ED에서 detected.
+- single ED Pauli cases: 698
+  accepted residual code-weight >1: 0.
+- two-fault Pauli cases: 238,969
+  accepted residual code-weight >2: 0.
+- incoming single data Pauli + one ED fault:
+  accepted residual code-weight >2: 0.
+
+======================================================================
+10. Standalone core가 d_f=3가 아닌 이유
+======================================================================
+
+마지막 check 뒤 두 late data-only faults는 record를 바꾸지 않을 수 있다.
+
+Explicit example:
+
+    Z_1 Z_5.
+
+Steane syndrome:
+
+    s(Z1)=(1,0,0)
+    s(Z5)=(1,1,0)
+    s(Z1Z5)=(0,1,0)=s(Z3).
+
+minimum-weight correction Z3를 적용하면:
+
+    Z1 Z3 Z5,
+
+이는 zero syndrome이면서 logical Z representative.
+
+즉 standalone d=3 cultivation core에서:
+
+    2 faults -> accepted logical error
+
+가능.
+
+결론:
+
+    immediate Steane->surface escape는 optional storage가 아니라
+    certified cultivation gadget의 일부.
+
+======================================================================
+11. Escape schedule: 최종 working choice는 ZXZ
+======================================================================
+
+중간 partial model에서 "ZXZ FAIL, XZZ better"라는 결론이 나왔으나,
+이는 surface-side detector network를 생략한 artifact였음.
+
+현재 working conclusion (Step-4 report 기준):
+
+- full ZXZ + surface detector network:
+  reported 1/2-fault audit PASS.
+- XZZ:
+  full audit에서 logical-Z transfer channel malignant two-fault pairs 34개 보고.
+- 따라서 working schedule:
+      ZXZ.
+
+Step-4 report의 reported numbers:
+
+Full ZXZ pre-readout:
+    CX 463
+    RX 87
+    RZ 77
+    MX 70
+    MZ 75
+    postselection detectors 123
+
+terminal readout 포함:
+    physical fault locations 797
+    single-fault Pauli classes 7,279
+    two-fault Pauli-class pairs 26,439,666
+
+reported:
+    logical-X malignant pairs = 0
+    logical-Z malignant pairs = 0
+
+mixed cultivation-output + escape:
+    21 incoming single Paulis × 7,279 escape classes
+    = 152,859/channel
+    reported malignant = 0.
+
+late weight-2 inputs:
+    189 distinct-coordinate Pauli pairs/channel
+    reported accepted harmful = 0.
+
+CRITICAL REPRODUCIBILITY WARNING:
+이 full ZXZ generator/audit의 standalone executable은 현재 artifact set에 남아 있지 않다.
+따라서 위 숫자는 "working research result / report"이지만
+paper-final reproducibility status는 NEEDS_REPRODUCTION.
+다음 단계에서 Stim/PyMatching/Sinter로 원문 schedule을 재생성하고 다시 검증해야 한다.
+
+archive_superseded/direct_cs_step3_escape_interface.py 는
+surface-only network를 생략한 partial model이므로 최종 ZXZ 결론의 근거로 사용 금지.
+
+======================================================================
+12. Physical |+>_L preparation
+======================================================================
+
+현재 proof-first minimal preparation per Steane block:
+
+1. physical initial states
+2. 8-CNOT dual Steane encoder
+3. immediate full Steane ED
+4. postselect ED
+
+8-CNOT chronological order:
+
+    0->1
+    5->3
+    6->2
+    4->1
+    0->2
+    6->3
+    5->1
+    4->6
+
+initial bases:
+
+    q0 = |+>
+    q1,q2,q3 = |0>
+    q4,q5,q6 = |+>.
+
+별도 Goto 3-CNOT logical-X verifier는 현재 architecture에서는 생략 가능:
+immediate full ED가 detectable error를 걸러내고
+zero-syndrome logical inputs는 C1,C2 rank-1 projector가 erase/project한다.
+
+per block inventory:
+
+    8 encoder CX
+    + immediate ED:
+      40 CX + 14 H + 14 ancilla prep + 14 M
+    + 7 physical input preps
+
+총:
+    48 CX + 14 1Q + 21 prep + 14 M
+    = 97 active locations/block.
+
+two blocks = 194.
+
+Preserved executable:
+    src_current/direct_cs_step5_min_prep.py
+
+key results:
+
+single encoder fault:
+    127 classes
+    117 reject
+    survivors: I 3, X_L 7
+    detectable survivor 0
+
+two encoder faults:
+    7,161 cases
+    6,938 reject
+    accepted normalizer:
+        I 111
+        X_L 97
+        Z_L 8
+        Y_L 7
+    detectable survivor 0
+
+one encoder fault + one initial-ED fault:
+    88,646 combinations
+    rejected 86,550
+    normalizer + detectable residuals exist,
+    but these two faults exhaust two-fault budget;
+    later fault-free midpoint ED rejects detectable residuals,
+    logical normalizers are projector-erased.
+
+======================================================================
+13. Working d_f claim
+======================================================================
+
+Step-5/Step-4 modular working claim:
+
+    complete factory including:
+        physical initialization
+        Steane encoding
+        initial ED
+        direct-CS cultivation
+        immediate ZXZ escape
+
+has
+
+    d_f = 3
+
+under active-location stochastic Pauli noise.
+
+Lower-bound logic:
+    no accepted harmful |F|<=2 mechanisms under modular contracts + reported full ZXZ audit.
+
+Upper-bound:
+6-check에서도 overall d_f는 4가 아니다.
+final check after-interaction late data faults 3개가
+weight-3 Steane logical operator를 만들 수 있다.
+
+Step-7에서 actual gate-fault malignant triple도 발견:
+
+branch (a,b)=(0,0) example:
+
+1. C1 coord 0 CZZ location:
+       I_anc Y_A I_B
+2. C2 coord 1 first wrapper CX:
+       Y_A Z_B
+3. C12 coord 2 post-CZZ A-side 1Q:
+       Z_A
+
+accepted final state:
+       Z_A |CS>.
+
+Steane weight-3 logical-Z supports 및 coordinate assignment에 따라
+동일 구조의 여러 witnesses가 존재.
+
+주의:
+논문에서 "complete physical factory d_f=3"를 최종 claim하기 전,
+Step-4 ZXZ portion을 Stim pipeline으로 재현해야 한다.
+
+======================================================================
+14. Step-6 module performance screen
+======================================================================
+
+보존된 결과 CSV/보고서:
+
+    results/direct_cs_step6_module_mc.csv
+    results/direct_cs_step6_performance_screening.md
+
+reported 1,000,000-shot/module-point screen:
+
+p=1e-3:
+    preparation+initialED pass/block ≈ 0.925325
+    CAT7 pass/check ≈ 0.984230
+    midpoint ED pass/block ≈ 0.938734
+
+5-check record pass ≈ 0.965691
+6-check record pass ≈ 0.958971
+
+factorized local screen:
+    5-check ≈ 0.672969
+    6-check ≈ 0.657747
+
+CRITICAL:
+이 값은 check-gate noise와 ZXZ escape를 포함한 full acceptance가 아니다.
+
+Reproducibility note:
+당시 module MC의 독립 driver는 현재 bundle에 standalone file로 남아 있지 않다.
+Step2/Step5 primitives는 남아 있으므로 Stim rewrite 시 재현한다.
+
+======================================================================
+15. Step-7 14-data-qubit exact core simulator
+======================================================================
+
+현재 가장 중요한 preserved performance code:
+
+    src_current/direct_cs_step7_core_mc.py
+
+14 data qubits를 7개의 local dimension-4 coordinates로 표현.
+6-check physical compilation을 직접 적용.
+
+fault model:
+
+- 1Q location:
+    X/Y/Z after gate
+- CX:
+    15 nonidentity two-qubit Paulis
+- CZZ:
+    63 nonidentity ancilla+A+B Pauli patterns
+    ancilla Z/Y component는 logical check readout flip으로 반영
+- physical CAT readout:
+    7 independent X-readout flips의 parity probability q 사용
+- midpoint/final boundary:
+    이 core-only simulator에서는 ideal code-space projection
+
+즉 이 simulator는 full factory simulator가 아니라
+non-Clifford controlled-Clifford check core의 exact state-vector simulator.
+
+6-check core locations:
+    42 CZZ + 56 CX + 224 1Q = 322.
+
+reported MC:
+
+uniform p:
+
+    p=5e-4:  P_acc,core ≈ 0.819 (1200 shots)
+    p=1e-3:  pooled P_acc,core ≈ 0.6856 (3600 shots)
+    p=2e-3:  P_acc,core ≈ 0.473 (1200 shots)
+
+illustrative asymmetric hardware screen:
+
+    p_1Q  = 1e-4
+    p_CX  = 1e-3
+    p_CZZ = 4e-4
+    p_m   = 1e-3
+
+reported:
+    P_acc,core ≈ 0.87.
+
+better readout:
+    p_m=5e-4
+    reported ≈ 0.90~0.93 scale depending on small-shot screen.
+
+위 hardware-aware points는 low/moderate statistics screening.
+
+======================================================================
+16. Step-7 leading p^3 estimate
+======================================================================
+
+후반 window:
+
+    W2 = (C1,C2,C12)
+
+physical check-gate locations:
+    161.
+
+preliminary importance-sampling estimate in report:
+
+    A_W2 ≈ 138 ± 50
+
+so uniform p=1e-3에서
+
+    P_L,check ~ 1.4e-7
+
+scale.
+
+BUT:
+보존된 src_current/direct_cs_step7_w2_importance.py 는
+W2 전체 triple locations를 uniform random sampling하는 implementation이다.
+보고서의 "ten distributions / stratified" wording과 동일하지 않다.
+
+따라서:
+    A_W2=138±50은 exploratory/preliminary.
+    paper-final number로 인용 금지.
+    다음에는 deterministic fault-class enumeration 또는
+    명시적 stratified rare-event sampler로 재계산할 것.
+
+6-check record-only at p_m=1e-3:
+    7.23e-9
+이므로 main p^3 bottleneck이 readout에서 late check/data faults로 이동했다는
+qualitative conclusion은 유지 가능.
+
+======================================================================
+17. Acceptance warning
+======================================================================
+
+Step-7 factorized pre-escape screening:
+
+    P_acc,core ~0.6856
+    × prep^2
+    × CAT^6
+    × midED^2
+
+reported ~0.47 at uniform p=1e-3.
+
+이 값은:
+- module correlations 무시
+- core에서 ideal boundary projection
+- noisy physical ED factor를 별도 곱함
+- ZXZ escapes 제외
+
+따라서 full factory acceptance로 절대 인용하지 않는다.
+
+현재 올바른 표현:
+
+    "the proof-first implementation may incur substantial postselection
+     overhead under a pessimistic uniform-p model."
+
+======================================================================
+18. Preliminary Step-8 strategy notes
+======================================================================
+
+preliminary_step8/의 파일들은 exploratory.
+paper result가 아님.
+
+현재 전략적 아이디어:
+
+- direct cultivation을 standalone 1e-9 state까지 억지로 밀기보다
+  ~1e-6-class direct |CS>를 저비용 front end로 만들고,
+  이후 compact CS-specific distillation과 결합하는 hybrid architecture 검토.
+- raw "3 T -> CS" baseline은 T input fidelity를 CS target보다 더 엄격히 맞춰야 함.
+- 동일 noise/cost convention에서 공정한 apples-to-apples comparison 필요.
+
+이 부분은 최신 문헌과 baseline circuit을 다시 검증한 뒤 사용.
+
+======================================================================
+19. 현재 contribution 후보
+======================================================================
+
+현재 논문 contribution을 다음처럼 잡는 것이 가장 자연스럽다.
+
+Contribution 1:
+    entangled two-qubit |CS>를 위한 direct cultivation construction.
+
+Contribution 2:
+    commuting Clifford involution measurements와
+    classical logical-record code를 결합한 verification architecture.
+
+Contribution 3:
+    minimal [5,2,3] record와 performance [6,2,4] record.
+    6 bits가 four branches에서 d_record=4의 최소 길이라는 proof.
+    physical CAT readout으로 인한 686 p^3 병목을 p^4로 제거.
+
+Contribution 4:
+    CZZ -> C(H⊗H) -> c1,c2,c12의 explicit physical compilation.
+    native-CZZ-assisted entangled magic-state cultivation.
+
+Contribution 5:
+    gadget composability audit:
+    standalone Steane core의 late-fault failure를 explicit하게 찾고,
+    immediate ZXZ escape를 certified gadget의 일부로 만드는 구조.
+
+Contribution 6 (paper-final simulation 후):
+    complete end-to-end d_f=3 and performance/resource benchmark.
+
+현재 저널 포지션의 working assessment:
+- core construction + reproducible audit + reasonable simulation:
+      Quantum / Physical Review Research급 가능성.
+- PRX Quantum:
+      full E2E P_acc/P_L + apples-to-apples resource advantage 필요.
+- PRL:
+      CS-specific protocol만으로는 어렵고,
+      commuting-involution + coded-record cultivation의 general theorem/framework가 필요.
+
+======================================================================
+20. 다음 단계: Stim / PyMatching / Sinter hybrid pipeline
+======================================================================
+
+이제 반드시 reproducibility를 먼저 강화한다.
+
+전체 회로를 Stim 하나로 돌리면 안 됨:
+C(H⊗H) / controlled-H-class check core는 non-Clifford.
+
+권장 stack:
+
+A. Custom exact simulator
+    - direct-CS six-check core
+    - 14 data qubits
+    - sparse/exact state evolution
+    - rare-event sampling
+
+B. Stim
+    - Steane prep
+    - CAT/ED stabilizer modules
+    - Hirano ZXZ escape
+    - DETECTOR / OBSERVABLE_INCLUDE
+    - detector error model
+
+C. PyMatching
+    - surface-code escape decoding
+    - MWPM baseline
+
+D. Sinter
+    - p-sweep
+    - shots orchestration
+    - decoder statistics
+
+정확한 Step-8/9 작업 순서:
+
+1. Hirano ZXZ circuit을 원문/public generator에서 Stim으로 재구성.
+2. detector/observable audit.
+3. ZXZ-only P_L(p), P_acc(p) 계산.
+4. 과거 Step-4 reported d_f=3 / scaling을 독립 재현.
+5. preparation/CAT/ED를 Stim으로 옮겨 Step2/Step5/Step6 숫자를 재현.
+6. custom six-check core가 accepted boundary sample마다
+       (a,b,E_A,E_B,weight)
+   또는 equivalent boundary-error class를 출력하게 함.
+7. boundary error를 Stim ZXZ input에 주입.
+8. final decoder output + CS Pauli frame을 결합해
+       P_acc^E2E(p)
+       P_L^E2E(p)
+   계산.
+9. p~1e-3에서 direct MC,
+   낮은 p에서는 fault-order / importance sampling.
+10. 최신 direct/indirect CS baselines와 동일 convention으로 spacetime 비교.
+
+======================================================================
+21. 최종적으로 아직 모르는 것
+======================================================================
+
+다음은 아직 paper-final 값이 아님 / 미완료:
+
+- full E2E factory P_acc(p)
+- full E2E conditional P_L(p)
+- final A_3 coefficient
+- actual qubit-round/spacetime cost
+- direct-CS vs 3T / CS-specific distillation의 공정한 break-even
+- idle errors
+- leakage
+- coherent/calibration errors
+- multi-coordinate correlated CZZ faults
+- experimental CZZ error model
+
+이 항목들이 남아 있다는 점을 새 채팅에서 잊지 말 것.
+
+======================================================================
+22. 핵심 숫자 한 페이지 요약
+======================================================================
+
+Target:
+    |CS>=(|00>+|01>+|10>+i|11>)/2.
+
+Main logical checks:
+    C1 = X_A S_B CZ
+    C2 = X_B S_A CZ
+    C12=C1C2.
+
+Main record:
+    6-check [6,2,4]
+    C1,C2,C12 | D_mid | C1,C2,C12.
+
+Record error:
+    5-check: 686 p_m^3 + O(p_m^4)
+    6-check: 7203 p_m^4 + O(p_m^5)
+    p_m=1e-3 -> 7.23e-9.
+
+Physical 6-check core:
+    42 CZZ + 56 CX + 224 1Q
+    =322 check locations.
+
+CAT7:
+    single 232 cases -> accepted high-X-support 0
+    pair 25,398 -> accepted X-support>2 =0.
+
+Mid ED:
+    single 698 -> accepted code-weight>1 =0
+    pair 238,969 -> accepted code-weight>2 =0.
+
+Preparation:
+    8-CNOT encoder + full ED.
+    127 single encoder fault classes:
+       no detectable survivor through fault-free ED.
+    7,161 two-encoder-fault cases:
+       223 survivors, all normalizers.
+
+Step-4 reported full ZXZ:
+    797 locations
+    7,279 single-fault classes
+    26,439,666 two-fault class pairs
+    reported malignant X=0, Z=0
+    REPRODUCTION REQUIRED.
+
+Step-7 core acceptance:
+    uniform p=1e-3 -> ~0.6856 (3600 pooled shots)
+    illustrative asymmetric -> ~0.87 scale.
+
+Step-7 logical:
+    preliminary A_W2~138±50
+    NOT FINAL.
+
+Working fault distance:
+    d_f=3 under active-location stochastic-Pauli model,
+    but paper-final complete claim requires Stim reproduction of full escape audit.
+
+======================================================================
+END OF CANONICAL MEMO
+======================================================================
