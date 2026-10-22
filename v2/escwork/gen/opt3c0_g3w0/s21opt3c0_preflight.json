@@ -1,0 +1,32 @@
+{
+  "certificate": "<V2>/escwork/src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/direct_cs_s17b_v13d_joint_postselection_certificate.py",
+  "decoder_input_bits": 136,
+  "detector_partition": {
+    "X": {
+      "faultable_instruction_end": 1231,
+      "ideal_followup_instruction_end": 1754,
+      "operational": 136,
+      "tail": 0,
+      "total": 304,
+      "truth": 168
+    },
+    "Z": {
+      "faultable_instruction_end": 1232,
+      "ideal_followup_instruction_end": 1755,
+      "operational": 136,
+      "tail": 0,
+      "total": 304,
+      "truth": 168
+    },
+    "comparison": {
+      "detector_ordinal_partition_identical": true,
+      "instruction_cut_indices_required_identical": false,
+      "note": "X/Z instruction indices may differ by basis-dependent prefix rows; decoder partition is defined by detector ordinals."
+    }
+  },
+  "future_truth_bits_decoder_visible": false,
+  "opt3b_status": "PASS",
+  "passed": true,
+  "physical_locations_per_patch": 1436,
+  "stage": "S21-OPT3C0 preflight"
+}

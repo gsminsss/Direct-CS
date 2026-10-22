@@ -1,0 +1,6 @@
+{
+  "distinct_location_requirement_enforced": true,
+  "identity": "two detector records XOR to zero iff their syndrome masks are equal",
+  "passed": true,
+  "truth_bits_decoder_visible": false
+}

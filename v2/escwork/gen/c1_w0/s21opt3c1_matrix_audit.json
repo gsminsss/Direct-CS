@@ -1,0 +1,97 @@
+{
+  "H_aug_rank": 217,
+  "H_aug_shape": [
+    217,
+    2517
+  ],
+  "H_rank": 215,
+  "H_shape": [
+    215,
+    2517
+  ],
+  "closure_conditioned_decoder_effect_classes": 2518,
+  "effect_columns": 2517,
+  "fast_catalogue": {
+    "ambiguous_raw_frame_records": 2129,
+    "catalogue_records": 51283,
+    "scope": "sector-only + boundary weight<=1 plus one downstream physical effect; acceleration only",
+    "unique_raw_frame_records": 49154
+  },
+  "latent_residual_filter": {
+    "OPT3C0_zero_record_truth_closed_identity_only_required": true,
+    "decoder_effect_classes": 2518,
+    "examples": [
+      "JointEffectData(syndrome=0, pauli=1, loc_weight={1243: 0.06666666666666667, 1245: 0.06666666666666667, 1385: 0.26666666666666666, 1387: 0.26666666666666666, 1389: 0.26666666666666666, 1391: 0.26666666666666666, 1410: 0.06666666666666667, 1412: 0.13333333333333333, 1552: 0.26666666666666666, 1554: 0.26666666666666666, 1556: 0.26666666666666666, 1558: 0.26666666666666666, 1577: 0.13333333333333333, 1578: 0.26666666666666666, 1579: 0.26666666666666666, 1580: 0.26666666666666666, 1581: 0.26666666666",
+      "JointEffectData(syndrome=0, pauli=2, loc_weight={1076: 0.13333333333333333, 1084: 0.13333333333333333, 1103: 0.26666666666666666, 1128: 0.26666666666666666, 1153: 0.26666666666666666, 1178: 0.26666666666666666, 1228: 0.06666666666666667, 1237: 0.06666666666666667, 1249: 0.26666666666666666, 1280: 0.26666666666666666, 1306: 0.26666666666666666, 1332: 0.26666666666666666, 1400: 0.26666666666666666, 1401: 0.13333333333333333, 1409: 0.26666666666666666, 1410: 0.06666666666666667, 1416: 0.26666666666",
+      "JointEffectData(syndrome=0, pauli=3, loc_weight={1410: 0.06666666666666667, 1577: 0.13333333333333333}, loc_count={1410: 1, 1577: 2}, example_mechanism=(1410, ((27, 'X'), (237, 'Z'))))"
+    ],
+    "latent_zero_syndrome_nonidentity_excluded": 3,
+    "policy": "excluded from decoder columns only; retained in physical sampling/truth scoring",
+    "raw_effect_classes": 2521
+  },
+  "logical_rows_independent": true,
+  "model_meta": {
+    "X_recovery_meta": {
+      "duplicate_same_mechanism_mappings": 0,
+      "explained_error_objects": 4647,
+      "mechanism_gate_counts": {
+        "DEPOLARIZE2": 15141,
+        "X_ERROR": 396,
+        "Z_ERROR": 393
+      },
+      "mechanism_stage_counts": {
+        "hirano_escape_plus_two_d5_rounds": 15930
+      },
+      "probe": "X",
+      "unique_physical_noise_locations": 1876,
+      "unique_physical_pauli_mechanisms": 15930
+    },
+    "Z_recovery_meta": {
+      "duplicate_same_mechanism_mappings": 0,
+      "explained_error_objects": 4647,
+      "mechanism_gate_counts": {
+        "DEPOLARIZE2": 15141,
+        "X_ERROR": 396,
+        "Z_ERROR": 393
+      },
+      "mechanism_stage_counts": {
+        "hirano_escape_plus_two_d5_rounds": 15930
+      },
+      "probe": "Z",
+      "unique_physical_noise_locations": 1876,
+      "unique_physical_pauli_mechanisms": 15930
+    },
+    "concrete_pauli_mechanisms_per_patch": 17094,
+    "joint_effect_meta": {
+      "all_same_mechanism_detector_syndromes_match_across_probes": true,
+      "joint_pauli_mechanism_counts": {
+        "I": 14998,
+        "X": 1126,
+        "Y": 84,
+        "Z": 886
+      },
+      "joint_physical_pauli_mechanisms": 17094,
+      "joint_unique_effects": 2521,
+      "mechanism_count_per_location_histogram": {
+        "1": 789,
+        "15": 1087
+      },
+      "per_location_conditional_weights_sum_to_one": true,
+      "physical_locations": 1876,
+      "total_first_order_conditional_weight": 1875.9999999999998
+    },
+    "mechanism_count_per_location_histogram": {
+      "1": 789,
+      "15": 1087
+    },
+    "mechanisms_with_nonzero_terminal_truth": 7867,
+    "operational_detectors": 215,
+    "physical_locations_per_patch": 1876,
+    "stage_mechanism_counts": {
+      "hirano_escape_plus_two_d5_rounds": 17094
+    },
+    "truth_bits_decoder_visible": false,
+    "truth_bits_per_probe": 168
+  },
+  "raw_effect_classes": 2521
+}

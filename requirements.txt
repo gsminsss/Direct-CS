@@ -1,6 +1,7 @@
 numpy
 scipy
 stim
+pymatching
 ldpc
 pandas
 matplotlib

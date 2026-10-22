@@ -1,0 +1,26 @@
+{
+ "5e-04_orig": {
+  "idle_slots": 1951,
+  "hard_discard": 0.274546,
+  "rho": 0.7565602825,
+  "mean_abort_tick": 41.2695832392386
+ },
+ "5e-04_lp": {
+  "idle_slots": 1000,
+  "hard_discard": 0.197527,
+  "rho": 0.8242950328571429,
+  "mean_abort_tick": 40.602135404273845
+ },
+ "1e-03_orig": {
+  "idle_slots": 1951,
+  "hard_discard": 0.4737845,
+  "rho": 0.5787011721428571,
+  "mean_abort_tick": 40.334066437378176
+ },
+ "1e-03_lp": {
+  "idle_slots": 1000,
+  "hard_discard": 0.355919,
+  "rho": 0.6827681507142856,
+  "mean_abort_tick": 39.939054953514706
+ }
+}

@@ -1,0 +1,6 @@
+{
+  "distinct_location_requirement_enforced": true,
+  "multi_pauli_record_becomes_ambiguous": true,
+  "passed": true,
+  "truth_bits_decoder_visible": false
+}

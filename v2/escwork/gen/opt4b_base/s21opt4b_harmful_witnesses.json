@@ -1,0 +1,1468 @@
+[
+  {
+    "actual_A": "I",
+    "actual_B": "I",
+    "decoder_p": 0.0005,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x40100000000000000000000000006000000000000050000000000",
+    "record_B": "0x0",
+    "sample_index": 168,
+    "shot_seed": 168092272343,
+    "stratum": "MIDED1+CORE_POST1+DOWN_DIRECT_D5_D131",
+    "tier_A": "firewall_exact",
+    "tier_B": "zero_structural",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 1045,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x40100000000000000000000000000000000000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 0,
+          "b": 80,
+          "fault_class": "Z",
+          "group": "MIDED",
+          "kind": "mided",
+          "option_count": 3,
+          "option_index": 2
+        },
+        {
+          "a": 199,
+          "b": -1,
+          "check": "C1",
+          "check_index": 3,
+          "coordinate": 4,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -1.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -1.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    1.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    1.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "Y"
+          ],
+          "gate_index": 2,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 3,
+          "option_index": 1
+        }
+      ],
+      "sampled_groups": [
+        "MIDED",
+        "CORE_POST",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "I",
+    "decoder_p": 0.0005,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0xa000000000001010000040000",
+    "record_B": "0x0",
+    "sample_index": 60,
+    "shot_seed": 60101271614,
+    "stratum": "CORE_POST2+DOWN_DIRECT_D5_D131",
+    "tier_A": "firewall_exact",
+    "tier_B": "zero_structural",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 155,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x1000000040000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 302,
+          "b": -1,
+          "check": "C12",
+          "check_index": 5,
+          "coordinate": 3,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -1.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -1.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    1.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    1.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "Y"
+          ],
+          "gate_index": 0,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 3,
+          "option_index": 1
+        },
+        {
+          "a": 177,
+          "b": -1,
+          "check": "C1",
+          "check_index": 3,
+          "coordinate": 1,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "ZI"
+          ],
+          "gate_index": 7,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 15,
+          "option_index": 11
+        }
+      ],
+      "sampled_groups": [
+        "CORE_POST",
+        "CORE_POST",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "I",
+    "decoder_p": 0.0005,
+    "infidelity": 0.75,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0xc6000000000000000a0800000000",
+    "record_B": "0x0",
+    "sample_index": 67,
+    "shot_seed": 67101271663,
+    "stratum": "CORE_POST2+DOWN_DIRECT_D5_D131",
+    "tier_A": "firewall_exact",
+    "tier_B": "zero_structural",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 598,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0xc600000000000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 242,
+          "b": -1,
+          "check": "C2",
+          "check_index": 4,
+          "coordinate": 2,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "Z"
+          ],
+          "gate_index": 0,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 3,
+          "option_index": 2
+        },
+        {
+          "a": 292,
+          "b": -1,
+          "check": "C12",
+          "check_index": 5,
+          "coordinate": 1,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "Z"
+          ],
+          "gate_index": 0,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 3,
+          "option_index": 2
+        }
+      ],
+      "sampled_groups": [
+        "CORE_POST",
+        "CORE_POST",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "I",
+    "decoder_p": 0.001,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0x40100000000000000000000000006000000000000050000000000",
+    "record_B": "0x0",
+    "sample_index": 168,
+    "shot_seed": 168092272343,
+    "stratum": "MIDED1+CORE_POST1+DOWN_DIRECT_D5_D131",
+    "tier_A": "firewall_exact",
+    "tier_B": "zero_structural",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 1045,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x40100000000000000000000000000000000000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 0,
+          "b": 80,
+          "fault_class": "Z",
+          "group": "MIDED",
+          "kind": "mided",
+          "option_count": 3,
+          "option_index": 2
+        },
+        {
+          "a": 199,
+          "b": -1,
+          "check": "C1",
+          "check_index": 3,
+          "coordinate": 4,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -1.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -1.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    1.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    1.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "Y"
+          ],
+          "gate_index": 2,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 3,
+          "option_index": 1
+        }
+      ],
+      "sampled_groups": [
+        "MIDED",
+        "CORE_POST",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "I",
+    "decoder_p": 0.001,
+    "infidelity": 1.0,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0xa000000000001010000040000",
+    "record_B": "0x0",
+    "sample_index": 60,
+    "shot_seed": 60101271614,
+    "stratum": "CORE_POST2+DOWN_DIRECT_D5_D131",
+    "tier_A": "firewall_exact",
+    "tier_B": "zero_structural",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 1.0,
+          "downstream_location": 155,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0x1000000040000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 302,
+          "b": -1,
+          "check": "C12",
+          "check_index": 5,
+          "coordinate": 3,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -1.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    -1.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    1.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    1.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "Y"
+          ],
+          "gate_index": 0,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 3,
+          "option_index": 1
+        },
+        {
+          "a": 177,
+          "b": -1,
+          "check": "C1",
+          "check_index": 3,
+          "coordinate": 1,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "ZI"
+          ],
+          "gate_index": 7,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 15,
+          "option_index": 11
+        }
+      ],
+      "sampled_groups": [
+        "CORE_POST",
+        "CORE_POST",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  },
+  {
+    "actual_A": "I",
+    "actual_B": "I",
+    "decoder_p": 0.001,
+    "infidelity": 0.75,
+    "pred_A": "I",
+    "pred_B": "I",
+    "record_A": "0xc6000000000000000a0800000000",
+    "record_B": "0x0",
+    "sample_index": 67,
+    "shot_seed": 67101271663,
+    "stratum": "CORE_POST2+DOWN_DIRECT_D5_D131",
+    "tier_A": "firewall_exact",
+    "tier_B": "zero_structural",
+    "trace": {
+      "downstream": [
+        {
+          "conditional_weight": 0.06666666666666667,
+          "downstream_location": 598,
+          "group": "DOWN_DIRECT_D5_D13",
+          "op_hex": "0xc600000000000000000000000000",
+          "patch": "A",
+          "pauli": "I",
+          "stage": "direct_d5_to_d13",
+          "truth_hex": "0x0"
+        }
+      ],
+      "predownstream": [
+        {
+          "a": 242,
+          "b": -1,
+          "check": "C2",
+          "check_index": 4,
+          "coordinate": 2,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "Z"
+          ],
+          "gate_index": 0,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 3,
+          "option_index": 2
+        },
+        {
+          "a": 292,
+          "b": -1,
+          "check": "C12",
+          "check_index": 5,
+          "coordinate": 1,
+          "fault_class": [
+            [
+              [
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                }
+              ],
+              [
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -0.0,
+                    0.0
+                  ]
+                },
+                {
+                  "__complex__": [
+                    -1.0,
+                    0.0
+                  ]
+                }
+              ]
+            ],
+            0,
+            "Z"
+          ],
+          "gate_index": 0,
+          "group": "CORE_POST",
+          "kind": "core",
+          "option_count": 3,
+          "option_index": 2
+        }
+      ],
+      "sampled_groups": [
+        "CORE_POST",
+        "CORE_POST",
+        "DOWN_DIRECT_D5_D13"
+      ]
+    },
+    "truth_A": "0x0",
+    "truth_B": "0x0"
+  }
+]

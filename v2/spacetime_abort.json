@@ -1,0 +1,22 @@
+{
+ "0.0005": {
+  "hard_discard": 0.092245,
+  "qticks_per_shot": 4300.74755,
+  "qticks_full": 4664
+ },
+ "0.0008": {
+  "hard_discard": 0.142705,
+  "qticks_per_shot": 4101.138925,
+  "qticks_full": 4664
+ },
+ "0.0009": {
+  "hard_discard": 0.160645,
+  "qticks_per_shot": 4030.36112,
+  "qticks_full": 4664
+ },
+ "0.001": {
+  "hard_discard": 0.17679,
+  "qticks_per_shot": 3966.891235,
+  "qticks_full": 4664
+ }
+}

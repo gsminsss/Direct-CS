@@ -1,0 +1,23 @@
+[
+  {
+    "cheap_ambiguous_after_firewall": 0,
+    "cheap_exact_after_firewall": 39,
+    "coverage_histogram": {
+      "4": 302
+    },
+    "d2_failure": 0,
+    "d2_success": 302,
+    "d2_unknown": 302,
+    "evaluation_seed": 20271311,
+    "finite_gap_count": 302,
+    "firewall_ambiguous": 281,
+    "firewall_exact": 647,
+    "firewall_higher_order_only": 341,
+    "gap_median": 7.60040172786554,
+    "new_decode_seconds": 53.506248235702515,
+    "observed_records": 1269,
+    "p": 0.0005,
+    "prior_seed": 20271301,
+    "shots": 5000
+  }
+]

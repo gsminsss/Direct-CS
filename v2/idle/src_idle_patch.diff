@@ -1,0 +1,153 @@
+Binary files ../src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/__pycache__/direct_cs_s17b_v13d_joint_postselection_certificate.cpython-313.pyc and ./DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/__pycache__/direct_cs_s17b_v13d_joint_postselection_certificate.cpython-313.pyc differ
+Binary files ../src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/__pycache__/direct_cs_s17c_d2_logical_coset_list_decoder.cpython-313.pyc and ./DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/__pycache__/direct_cs_s17c_d2_logical_coset_list_decoder.cpython-313.pyc differ
+Binary files ../src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/__pycache__/direct_cs_s17c_d_hybrid_bposd_abstention.cpython-313.pyc and ./DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/__pycache__/direct_cs_s17c_d_hybrid_bposd_abstention.cpython-313.pyc differ
+Binary files ../src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/__pycache__/direct_cs_s18b1_638_d2_calibration.cpython-313.pyc and ./DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/__pycache__/direct_cs_s18b1_638_d2_calibration.cpython-313.pyc differ
+Binary files ../src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/__pycache__/direct_cs_s18b3_firewalled_fresh_validation.cpython-313.pyc and ./DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/__pycache__/direct_cs_s18b3_firewalled_fresh_validation.cpython-313.pyc differ
+Binary files ../src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/__pycache__/direct_cs_s21opt3c1_practical_decoder_finitep_validation.cpython-313.pyc and ./DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/__pycache__/direct_cs_s21opt3c1_practical_decoder_finitep_validation.cpython-313.pyc differ
+diff -ru ../src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/direct_cs_s10_complete_physical_factory_mc.py ./DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/direct_cs_s10_complete_physical_factory_mc.py
+--- ../src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/direct_cs_s10_complete_physical_factory_mc.py	2026-10-20 21:39:41.481065947 +0900
++++ ./DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/direct_cs_s10_complete_physical_factory_mc.py	2026-10-22 07:21:46.241017287 +0900
+@@ -33,7 +33,8 @@
+ CORE_LOCATIONS=len(m.locations);MIDED_LOCATIONS=len(s9ed.ED_OPS)
+ FRONT_LOCATIONS_PER_BLOCK=s10.ENCODER_LOCATION_COUNT+MIDED_LOCATIONS
+ CAT_PREP_LOCATIONS=s10.CAT7_LOCATION_COUNT;CAT_READOUT_LOCATIONS=s10.CAT_READOUT_LOCATIONS
+-if (CORE_LOCATIONS,MIDED_LOCATIONS,FRONT_LOCATIONS_PER_BLOCK,CAT_PREP_LOCATIONS,CAT_READOUT_LOCATIONS)!=(322,82,97,28,7):raise AssertionError('inventory')
++import os as _os
++if not _os.environ.get('IDLE_SPEC') and (CORE_LOCATIONS,MIDED_LOCATIONS,FRONT_LOCATIONS_PER_BLOCK,CAT_PREP_LOCATIONS,CAT_READOUT_LOCATIONS)!=(322,82,97,28,7):raise AssertionError('inventory')
+ 
+ @dataclass
+ class Row:
+Binary files ../src_base/src_current/__pycache__/direct_cs_step10_physical_frontend.cpython-313.pyc and ./src_current/__pycache__/direct_cs_step10_physical_frontend.cpython-313.pyc differ
+Binary files ../src_base/src_current/__pycache__/direct_cs_step7_core_mc.cpython-313.pyc and ./src_current/__pycache__/direct_cs_step7_core_mc.cpython-313.pyc differ
+Binary files ../src_base/src_current/__pycache__/direct_cs_step8_live_boundary.cpython-313.pyc and ./src_current/__pycache__/direct_cs_step8_live_boundary.cpython-313.pyc differ
+Binary files ../src_base/src_current/__pycache__/direct_cs_step9_physical_midpoint_ed.cpython-313.pyc and ./src_current/__pycache__/direct_cs_step9_physical_midpoint_ed.cpython-313.pyc differ
+diff -ru ../src_base/src_current/direct_cs_step10_physical_frontend.py ./src_current/direct_cs_step10_physical_frontend.py
+--- ../src_base/src_current/direct_cs_step10_physical_frontend.py	2026-10-20 21:39:41.485632178 +0900
++++ ./src_current/direct_cs_step10_physical_frontend.py	2026-10-22 07:21:27.389026057 +0900
+@@ -72,7 +72,17 @@
+             x,z=_prop_encoder(x,z,gi+1);opts.append((x,z,pc+pt))
+     ENCODER_LOCATIONS.append(EncoderLocation('CX',(c,t),tuple(opts)))
+ ENCODER_LOCATION_COUNT=len(ENCODER_LOCATIONS)
++import os as _os, json as _json
++_IDLE=_json.load(open(_os.environ["IDLE_SPEC"])) if _os.environ.get("IDLE_SPEC") else None
+ if ENCODER_LOCATION_COUNT!=15:raise AssertionError(ENCODER_LOCATION_COUNT)
++if _IDLE is not None:
++    for _q,_st,_g in _IDLE["enc"]:
++        _opts=[]
++        for p in NONID:
++            x=(1<<_q) if p in 'XY' else 0;z=(1<<_q) if p in 'YZ' else 0
++            x,z=_prop_encoder(x,z,int(_st));_opts.append((x,z,p))
++        for _ in range(int(_g)): ENCODER_LOCATIONS.append(EncoderLocation('ID',(int(_q),),tuple(_opts)))
++    ENCODER_LOCATION_COUNT=len(ENCODER_LOCATIONS)
+ 
+ 
+ def encoder_error(faults:dict[int,int]|None=None):
+@@ -177,6 +187,16 @@
+     CAT7_LOCATIONS.append(CATLocation('MZ',(q,),((0,0,1<<i,'M'),)))
+ CAT7_LOCATION_COUNT=len(CAT7_LOCATIONS)
+ if CAT7_LOCATION_COUNT!=28:raise AssertionError(CAT7_LOCATION_COUNT)
++if _IDLE is not None:
++    for _q,_st,_g in _IDLE["cat"]:
++        _opts=[]
++        for p in NONID:
++            x=(1<<_q) if p in 'XY' else 0;z=(1<<_q) if p in 'YZ' else 0
++            x,z=_cat_prop(x,z,int(_st));_opts.append((x,z,0,p))
++        for _ in range(int(_g)): CAT7_LOCATIONS.append(CATLocation('ID',(int(_q),),tuple(_opts)))
++    CAT7_LOCATION_COUNT=len(CAT7_LOCATIONS)
++_CATRO_IDLE=list(_IDLE["catro"]) if _IDLE is not None else [0]*6
++_CATRO_CALL=[0]
+ CAT_READOUT_LOCATIONS=7
+ 
+ @dataclass(frozen=True)
+@@ -214,7 +234,10 @@
+ 
+ def sample_cat_x_readout(p:float,rng):
+     k=int(rng.binomial(CAT_READOUT_LOCATIONS,p))
+-    return int(k&1),k
++    g=_CATRO_IDLE[_CATRO_CALL[0]%6];_CATRO_CALL[0]+=1;flip=k&1
++    if g:
++        ki=int(rng.binomial(g,p));flip^=int(rng.binomial(ki,2/3))&1  # idle Z/Y on CAT qubit before X readout
++    return int(flip),k
+ 
+ 
+ def check_with_physical_cat(st,ck,fbc,cat:CATEffect,readout_parity:int,rng):
+diff -ru ../src_base/src_current/direct_cs_step7_core_mc.py ./src_current/direct_cs_step7_core_mc.py
+--- ../src_base/src_current/direct_cs_step7_core_mc.py	2026-10-20 21:39:41.485748600 +0900
++++ ./src_current/direct_cs_step7_core_mc.py	2026-10-22 07:21:27.382074555 +0900
+@@ -42,6 +42,17 @@
+     return out
+ opt_cache={(ck,i):opts(ck,i) for ck in seqs for i in range(len(seqs[ck]))}
+ sequence=['C1','C2','C12','C1','C2','C12']
++import os as _os, json as _json
++IDLE_SPEC=_json.load(open(_os.environ["IDLE_SPEC"])) if _os.environ.get("IDLE_SPEC") else None
++if IDLE_SPEC is not None:
++    _base=list(sequence); sequence=[]
++    for _ci,_ck in enumerate(_base):
++        _name=f"{_ck}#{_ci}"; _s=list(seqs[_ck])
++        for _c,_gi,_role,_g in sorted([e for e in IDLE_SPEC["body"] if e[0]==_ci],key=lambda e:-e[1]):
++            for _ in range(int(_g)): _s.insert(int(_gi)+1,('1Q',int(_role),I2))
++        seqs[_name]=_s; sequence.append(_name)
++    ideal_u={ck:(branch_mat(ck,0)[0],branch_mat(ck,1)[0]) for ck in seqs}
++    opt_cache={(ck,i):opts(ck,i) for ck in seqs for i in range(len(seqs[ck]))}
+ locations=[]
+ for ci,ck in enumerate(sequence):
+     for j in range(7):
+diff -ru ../src_base/src_current/direct_cs_step9_physical_midpoint_ed.py ./src_current/direct_cs_step9_physical_midpoint_ed.py
+--- ../src_base/src_current/direct_cs_step9_physical_midpoint_ed.py	2026-10-20 21:39:41.485988902 +0900
++++ ./src_current/direct_cs_step9_physical_midpoint_ed.py	2026-10-22 07:21:27.385092860 +0900
+@@ -105,10 +105,16 @@
+ for q in range(7): ED_OPS.append(Op('H',(q,),label=f'H1_{q}'))
+ _second,next_anc = z_snapshot_ops(next_anc,'XviaH'); ED_OPS += _second
+ for q in range(7): ED_OPS.append(Op('H',(q,),label=f'H2_{q}'))
++import os as _os, json as _json
++_IDLE=_json.load(open(_os.environ["IDLE_SPEC"])) if _os.environ.get("IDLE_SPEC") else None
++ED_BASE_LOCATIONS=len(ED_OPS)
++if _IDLE is not None:
++    for _oi,_lab,_g in sorted(_IDLE["ed"],key=lambda e:-e[0]):
++        for _ in range(int(_g)): ED_OPS.insert(int(_oi)+1,Op('I',(int(_lab),),label=f'idle_{_oi}_{_lab}'))
+ 
+ 
+ def options(op: Op):
+-    if op.typ in ('PREP','H'):
++    if op.typ in ('PREP','H','I'):
+         return tuple((p,) for p in 'XYZ')
+     if op.typ == 'CX':
+         return tuple((a+b,) for a in 'IXYZ' for b in 'IXYZ' if a!='I' or b!='I')
+@@ -183,6 +189,10 @@
+             A=_append_qubit(A,v); labels.append(op.qs[0]); q=len(labels)-1
+             if fidx is not None:
+                 p=ED_OPTIONS[oi][fidx][0]; A=_apply_1q(A,P1[p],q)
++        elif op.typ == 'I':
++            q=labels.index(op.qs[0])
++            if fidx is not None:
++                p=ED_OPTIONS[oi][fidx][0]; A=_apply_1q(A,P1[p],q)
+         elif op.typ == 'H':
+             q=labels.index(op.qs[0]); A=_apply_1q(A,H,q)
+             if fidx is not None:
+@@ -343,6 +353,12 @@
+             if fi is not None:
+                 p=ED_OPTIONS[idx][fi][0]
+                 if p in 'XY': x ^= 1<<q
++                if p in 'YZ': z ^= 1<<q
++        elif op.typ=='I':
++            q=op.qs[0]
++            if fi is not None:
++                p=ED_OPTIONS[idx][fi][0]
++                if p in 'XY': x ^= 1<<q
+                 if p in 'YZ': z ^= 1<<q
+         elif op.typ=='H':
+             q=op.qs[0]; xb=(x>>q)&1; zb=(z>>q)&1
+Binary files ../src_base/stim_pipeline/interface/__pycache__/direct_cs_s10_complete_physical_factory_mc.cpython-313.pyc and ./stim_pipeline/interface/__pycache__/direct_cs_s10_complete_physical_factory_mc.cpython-313.pyc differ
+diff -ru ../src_base/stim_pipeline/interface/direct_cs_s10_complete_physical_factory_mc.py ./stim_pipeline/interface/direct_cs_s10_complete_physical_factory_mc.py
+--- ../src_base/stim_pipeline/interface/direct_cs_s10_complete_physical_factory_mc.py	2026-10-21 07:14:49.550948622 +0900
++++ ./stim_pipeline/interface/direct_cs_s10_complete_physical_factory_mc.py	2026-10-22 07:21:27.389175192 +0900
+@@ -33,7 +33,8 @@
+ CORE_LOCATIONS=len(m.locations);MIDED_LOCATIONS=len(s9ed.ED_OPS)
+ FRONT_LOCATIONS_PER_BLOCK=s10.ENCODER_LOCATION_COUNT+MIDED_LOCATIONS
+ CAT_PREP_LOCATIONS=s10.CAT7_LOCATION_COUNT;CAT_READOUT_LOCATIONS=s10.CAT_READOUT_LOCATIONS
+-if (CORE_LOCATIONS,MIDED_LOCATIONS,FRONT_LOCATIONS_PER_BLOCK,CAT_PREP_LOCATIONS,CAT_READOUT_LOCATIONS)!=(322,82,97,28,7):raise AssertionError('inventory')
++import os as _os
++if not _os.environ.get('IDLE_SPEC') and (CORE_LOCATIONS,MIDED_LOCATIONS,FRONT_LOCATIONS_PER_BLOCK,CAT_PREP_LOCATIONS,CAT_READOUT_LOCATIONS)!=(322,82,97,28,7):raise AssertionError('inventory')
+ 
+ @dataclass
+ class Row:

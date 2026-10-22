@@ -1,0 +1,140 @@
+{
+  "detector_contract": {
+    "future_truth_scoring_bits": 168,
+    "operational_decoder_bits": 136,
+    "partition_source": "instruction boundary before ideal stationary follow-up in OPT3B clean circuits",
+    "total_detectors_per_probe": 304,
+    "truth_bits_decoder_visible": false
+  },
+  "firewall": {
+    "ambiguous_record_count": 15563,
+    "build_seconds": 1.0208592414855957,
+    "exact_record_count": 402661,
+    "firewall_record_count": 418224,
+    "pauli_multiplicity_histogram": {
+      "1": 402661,
+      "2": 14520,
+      "3": 911,
+      "4": 132
+    },
+    "physical_pair_distinct_effect_class_joins": 482948,
+    "physical_pair_effect_class_tests": 485432,
+    "realization_counts": {
+      "boundary_w0_alone_truthclosed": 1,
+      "boundary_w0_plus_phys1_truthclosed_effectclasses": 983,
+      "boundary_w1_alone_truthclosed": 21,
+      "boundary_w1_plus_phys1_truthclosed_effectclasses": 20643,
+      "boundary_w2_alone_truthclosed": 42,
+      "phys2_distinct_effectclasses_truthclosed": 482948,
+      "phys2_same_effectclass_distinct_location": 1845
+    },
+    "truth_group_count": 1656,
+    "zero_record_harmful_examples": [],
+    "zero_record_identity_only": true,
+    "zero_record_low_order_gate_pass": true,
+    "zero_record_paulis": [
+      "I"
+    ]
+  },
+  "main_gate": {
+    "X_Z_operational_and_truth_masks_mechanismwise_identical": true,
+    "detector_partition_exact_263_plus_168": true,
+    "logical_rows_independent": true,
+    "opt3b_prior_structural_closure_pass": true,
+    "passed": true,
+    "truth_bits_decoder_visible": false,
+    "zero_operational_record_truth_closed_identity_only_through_total_order2": true
+  },
+  "matrix": {
+    "H_aug_rank": 138,
+    "H_aug_shape": [
+      138,
+      1067
+    ],
+    "H_rank": 136,
+    "H_shape": [
+      136,
+      1067
+    ],
+    "effect_columns": 1067,
+    "logical_rows_independent": true,
+    "zero_op_syndrome_nonidentity_classes": 3
+  },
+  "next_if_pass": "S21-OPT3C: freeze a 263-bit practical BP+OSD decoder using the exact <=2 firewall, then run fresh finite-p validation at p=5e-4 and 1e-3 before updating S20.",
+  "physical_model": {
+    "X_recovery": {
+      "duplicate_same_mechanism_mappings": 0,
+      "explained_error_objects": 3177,
+      "mechanism_gate_counts": {
+        "DEPOLARIZE2": 11099,
+        "X_ERROR": 319,
+        "Z_ERROR": 310
+      },
+      "mechanism_stage_counts": {
+        "hirano_escape_plus_two_d5_rounds": 11728
+      },
+      "probe": "X",
+      "unique_physical_noise_locations": 1436,
+      "unique_physical_pauli_mechanisms": 11728
+    },
+    "Z_recovery": {
+      "duplicate_same_mechanism_mappings": 0,
+      "explained_error_objects": 3177,
+      "mechanism_gate_counts": {
+        "DEPOLARIZE2": 11099,
+        "X_ERROR": 319,
+        "Z_ERROR": 310
+      },
+      "mechanism_stage_counts": {
+        "hirano_escape_plus_two_d5_rounds": 11728
+      },
+      "probe": "Z",
+      "unique_physical_noise_locations": 1436,
+      "unique_physical_pauli_mechanisms": 11728
+    },
+    "concrete_mechanisms": 12734,
+    "decoder_joint_effect_classes": 1071,
+    "decoder_joint_effect_meta": {
+      "all_same_mechanism_detector_syndromes_match_across_probes": true,
+      "joint_pauli_mechanism_counts": {
+        "I": 11316,
+        "X": 688,
+        "Y": 64,
+        "Z": 666
+      },
+      "joint_physical_pauli_mechanisms": 12734,
+      "joint_unique_effects": 1071,
+      "mechanism_count_per_location_histogram": {
+        "1": 629,
+        "15": 807
+      },
+      "per_location_conditional_weights_sum_to_one": true,
+      "physical_locations": 1436,
+      "total_first_order_conditional_weight": 1436.0
+    },
+    "physical_locations": 1436,
+    "truth_aware_effect_classes": 3178
+  },
+  "resource_context": {
+    "new_downstream_locations_per_patch": 1436,
+    "new_full_factory_potential_locations": 3762,
+    "old_downstream_locations_per_patch": 3535,
+    "old_full_factory_potential_locations": 7960,
+    "per_patch_location_saving": 2099,
+    "two_patch_location_saving": 4198
+  },
+  "sector_map_meta": {
+    "canonical_weight_histogram": {
+      "0": 1,
+      "1": 21,
+      "2": 42
+    },
+    "nonzero_future_truth_sectors": 0,
+    "sector_count": 64,
+    "unique_full_431_signatures": 64,
+    "unique_operational_signatures": 64
+  },
+  "stage": "S21-OPT3C0 direct d5->d13 operational/truth split and exact <=2 firewall",
+  "status": "PASS",
+  "stop_if_fail": "Do not run finite-p validation. Inspect zero-record truth-closed witnesses or decoder-matrix rank failure."
+}

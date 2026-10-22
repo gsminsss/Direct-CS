@@ -1,0 +1,894 @@
+{
+  "decoder_ps": [
+    0.0005,
+    0.001
+  ],
+  "groups": {
+    "CAT_POST": 105,
+    "CAT_PRE": 105,
+    "CORE_POST": 161,
+    "CORE_PRE": 161,
+    "DOWN_DIRECT_D5_D13": 4264,
+    "FRONT": 194,
+    "MIDED": 164,
+    "total": 5154
+  },
+  "rows": [
+    {
+      "counts": {
+        "FRONT": 3
+      },
+      "index": 0,
+      "key": "FRONT3",
+      "location_triples": 1198144,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "FRONT": 2
+      },
+      "index": 1,
+      "key": "FRONT2+CAT_PRE1",
+      "location_triples": 1965705,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_PRE": 1,
+        "FRONT": 2
+      },
+      "index": 2,
+      "key": "FRONT2+CORE_PRE1",
+      "location_triples": 3014081,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "FRONT": 2,
+        "MIDED": 1
+      },
+      "index": 3,
+      "key": "FRONT2+MIDED1",
+      "location_triples": 3070244,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "FRONT": 2
+      },
+      "index": 4,
+      "key": "FRONT2+CAT_POST1",
+      "location_triples": 1965705,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 1,
+        "FRONT": 2
+      },
+      "index": 5,
+      "key": "FRONT2+CORE_POST1",
+      "location_triples": 3014081,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "DOWN_DIRECT_D5_D13": 1,
+        "FRONT": 2
+      },
+      "index": 6,
+      "key": "FRONT2+DOWN_DIRECT_D5_D131",
+      "location_triples": 79826344,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 2,
+        "FRONT": 1
+      },
+      "index": 7,
+      "key": "FRONT1+CAT_PRE2",
+      "location_triples": 1059240,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_PRE": 1,
+        "FRONT": 1
+      },
+      "index": 8,
+      "key": "FRONT1+CAT_PRE1+CORE_PRE1",
+      "location_triples": 3279570,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "FRONT": 1,
+        "MIDED": 1
+      },
+      "index": 9,
+      "key": "FRONT1+CAT_PRE1+MIDED1",
+      "location_triples": 3340680,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CAT_PRE": 1,
+        "FRONT": 1
+      },
+      "index": 10,
+      "key": "FRONT1+CAT_PRE1+CAT_POST1",
+      "location_triples": 2138850,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_POST": 1,
+        "FRONT": 1
+      },
+      "index": 11,
+      "key": "FRONT1+CAT_PRE1+CORE_POST1",
+      "location_triples": 3279570,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "FRONT": 1
+      },
+      "index": 12,
+      "key": "FRONT1+CAT_PRE1+DOWN_DIRECT_D5_D131",
+      "location_triples": 86857680,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_PRE": 2,
+        "FRONT": 1
+      },
+      "index": 13,
+      "key": "FRONT1+CORE_PRE2",
+      "location_triples": 2498720,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_PRE": 1,
+        "FRONT": 1,
+        "MIDED": 1
+      },
+      "index": 14,
+      "key": "FRONT1+CORE_PRE1+MIDED1",
+      "location_triples": 5122376,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_PRE": 1,
+        "FRONT": 1
+      },
+      "index": 15,
+      "key": "FRONT1+CORE_PRE1+CAT_POST1",
+      "location_triples": 3279570,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 1,
+        "CORE_PRE": 1,
+        "FRONT": 1
+      },
+      "index": 16,
+      "key": "FRONT1+CORE_PRE1+CORE_POST1",
+      "location_triples": 5028674,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "FRONT": 1
+      },
+      "index": 17,
+      "key": "FRONT1+CORE_PRE1+DOWN_DIRECT_D5_D131",
+      "location_triples": 133181776,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "FRONT": 1,
+        "MIDED": 2
+      },
+      "index": 18,
+      "key": "FRONT1+MIDED2",
+      "location_triples": 2593004,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "FRONT": 1,
+        "MIDED": 1
+      },
+      "index": 19,
+      "key": "FRONT1+MIDED1+CAT_POST1",
+      "location_triples": 3340680,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 1,
+        "FRONT": 1,
+        "MIDED": 1
+      },
+      "index": 20,
+      "key": "FRONT1+MIDED1+CORE_POST1",
+      "location_triples": 5122376,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "DOWN_DIRECT_D5_D13": 1,
+        "FRONT": 1,
+        "MIDED": 1
+      },
+      "index": 21,
+      "key": "FRONT1+MIDED1+DOWN_DIRECT_D5_D131",
+      "location_triples": 135663424,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 2,
+        "FRONT": 1
+      },
+      "index": 22,
+      "key": "FRONT1+CAT_POST2",
+      "location_triples": 1059240,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_POST": 1,
+        "FRONT": 1
+      },
+      "index": 23,
+      "key": "FRONT1+CAT_POST1+CORE_POST1",
+      "location_triples": 3279570,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "FRONT": 1
+      },
+      "index": 24,
+      "key": "FRONT1+CAT_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 86857680,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 2,
+        "FRONT": 1
+      },
+      "index": 25,
+      "key": "FRONT1+CORE_POST2",
+      "location_triples": 2498720,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "FRONT": 1
+      },
+      "index": 26,
+      "key": "FRONT1+CORE_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 133181776,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "DOWN_DIRECT_D5_D13": 2,
+        "FRONT": 1
+      },
+      "index": 27,
+      "key": "FRONT1+DOWN_DIRECT_D5_D132",
+      "location_triples": 1763210904,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 3
+      },
+      "index": 28,
+      "key": "CAT_PRE3",
+      "location_triples": 187460,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 2,
+        "CORE_PRE": 1
+      },
+      "index": 29,
+      "key": "CAT_PRE2+CORE_PRE1",
+      "location_triples": 879060,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 2,
+        "MIDED": 1
+      },
+      "index": 30,
+      "key": "CAT_PRE2+MIDED1",
+      "location_triples": 895440,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CAT_PRE": 2
+      },
+      "index": 31,
+      "key": "CAT_PRE2+CAT_POST1",
+      "location_triples": 573300,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 2,
+        "CORE_POST": 1
+      },
+      "index": 32,
+      "key": "CAT_PRE2+CORE_POST1",
+      "location_triples": 879060,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 2,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "index": 33,
+      "key": "CAT_PRE2+DOWN_DIRECT_D5_D131",
+      "location_triples": 23281440,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_PRE": 2
+      },
+      "index": 34,
+      "key": "CAT_PRE1+CORE_PRE2",
+      "location_triples": 1352400,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_PRE": 1,
+        "MIDED": 1
+      },
+      "index": 35,
+      "key": "CAT_PRE1+CORE_PRE1+MIDED1",
+      "location_triples": 2772420,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CAT_PRE": 1,
+        "CORE_PRE": 1
+      },
+      "index": 36,
+      "key": "CAT_PRE1+CORE_PRE1+CAT_POST1",
+      "location_triples": 1775025,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_POST": 1,
+        "CORE_PRE": 1
+      },
+      "index": 37,
+      "key": "CAT_PRE1+CORE_PRE1+CORE_POST1",
+      "location_triples": 2721705,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "index": 38,
+      "key": "CAT_PRE1+CORE_PRE1+DOWN_DIRECT_D5_D131",
+      "location_triples": 72082920,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "MIDED": 2
+      },
+      "index": 39,
+      "key": "CAT_PRE1+MIDED2",
+      "location_triples": 1403430,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CAT_PRE": 1,
+        "MIDED": 1
+      },
+      "index": 40,
+      "key": "CAT_PRE1+MIDED1+CAT_POST1",
+      "location_triples": 1808100,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_POST": 1,
+        "MIDED": 1
+      },
+      "index": 41,
+      "key": "CAT_PRE1+MIDED1+CORE_POST1",
+      "location_triples": 2772420,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "MIDED": 1
+      },
+      "index": 42,
+      "key": "CAT_PRE1+MIDED1+DOWN_DIRECT_D5_D131",
+      "location_triples": 73426080,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 2,
+        "CAT_PRE": 1
+      },
+      "index": 43,
+      "key": "CAT_PRE1+CAT_POST2",
+      "location_triples": 573300,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CAT_PRE": 1,
+        "CORE_POST": 1
+      },
+      "index": 44,
+      "key": "CAT_PRE1+CAT_POST1+CORE_POST1",
+      "location_triples": 1775025,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CAT_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "index": 45,
+      "key": "CAT_PRE1+CAT_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 47010600,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_POST": 2
+      },
+      "index": 46,
+      "key": "CAT_PRE1+CORE_POST2",
+      "location_triples": 1352400,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_POST": 1,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "index": 47,
+      "key": "CAT_PRE1+CORE_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 72082920,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 2
+      },
+      "index": 48,
+      "key": "CAT_PRE1+DOWN_DIRECT_D5_D132",
+      "location_triples": 954315180,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_PRE": 3
+      },
+      "index": 49,
+      "key": "CORE_PRE3",
+      "location_triples": 682640,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_PRE": 2,
+        "MIDED": 1
+      },
+      "index": 50,
+      "key": "CORE_PRE2+MIDED1",
+      "location_triples": 2112320,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_PRE": 2
+      },
+      "index": 51,
+      "key": "CORE_PRE2+CAT_POST1",
+      "location_triples": 1352400,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 1,
+        "CORE_PRE": 2
+      },
+      "index": 52,
+      "key": "CORE_PRE2+CORE_POST1",
+      "location_triples": 2073680,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_PRE": 2,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "index": 53,
+      "key": "CORE_PRE2+DOWN_DIRECT_D5_D131",
+      "location_triples": 54920320,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_PRE": 1,
+        "MIDED": 2
+      },
+      "index": 54,
+      "key": "CORE_PRE1+MIDED2",
+      "location_triples": 2151926,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_PRE": 1,
+        "MIDED": 1
+      },
+      "index": 55,
+      "key": "CORE_PRE1+MIDED1+CAT_POST1",
+      "location_triples": 2772420,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 1,
+        "CORE_PRE": 1,
+        "MIDED": 1
+      },
+      "index": 56,
+      "key": "CORE_PRE1+MIDED1+CORE_POST1",
+      "location_triples": 4251044,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "MIDED": 1
+      },
+      "index": 57,
+      "key": "CORE_PRE1+MIDED1+DOWN_DIRECT_D5_D131",
+      "location_triples": 112586656,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 2,
+        "CORE_PRE": 1
+      },
+      "index": 58,
+      "key": "CORE_PRE1+CAT_POST2",
+      "location_triples": 879060,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_POST": 1,
+        "CORE_PRE": 1
+      },
+      "index": 59,
+      "key": "CORE_PRE1+CAT_POST1+CORE_POST1",
+      "location_triples": 2721705,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "index": 60,
+      "key": "CORE_PRE1+CAT_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 72082920,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 2,
+        "CORE_PRE": 1
+      },
+      "index": 61,
+      "key": "CORE_PRE1+CORE_POST2",
+      "location_triples": 2073680,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 1,
+        "CORE_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "index": 62,
+      "key": "CORE_PRE1+CORE_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 110527144,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 2
+      },
+      "index": 63,
+      "key": "CORE_PRE1+DOWN_DIRECT_D5_D132",
+      "location_triples": 1463283276,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "MIDED": 3
+      },
+      "index": 64,
+      "key": "MIDED3",
+      "location_triples": 721764,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "MIDED": 2
+      },
+      "index": 65,
+      "key": "MIDED2+CAT_POST1",
+      "location_triples": 1403430,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 1,
+        "MIDED": 2
+      },
+      "index": 66,
+      "key": "MIDED2+CORE_POST1",
+      "location_triples": 2151926,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "DOWN_DIRECT_D5_D13": 1,
+        "MIDED": 2
+      },
+      "index": 67,
+      "key": "MIDED2+DOWN_DIRECT_D5_D131",
+      "location_triples": 56992624,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 2,
+        "MIDED": 1
+      },
+      "index": 68,
+      "key": "MIDED1+CAT_POST2",
+      "location_triples": 895440,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_POST": 1,
+        "MIDED": 1
+      },
+      "index": 69,
+      "key": "MIDED1+CAT_POST1+CORE_POST1",
+      "location_triples": 2772420,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "MIDED": 1
+      },
+      "index": 70,
+      "key": "MIDED1+CAT_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 73426080,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 2,
+        "MIDED": 1
+      },
+      "index": 71,
+      "key": "MIDED1+CORE_POST2",
+      "location_triples": 2112320,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "MIDED": 1
+      },
+      "index": 72,
+      "key": "MIDED1+CORE_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 112586656,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "DOWN_DIRECT_D5_D13": 2,
+        "MIDED": 1
+      },
+      "index": 73,
+      "key": "MIDED1+DOWN_DIRECT_D5_D132",
+      "location_triples": 1490549424,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 3
+      },
+      "index": 74,
+      "key": "CAT_POST3",
+      "location_triples": 187460,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 2,
+        "CORE_POST": 1
+      },
+      "index": 75,
+      "key": "CAT_POST2+CORE_POST1",
+      "location_triples": 879060,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 2,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "index": 76,
+      "key": "CAT_POST2+DOWN_DIRECT_D5_D131",
+      "location_triples": 23281440,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_POST": 2
+      },
+      "index": 77,
+      "key": "CAT_POST1+CORE_POST2",
+      "location_triples": 1352400,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_POST": 1,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "index": 78,
+      "key": "CAT_POST1+CORE_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 72082920,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CAT_POST": 1,
+        "DOWN_DIRECT_D5_D13": 2
+      },
+      "index": 79,
+      "key": "CAT_POST1+DOWN_DIRECT_D5_D132",
+      "location_triples": 954315180,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 3
+      },
+      "index": 80,
+      "key": "CORE_POST3",
+      "location_triples": 682640,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 2,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "index": 81,
+      "key": "CORE_POST2+DOWN_DIRECT_D5_D131",
+      "location_triples": 54920320,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "CORE_POST": 1,
+        "DOWN_DIRECT_D5_D13": 2
+      },
+      "index": 82,
+      "key": "CORE_POST1+DOWN_DIRECT_D5_D132",
+      "location_triples": 1463283276,
+      "shots": 200
+    },
+    {
+      "counts": {
+        "DOWN_DIRECT_D5_D13": 3
+      },
+      "index": 83,
+      "key": "DOWN_DIRECT_D5_D133",
+      "location_triples": 12912035864,
+      "shots": 200
+    }
+  ],
+  "seed": 20270951,
+  "shots_per_stratum": 200,
+  "stage": "S21-OPT4B optimized exact-three fixed pilot plan",
+  "status": "PLAN_FIXED_BEFORE_OUTCOMES",
+  "stratum_count": 84,
+  "threshold_sweep": false,
+  "total_conditional_shots": 16800,
+  "total_location_triples": 22804951904
+}

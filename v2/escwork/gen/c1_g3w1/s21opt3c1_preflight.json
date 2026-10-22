@@ -1,0 +1,51 @@
+{
+  "closure_conditioned_decoder_model": {
+    "OPT3C0_zero_record_truth_closed_identity_only_required": true,
+    "decoder_effect_classes": 1180,
+    "examples": [
+      "JointEffectData(syndrome=0, pauli=1, loc_weight={1149: 0.26666666666666666, 1151: 0.26666666666666666, 1153: 0.26666666666666666, 1155: 0.26666666666666666, 1157: 0.26666666666666666, 1166: 0.13333333333333333, 1167: 0.26666666666666666, 1168: 0.26666666666666666, 1310: 0.5333333333333333, 1311: 0.26666666666666666, 1312: 0.5333333333333333, 1313: 0.26666666666666666, 1314: 0.5333333333333333, 1315: 0.26666666666666666, 1316: 0.5333333333333333, 1317: 0.26666666666666666, 1318: 0.533333333333333",
+      "JointEffectData(syndrome=0, pauli=2, loc_weight={1002: 0.26666666666666666, 1021: 0.5333333333333333, 1022: 0.26666666666666666, 1047: 0.5333333333333333, 1048: 0.26666666666666666, 1073: 0.5333333333333333, 1074: 0.26666666666666666, 1099: 0.5333333333333333, 1100: 0.26666666666666666, 1125: 0.5333333333333333, 1126: 0.26666666666666666, 1166: 0.13333333333333333, 1187: 0.5333333333333333, 1212: 0.5333333333333333, 1237: 0.5333333333333333, 1262: 0.5333333333333333, 1287: 0.5333333333333333, 67",
+      "JointEffectData(syndrome=0, pauli=3, loc_weight={1166: 0.13333333333333333, 999: 0.06666666666666667}, loc_count={1166: 2, 999: 1}, example_mechanism=(1166, ((10, 'Z'), (235, 'Y'))))"
+    ],
+    "latent_zero_syndrome_nonidentity_excluded": 3,
+    "policy": "excluded from decoder columns only; retained in physical sampling/truth scoring",
+    "raw_effect_classes": 1183
+  },
+  "dependencies": {
+    "b1": "<V2>/escwork/src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/direct_cs_s18b1_638_d2_calibration.py",
+    "b3": "<V2>/escwork/src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/direct_cs_s18b3_firewalled_fresh_validation.py",
+    "cert": "<V2>/escwork/src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/direct_cs_s17b_v13d_joint_postselection_certificate.py",
+    "d1": "<V2>/escwork/src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/direct_cs_s17c_d_hybrid_bposd_abstention.py",
+    "d2": "<V2>/escwork/src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/direct_cs_s17c_d2_logical_coset_list_decoder.py",
+    "s10": "<V2>/escwork/src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/direct_cs_s10_complete_physical_factory_mc.py"
+  },
+  "detector_contract": {
+    "future_truth": 168,
+    "operational": 263,
+    "truth_visible": false
+  },
+  "downstream_locations_per_patch": 1476,
+  "firewall_zero": {
+    "pauli": "I",
+    "pauli_int": 0,
+    "possible_paulis": [
+      "I"
+    ],
+    "record": "0x0",
+    "status": "exact"
+  },
+  "frozen_decoder": {
+    "bp_max_iter": 30,
+    "bp_method": "minimum_sum",
+    "gap": 10.0,
+    "max_correction_effects": 8,
+    "ms_scaling_factor": 0.625,
+    "osd_method": "osd_cs",
+    "osd_order": 2,
+    "sector_candidates": 8,
+    "threshold_sweep": false
+  },
+  "full_factory_potential_locations": 3842,
+  "matrix_pass": true,
+  "stage": "S21-OPT3C1 practical decoder freeze"
+}

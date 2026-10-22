@@ -1,0 +1,4460 @@
+{
+  "0.0005": [
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1198144.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "FRONT": 3
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 0,
+      "key": "FRONT3",
+      "location_triples": 1198144,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "initialED": 99,
+        "midED": 1
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1965705.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "FRONT": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 1,
+      "key": "FRONT2+CAT_PRE1",
+      "location_triples": 1965705,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 1,
+        "initialED": 97,
+        "midED": 2
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 3014081.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_PRE": 1,
+        "FRONT": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 2,
+      "key": "FRONT2+CORE_PRE1",
+      "location_triples": 3014081,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "initialED": 93,
+        "midED": 7
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 3070244.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "FRONT": 2,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 1,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 3,
+      "key": "FRONT2+MIDED1",
+      "location_triples": 3070244,
+      "operational_accept": 0,
+      "predownstream_reject": 99,
+      "predownstream_rejection_reasons": {
+        "initialED": 92,
+        "midED": 7
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_A:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1965705.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "FRONT": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 4,
+      "key": "FRONT2+CAT_POST1",
+      "location_triples": 1965705,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT3": 1,
+        "CAT4": 1,
+        "CAT5": 1,
+        "initialED": 96,
+        "midED": 1
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 3014081.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_POST": 1,
+        "FRONT": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 1,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 5,
+      "key": "FRONT2+CORE_POST1",
+      "location_triples": 3014081,
+      "operational_accept": 0,
+      "predownstream_reject": 99,
+      "predownstream_rejection_reasons": {
+        "initialED": 95,
+        "midED": 4
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_A:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 365138.960950764,
+      "D3_detectable_residual_accept_se": 182103.14643031583,
+      "R3_operational_rejection_estimate": 53036434.07809847,
+      "R3_operational_rejection_se": 256650.77540573003,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "DOWN_DIRECT_D5_D13": 1,
+        "FRONT": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 1,
+      "detectable_residual_operational_accept": 4,
+      "harmful_examples": [],
+      "index": 6,
+      "key": "FRONT2+DOWN_DIRECT_D5_D131",
+      "location_triples": 53766712,
+      "operational_accept": 8,
+      "predownstream_reject": 580,
+      "predownstream_rejection_reasons": {
+        "initialED": 549,
+        "midED": 31
+      },
+      "shots": 589,
+      "tier_counts": {
+        "A:cheap_exact": 1,
+        "A:firewall_exact": 1,
+        "A:zero_structural": 6,
+        "B:firewall_exact": 3,
+        "B:zero_structural": 5,
+        "reject_A:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 4
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1059240.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 2,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 7,
+      "key": "FRONT1+CAT_PRE2",
+      "location_triples": 1059240,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 6,
+        "CAT1": 7,
+        "CAT2": 6,
+        "initialED": 76,
+        "midED": 2,
+        "record": 3
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 3279570.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_PRE": 1,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 8,
+      "key": "FRONT1+CAT_PRE1+CORE_PRE1",
+      "location_triples": 3279570,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 6,
+        "CAT1": 5,
+        "CAT2": 3,
+        "initialED": 71,
+        "midED": 15
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 3340680.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "FRONT": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 9,
+      "key": "FRONT1+CAT_PRE1+MIDED1",
+      "location_triples": 3340680,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 5,
+        "CAT1": 1,
+        "CAT2": 7,
+        "initialED": 76,
+        "midED": 9,
+        "record": 2
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2138850.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CAT_PRE": 1,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 10,
+      "key": "FRONT1+CAT_PRE1+CAT_POST1",
+      "location_triples": 2138850,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 6,
+        "CAT1": 7,
+        "CAT2": 6,
+        "CAT4": 1,
+        "initialED": 76,
+        "midED": 2,
+        "record": 2
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 3279570.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_POST": 1,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 11,
+      "key": "FRONT1+CAT_PRE1+CORE_POST1",
+      "location_triples": 3279570,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 2,
+        "CAT1": 3,
+        "CAT2": 4,
+        "initialED": 81,
+        "midED": 5,
+        "record": 5
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 365641.5,
+      "D3_detectable_residual_accept_se": 182391.08841893662,
+      "R3_operational_rejection_estimate": 57679946.625,
+      "R3_operational_rejection_se": 272509.0914873425,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 1,
+      "detectable_residual_operational_accept": 4,
+      "harmful_examples": [],
+      "index": 12,
+      "key": "FRONT1+CAT_PRE1+DOWN_DIRECT_D5_D131",
+      "location_triples": 58502640,
+      "operational_accept": 9,
+      "predownstream_reject": 630,
+      "predownstream_rejection_reasons": {
+        "CAT0": 19,
+        "CAT1": 14,
+        "CAT2": 24,
+        "initialED": 512,
+        "midED": 46,
+        "record": 15
+      },
+      "shots": 640,
+      "tier_counts": {
+        "A:firewall_exact": 2,
+        "A:zero_structural": 7,
+        "B:firewall_exact": 4,
+        "B:zero_structural": 5,
+        "reject_A:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 5
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2498720.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_PRE": 2,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 13,
+      "key": "FRONT1+CORE_PRE2",
+      "location_triples": 2498720,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "initialED": 69,
+        "midED": 31
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 5122376.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_PRE": 1,
+        "FRONT": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 14,
+      "key": "FRONT1+CORE_PRE1+MIDED1",
+      "location_triples": 5122376,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "initialED": 89,
+        "midED": 11
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 3279570.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_PRE": 1,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 15,
+      "key": "FRONT1+CORE_PRE1+CAT_POST1",
+      "location_triples": 3279570,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT3": 5,
+        "CAT5": 3,
+        "initialED": 81,
+        "midED": 11
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 5028674.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_POST": 1,
+        "CORE_PRE": 1,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 16,
+      "key": "FRONT1+CORE_PRE1+CORE_POST1",
+      "location_triples": 5028674,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "initialED": 74,
+        "midED": 26
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 89612699.68228106,
+      "R3_operational_rejection_se": 91348.31771894095,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 17,
+      "key": "FRONT1+CORE_PRE1+DOWN_DIRECT_D5_D131",
+      "location_triples": 89704048,
+      "operational_accept": 1,
+      "predownstream_reject": 981,
+      "predownstream_rejection_reasons": {
+        "initialED": 734,
+        "midED": 247
+      },
+      "shots": 982,
+      "tier_counts": {
+        "A:zero_structural": 1,
+        "B:firewall_exact": 1
+      },
+      "truth_closed_operational_accept": 1
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2593004.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "FRONT": 1,
+        "MIDED": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 18,
+      "key": "FRONT1+MIDED2",
+      "location_triples": 2593004,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "initialED": 80,
+        "midED": 20
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 3340680.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "FRONT": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 19,
+      "key": "FRONT1+MIDED1+CAT_POST1",
+      "location_triples": 3340680,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT3": 4,
+        "CAT4": 4,
+        "CAT5": 2,
+        "initialED": 82,
+        "midED": 8
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 5122376.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_POST": 1,
+        "FRONT": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 2,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 20,
+      "key": "FRONT1+MIDED1+CORE_POST1",
+      "location_triples": 5122376,
+      "operational_accept": 0,
+      "predownstream_reject": 98,
+      "predownstream_rejection_reasons": {
+        "initialED": 71,
+        "midED": 25,
+        "record": 2
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_A:firewall_ambiguous": 2
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 2.0289448343646654e-11,
+      "A3_closed_boundary_infidelity_se": 2.0289448343646654e-11,
+      "A3_intrinsic_oracle_estimate": 2.0289448343646654e-11,
+      "A3_intrinsic_oracle_se": 2.0289448343646654e-11,
+      "D3_detectable_residual_accept_estimate": 731004.416,
+      "D3_detectable_residual_accept_se": 257542.02077076433,
+      "R3_operational_rejection_estimate": 90279045.376,
+      "R3_operational_rejection_se": 314786.69273828226,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "DOWN_DIRECT_D5_D13": 1,
+        "FRONT": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 4,
+      "detectable_residual_operational_accept": 8,
+      "harmful_examples": [],
+      "index": 21,
+      "key": "FRONT1+MIDED1+DOWN_DIRECT_D5_D131",
+      "location_triples": 91375552,
+      "operational_accept": 12,
+      "predownstream_reject": 984,
+      "predownstream_rejection_reasons": {
+        "initialED": 760,
+        "midED": 214,
+        "record": 10
+      },
+      "shots": 1000,
+      "tier_counts": {
+        "A:cheap_exact": 1,
+        "A:firewall_exact": 5,
+        "A:zero_structural": 6,
+        "B:cheap_exact": 1,
+        "B:firewall_exact": 2,
+        "B:zero_structural": 9,
+        "reject_A:firewall_ambiguous": 2,
+        "reject_B:firewall_ambiguous": 2
+      },
+      "truth_closed_operational_accept": 4
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1048647.6,
+      "R3_operational_rejection_se": 10592.399999999998,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 2,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 1,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 22,
+      "key": "FRONT1+CAT_POST2",
+      "location_triples": 1059240,
+      "operational_accept": 1,
+      "predownstream_reject": 98,
+      "predownstream_rejection_reasons": {
+        "CAT3": 4,
+        "CAT4": 3,
+        "initialED": 84,
+        "midED": 5,
+        "record": 2
+      },
+      "shots": 100,
+      "tier_counts": {
+        "A:zero_structural": 1,
+        "B:zero_structural": 1,
+        "reject_A:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 1
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 3279570.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_POST": 1,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 1,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 23,
+      "key": "FRONT1+CAT_POST1+CORE_POST1",
+      "location_triples": 3279570,
+      "operational_accept": 0,
+      "predownstream_reject": 99,
+      "predownstream_rejection_reasons": {
+        "CAT3": 5,
+        "CAT4": 4,
+        "CAT5": 5,
+        "initialED": 80,
+        "midED": 1,
+        "record": 4
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_B:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 1005514.1250000001,
+      "D3_detectable_residual_accept_se": 300792.3085033879,
+      "R3_operational_rejection_estimate": 57131484.375,
+      "R3_operational_rejection_se": 350131.10928056936,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 12,
+      "detectable_residual_operational_accept": 11,
+      "harmful_examples": [],
+      "index": 24,
+      "key": "FRONT1+CAT_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 58502640,
+      "operational_accept": 15,
+      "predownstream_reject": 613,
+      "predownstream_rejection_reasons": {
+        "CAT3": 30,
+        "CAT4": 19,
+        "CAT5": 23,
+        "initialED": 462,
+        "midED": 55,
+        "record": 24
+      },
+      "shots": 640,
+      "tier_counts": {
+        "A:firewall_exact": 4,
+        "A:zero_structural": 11,
+        "B:cheap_exact": 2,
+        "B:firewall_exact": 3,
+        "B:zero_structural": 10,
+        "reject_A:firewall_ambiguous": 7,
+        "reject_B:firewall_ambiguous": 5
+      },
+      "truth_closed_operational_accept": 4
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2498720.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_POST": 2,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 25,
+      "key": "FRONT1+CORE_POST2",
+      "location_triples": 2498720,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "initialED": 79,
+        "midED": 12,
+        "record": 9
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 6.085020335540544e-11,
+      "A3_closed_boundary_infidelity_se": 3.509605070061485e-11,
+      "A3_intrinsic_oracle_estimate": 6.085020335540544e-11,
+      "A3_intrinsic_oracle_se": 3.509605070061485e-11,
+      "D3_detectable_residual_accept_estimate": 456741.5885947047,
+      "D3_detectable_residual_accept_se": 203844.18833357433,
+      "R3_operational_rejection_estimate": 88881913.14052953,
+      "R3_operational_rejection_se": 272925.25510076975,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_POST": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 20,
+      "detectable_residual_operational_accept": 5,
+      "harmful_examples": [],
+      "index": 26,
+      "key": "FRONT1+CORE_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 89704048,
+      "operational_accept": 9,
+      "predownstream_reject": 953,
+      "predownstream_rejection_reasons": {
+        "initialED": 763,
+        "midED": 117,
+        "record": 73
+      },
+      "shots": 982,
+      "tier_counts": {
+        "A:cheap_exact": 2,
+        "A:firewall_exact": 3,
+        "A:zero_structural": 4,
+        "B:cheap_exact": 1,
+        "B:firewall_exact": 3,
+        "B:zero_structural": 5,
+        "reject_A:firewall_ambiguous": 15,
+        "reject_B:firewall_ambiguous": 5
+      },
+      "truth_closed_operational_accept": 4
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 51341615.21050828,
+      "D3_detectable_residual_accept_se": 2095171.490889909,
+      "R3_operational_rejection_estimate": 738058557.4478583,
+      "R3_operational_rejection_se": 2281823.7327010767,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "DOWN_DIRECT_D5_D13": 2,
+        "FRONT": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 260,
+      "detectable_residual_operational_accept": 562,
+      "harmful_examples": [],
+      "index": 27,
+      "key": "FRONT1+DOWN_DIRECT_D5_D132",
+      "location_triples": 799814664,
+      "operational_accept": 676,
+      "predownstream_reject": 7819,
+      "predownstream_rejection_reasons": {
+        "initialED": 6780,
+        "midED": 1039
+      },
+      "shots": 8755,
+      "tier_counts": {
+        "A:cheap_exact": 43,
+        "A:d2_high": 16,
+        "A:firewall_exact": 282,
+        "A:zero_structural": 335,
+        "B:cheap_exact": 31,
+        "B:d2_high": 12,
+        "B:firewall_exact": 307,
+        "B:zero_structural": 326,
+        "reject_A:d2_gap_abstain": 18,
+        "reject_A:firewall_ambiguous": 104,
+        "reject_B:d2_gap_abstain": 28,
+        "reject_B:firewall_ambiguous": 110
+      },
+      "truth_closed_operational_accept": 114
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 185585.4,
+      "R3_operational_rejection_se": 1874.5999999999997,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 3
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 28,
+      "key": "CAT_PRE3",
+      "location_triples": 187460,
+      "operational_accept": 1,
+      "predownstream_reject": 99,
+      "predownstream_rejection_reasons": {
+        "CAT0": 47,
+        "CAT1": 26,
+        "CAT2": 16,
+        "midED": 6,
+        "record": 4
+      },
+      "shots": 100,
+      "tier_counts": {
+        "A:zero_structural": 1,
+        "B:zero_structural": 1
+      },
+      "truth_closed_operational_accept": 1
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 879060.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 2,
+        "CORE_PRE": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 29,
+      "key": "CAT_PRE2+CORE_PRE1",
+      "location_triples": 879060,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 37,
+        "CAT1": 22,
+        "CAT2": 10,
+        "midED": 31
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 895440.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 2,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 1,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 30,
+      "key": "CAT_PRE2+MIDED1",
+      "location_triples": 895440,
+      "operational_accept": 0,
+      "predownstream_reject": 99,
+      "predownstream_rejection_reasons": {
+        "CAT0": 31,
+        "CAT1": 24,
+        "CAT2": 14,
+        "midED": 27,
+        "record": 3
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_A:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 567567.0,
+      "R3_operational_rejection_se": 5732.999999999999,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CAT_PRE": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 2,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 31,
+      "key": "CAT_PRE2+CAT_POST1",
+      "location_triples": 573300,
+      "operational_accept": 1,
+      "predownstream_reject": 97,
+      "predownstream_rejection_reasons": {
+        "CAT0": 23,
+        "CAT1": 22,
+        "CAT2": 19,
+        "CAT3": 4,
+        "CAT4": 4,
+        "CAT5": 8,
+        "midED": 8,
+        "record": 9
+      },
+      "shots": 100,
+      "tier_counts": {
+        "A:zero_structural": 1,
+        "B:zero_structural": 1,
+        "reject_A:firewall_ambiguous": 1,
+        "reject_B:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 1
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 879060.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 2,
+        "CORE_POST": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 3,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 32,
+      "key": "CAT_PRE2+CORE_POST1",
+      "location_triples": 879060,
+      "operational_accept": 0,
+      "predownstream_reject": 97,
+      "predownstream_rejection_reasons": {
+        "CAT0": 33,
+        "CAT1": 20,
+        "CAT2": 19,
+        "midED": 14,
+        "record": 11
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_A:firewall_ambiguous": 3
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 364677.20930232556,
+      "D3_detectable_residual_accept_se": 180732.06580525765,
+      "R3_operational_rejection_estimate": 15225273.488372093,
+      "R3_operational_rejection_se": 201462.3121235612,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 2,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 1,
+      "detectable_residual_operational_accept": 4,
+      "harmful_examples": [],
+      "index": 33,
+      "key": "CAT_PRE2+DOWN_DIRECT_D5_D131",
+      "location_triples": 15681120,
+      "operational_accept": 5,
+      "predownstream_reject": 166,
+      "predownstream_rejection_reasons": {
+        "CAT0": 49,
+        "CAT1": 42,
+        "CAT2": 36,
+        "midED": 15,
+        "record": 24
+      },
+      "shots": 172,
+      "tier_counts": {
+        "A:cheap_exact": 1,
+        "A:firewall_exact": 1,
+        "A:zero_structural": 3,
+        "B:zero_structural": 5,
+        "reject_B:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 1
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1352400.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_PRE": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 34,
+      "key": "CAT_PRE1+CORE_PRE2",
+      "location_triples": 1352400,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 12,
+        "CAT1": 18,
+        "CAT2": 15,
+        "midED": 55
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2772420.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_PRE": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 35,
+      "key": "CAT_PRE1+CORE_PRE1+MIDED1",
+      "location_triples": 2772420,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 6,
+        "CAT1": 17,
+        "CAT2": 16,
+        "midED": 61
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1775025.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CAT_PRE": 1,
+        "CORE_PRE": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 36,
+      "key": "CAT_PRE1+CORE_PRE1+CAT_POST1",
+      "location_triples": 1775025,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 9,
+        "CAT1": 20,
+        "CAT2": 7,
+        "CAT3": 7,
+        "CAT4": 10,
+        "CAT5": 12,
+        "midED": 35
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2721705.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_POST": 1,
+        "CORE_PRE": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 37,
+      "key": "CAT_PRE1+CORE_PRE1+CORE_POST1",
+      "location_triples": 2721705,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 18,
+        "CAT1": 15,
+        "CAT2": 12,
+        "midED": 55
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 48551160.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 38,
+      "key": "CAT_PRE1+CORE_PRE1+DOWN_DIRECT_D5_D131",
+      "location_triples": 48551160,
+      "operational_accept": 0,
+      "predownstream_reject": 531,
+      "predownstream_rejection_reasons": {
+        "CAT0": 77,
+        "CAT1": 67,
+        "CAT2": 80,
+        "midED": 306,
+        "record": 1
+      },
+      "shots": 531,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1403430.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "MIDED": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 39,
+      "key": "CAT_PRE1+MIDED2",
+      "location_triples": 1403430,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 14,
+        "CAT1": 17,
+        "CAT2": 16,
+        "midED": 52,
+        "record": 1
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1808100.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CAT_PRE": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 40,
+      "key": "CAT_PRE1+MIDED1+CAT_POST1",
+      "location_triples": 1808100,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 11,
+        "CAT1": 18,
+        "CAT2": 18,
+        "CAT3": 12,
+        "CAT4": 8,
+        "CAT5": 8,
+        "midED": 23,
+        "record": 2
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2772420.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_POST": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 41,
+      "key": "CAT_PRE1+MIDED1+CORE_POST1",
+      "location_triples": 2772420,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 13,
+        "CAT1": 21,
+        "CAT2": 12,
+        "midED": 45,
+        "record": 9
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 457078.0036968577,
+      "D3_detectable_residual_accept_se": 203653.01062095107,
+      "R3_operational_rejection_estimate": 48724515.19408503,
+      "R3_operational_rejection_se": 256881.03103712248,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 2,
+      "detectable_residual_operational_accept": 5,
+      "harmful_examples": [],
+      "index": 42,
+      "key": "CAT_PRE1+MIDED1+DOWN_DIRECT_D5_D131",
+      "location_triples": 49455840,
+      "operational_accept": 8,
+      "predownstream_reject": 531,
+      "predownstream_rejection_reasons": {
+        "CAT0": 80,
+        "CAT1": 80,
+        "CAT2": 85,
+        "midED": 240,
+        "record": 46
+      },
+      "shots": 541,
+      "tier_counts": {
+        "A:firewall_exact": 3,
+        "A:zero_structural": 5,
+        "B:firewall_exact": 3,
+        "B:zero_structural": 5,
+        "reject_A:firewall_ambiguous": 2
+      },
+      "truth_closed_operational_accept": 3
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 573300.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 2,
+        "CAT_PRE": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 43,
+      "key": "CAT_PRE1+CAT_POST2",
+      "location_triples": 573300,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT0": 17,
+        "CAT1": 13,
+        "CAT2": 20,
+        "CAT3": 16,
+        "CAT4": 8,
+        "CAT5": 8,
+        "midED": 4,
+        "record": 14
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1775025.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CAT_PRE": 1,
+        "CORE_POST": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 1,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 44,
+      "key": "CAT_PRE1+CAT_POST1+CORE_POST1",
+      "location_triples": 1775025,
+      "operational_accept": 0,
+      "predownstream_reject": 99,
+      "predownstream_rejection_reasons": {
+        "CAT0": 14,
+        "CAT1": 13,
+        "CAT2": 18,
+        "CAT3": 7,
+        "CAT4": 8,
+        "CAT5": 12,
+        "midED": 6,
+        "record": 21
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_A:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 547500.8645533142,
+      "D3_detectable_residual_accept_se": 221895.4127847249,
+      "R3_operational_rejection_estimate": 31025048.991354465,
+      "R3_operational_rejection_se": 239322.75191730898,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CAT_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 12,
+      "detectable_residual_operational_accept": 6,
+      "harmful_examples": [],
+      "index": 45,
+      "key": "CAT_PRE1+CAT_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 31663800,
+      "operational_accept": 7,
+      "predownstream_reject": 328,
+      "predownstream_rejection_reasons": {
+        "CAT0": 60,
+        "CAT1": 46,
+        "CAT2": 49,
+        "CAT3": 31,
+        "CAT4": 25,
+        "CAT5": 28,
+        "midED": 18,
+        "record": 71
+      },
+      "shots": 347,
+      "tier_counts": {
+        "A:cheap_exact": 1,
+        "A:firewall_exact": 1,
+        "A:zero_structural": 5,
+        "B:zero_structural": 7,
+        "reject_A:firewall_ambiguous": 8,
+        "reject_B:firewall_ambiguous": 4
+      },
+      "truth_closed_operational_accept": 1
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1352400.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_POST": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 3,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 46,
+      "key": "CAT_PRE1+CORE_POST2",
+      "location_triples": 1352400,
+      "operational_accept": 0,
+      "predownstream_reject": 97,
+      "predownstream_rejection_reasons": {
+        "CAT0": 20,
+        "CAT1": 10,
+        "CAT2": 17,
+        "midED": 12,
+        "record": 38
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_A:firewall_ambiguous": 2,
+        "reject_B:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 274300.33898305084,
+      "D3_detectable_residual_accept_se": 158068.2857576632,
+      "R3_operational_rejection_estimate": 48185426.21468927,
+      "R3_operational_rejection_se": 182348.61038685692,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "CORE_POST": 1,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 19,
+      "detectable_residual_operational_accept": 3,
+      "harmful_examples": [],
+      "index": 47,
+      "key": "CAT_PRE1+CORE_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 48551160,
+      "operational_accept": 4,
+      "predownstream_reject": 508,
+      "predownstream_rejection_reasons": {
+        "CAT0": 83,
+        "CAT1": 91,
+        "CAT2": 77,
+        "midED": 58,
+        "record": 199
+      },
+      "shots": 531,
+      "tier_counts": {
+        "A:cheap_exact": 1,
+        "A:firewall_exact": 1,
+        "A:zero_structural": 2,
+        "B:cheap_exact": 1,
+        "B:firewall_exact": 1,
+        "B:zero_structural": 2,
+        "reject_A:firewall_ambiguous": 13,
+        "reject_B:firewall_ambiguous": 6
+      },
+      "truth_closed_operational_accept": 1
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 35175688.328408614,
+      "D3_detectable_residual_accept_se": 1718521.148599764,
+      "R3_operational_rejection_estimate": 391500842.82397634,
+      "R3_operational_rejection_se": 1849501.5382463639,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 163,
+      "detectable_residual_operational_accept": 385,
+      "harmful_examples": [],
+      "index": 48,
+      "key": "CAT_PRE1+DOWN_DIRECT_D5_D132",
+      "location_triples": 432889380,
+      "operational_accept": 453,
+      "predownstream_reject": 4122,
+      "predownstream_rejection_reasons": {
+        "CAT0": 755,
+        "CAT1": 707,
+        "CAT2": 741,
+        "midED": 536,
+        "record": 1383
+      },
+      "shots": 4738,
+      "tier_counts": {
+        "A:cheap_exact": 33,
+        "A:d2_high": 13,
+        "A:firewall_exact": 200,
+        "A:zero_structural": 207,
+        "B:cheap_exact": 19,
+        "B:d2_high": 4,
+        "B:firewall_exact": 200,
+        "B:zero_structural": 230,
+        "reject_A:d2_gap_abstain": 13,
+        "reject_A:firewall_ambiguous": 80,
+        "reject_B:d2_gap_abstain": 11,
+        "reject_B:firewall_ambiguous": 59
+      },
+      "truth_closed_operational_accept": 68
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 682640.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_PRE": 3
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 49,
+      "key": "CORE_PRE3",
+      "location_triples": 682640,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "midED": 100
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2112320.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_PRE": 2,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 50,
+      "key": "CORE_PRE2+MIDED1",
+      "location_triples": 2112320,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "midED": 100
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1352400.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_PRE": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 51,
+      "key": "CORE_PRE2+CAT_POST1",
+      "location_triples": 1352400,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT3": 17,
+        "CAT4": 15,
+        "CAT5": 14,
+        "midED": 54
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2073680.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_POST": 1,
+        "CORE_PRE": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 52,
+      "key": "CORE_PRE2+CORE_POST1",
+      "location_triples": 2073680,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "midED": 100
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 36991360.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_PRE": 2,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 53,
+      "key": "CORE_PRE2+DOWN_DIRECT_D5_D131",
+      "location_triples": 36991360,
+      "operational_accept": 0,
+      "predownstream_reject": 405,
+      "predownstream_rejection_reasons": {
+        "midED": 402,
+        "record": 3
+      },
+      "shots": 405,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2151926.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_PRE": 1,
+        "MIDED": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 54,
+      "key": "CORE_PRE1+MIDED2",
+      "location_triples": 2151926,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "midED": 100
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2772420.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_PRE": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 55,
+      "key": "CORE_PRE1+MIDED1+CAT_POST1",
+      "location_triples": 2772420,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT3": 15,
+        "CAT4": 18,
+        "CAT5": 11,
+        "midED": 55,
+        "record": 1
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 4251044.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_POST": 1,
+        "CORE_PRE": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 56,
+      "key": "CORE_PRE1+MIDED1+CORE_POST1",
+      "location_triples": 4251044,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "midED": 99,
+        "record": 1
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 75832288.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 57,
+      "key": "CORE_PRE1+MIDED1+DOWN_DIRECT_D5_D131",
+      "location_triples": 75832288,
+      "operational_accept": 0,
+      "predownstream_reject": 830,
+      "predownstream_rejection_reasons": {
+        "midED": 825,
+        "record": 5
+      },
+      "shots": 830,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 870269.4,
+      "R3_operational_rejection_se": 8790.599999999999,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 2,
+        "CORE_PRE": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 58,
+      "key": "CORE_PRE1+CAT_POST2",
+      "location_triples": 879060,
+      "operational_accept": 1,
+      "predownstream_reject": 99,
+      "predownstream_rejection_reasons": {
+        "CAT3": 30,
+        "CAT4": 26,
+        "CAT5": 19,
+        "midED": 24
+      },
+      "shots": 100,
+      "tier_counts": {
+        "A:zero_structural": 1,
+        "B:zero_structural": 1
+      },
+      "truth_closed_operational_accept": 1
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2721705.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_POST": 1,
+        "CORE_PRE": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 59,
+      "key": "CORE_PRE1+CAT_POST1+CORE_POST1",
+      "location_triples": 2721705,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT3": 19,
+        "CAT4": 8,
+        "CAT5": 15,
+        "midED": 58
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 48551160.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 60,
+      "key": "CORE_PRE1+CAT_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 48551160,
+      "operational_accept": 0,
+      "predownstream_reject": 531,
+      "predownstream_rejection_reasons": {
+        "CAT3": 79,
+        "CAT4": 84,
+        "CAT5": 76,
+        "midED": 292
+      },
+      "shots": 531,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2073680.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_POST": 2,
+        "CORE_PRE": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 61,
+      "key": "CORE_PRE1+CORE_POST2",
+      "location_triples": 2073680,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "midED": 100
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 74445112.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_POST": 1,
+        "CORE_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 62,
+      "key": "CORE_PRE1+CORE_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 74445112,
+      "operational_accept": 0,
+      "predownstream_reject": 815,
+      "predownstream_rejection_reasons": {
+        "midED": 811,
+        "record": 4
+      },
+      "shots": 815,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 1187739.6156916725,
+      "D3_detectable_residual_accept_se": 329147.48870727594,
+      "R3_operational_rejection_estimate": 662484611.7984859,
+      "R3_operational_rejection_se": 341548.94048013265,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_PRE": 1,
+        "DOWN_DIRECT_D5_D13": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 4,
+      "detectable_residual_operational_accept": 13,
+      "harmful_examples": [],
+      "index": 63,
+      "key": "CORE_PRE1+DOWN_DIRECT_D5_D132",
+      "location_triples": 663763716,
+      "operational_accept": 14,
+      "predownstream_reject": 7247,
+      "predownstream_rejection_reasons": {
+        "midED": 7204,
+        "record": 43
+      },
+      "shots": 7265,
+      "tier_counts": {
+        "A:cheap_exact": 2,
+        "A:firewall_exact": 5,
+        "A:zero_structural": 7,
+        "B:cheap_exact": 3,
+        "B:firewall_exact": 6,
+        "B:zero_structural": 5,
+        "reject_A:d2_gap_abstain": 1,
+        "reject_A:firewall_ambiguous": 2,
+        "reject_B:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 1
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 714546.36,
+      "R3_operational_rejection_se": 7217.6399999999985,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "MIDED": 3
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 64,
+      "key": "MIDED3",
+      "location_triples": 721764,
+      "operational_accept": 1,
+      "predownstream_reject": 99,
+      "predownstream_rejection_reasons": {
+        "midED": 98,
+        "record": 1
+      },
+      "shots": 100,
+      "tier_counts": {
+        "A:zero_structural": 1,
+        "B:zero_structural": 1
+      },
+      "truth_closed_operational_accept": 1
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1403430.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "MIDED": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 65,
+      "key": "MIDED2+CAT_POST1",
+      "location_triples": 1403430,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT3": 12,
+        "CAT4": 12,
+        "CAT5": 16,
+        "midED": 56,
+        "record": 4
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2151926.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_POST": 1,
+        "MIDED": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 66,
+      "key": "MIDED2+CORE_POST1",
+      "location_triples": 2151926,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "midED": 97,
+        "record": 3
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 274193.9428571428,
+      "D3_detectable_residual_accept_se": 157927.67629350966,
+      "R3_operational_rejection_estimate": 38021560.07619048,
+      "R3_operational_rejection_se": 182140.38551236124,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "DOWN_DIRECT_D5_D13": 1,
+        "MIDED": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 6,
+      "detectable_residual_operational_accept": 3,
+      "harmful_examples": [],
+      "index": 67,
+      "key": "MIDED2+DOWN_DIRECT_D5_D131",
+      "location_triples": 38387152,
+      "operational_accept": 4,
+      "predownstream_reject": 410,
+      "predownstream_rejection_reasons": {
+        "midED": 393,
+        "record": 17
+      },
+      "shots": 420,
+      "tier_counts": {
+        "A:firewall_exact": 1,
+        "A:zero_structural": 3,
+        "B:zero_structural": 4,
+        "reject_A:firewall_ambiguous": 4,
+        "reject_B:firewall_ambiguous": 2
+      },
+      "truth_closed_operational_accept": 1
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 895440.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 2,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 0,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 68,
+      "key": "MIDED1+CAT_POST2",
+      "location_triples": 895440,
+      "operational_accept": 0,
+      "predownstream_reject": 100,
+      "predownstream_rejection_reasons": {
+        "CAT3": 40,
+        "CAT4": 27,
+        "CAT5": 15,
+        "midED": 13,
+        "record": 5
+      },
+      "shots": 100,
+      "tier_counts": {},
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2772420.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_POST": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 2,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 69,
+      "key": "MIDED1+CAT_POST1+CORE_POST1",
+      "location_triples": 2772420,
+      "operational_accept": 0,
+      "predownstream_reject": 98,
+      "predownstream_rejection_reasons": {
+        "CAT3": 13,
+        "CAT4": 13,
+        "CAT5": 22,
+        "midED": 37,
+        "record": 13
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_A:firewall_ambiguous": 2
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 365662.4029574861,
+      "D3_detectable_residual_accept_se": 182322.62969671786,
+      "R3_operational_rejection_estimate": 48907346.39556377,
+      "R3_operational_rejection_se": 222882.49149418523,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 6,
+      "detectable_residual_operational_accept": 4,
+      "harmful_examples": [],
+      "index": 70,
+      "key": "MIDED1+CAT_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 49455840,
+      "operational_accept": 6,
+      "predownstream_reject": 529,
+      "predownstream_rejection_reasons": {
+        "CAT3": 80,
+        "CAT4": 96,
+        "CAT5": 100,
+        "midED": 204,
+        "record": 49
+      },
+      "shots": 541,
+      "tier_counts": {
+        "A:firewall_exact": 2,
+        "A:zero_structural": 4,
+        "B:firewall_exact": 1,
+        "B:zero_structural": 5,
+        "reject_A:firewall_ambiguous": 4,
+        "reject_B:firewall_ambiguous": 2
+      },
+      "truth_closed_operational_accept": 2
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 2112320.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_POST": 2,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 2,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 71,
+      "key": "MIDED1+CORE_POST2",
+      "location_triples": 2112320,
+      "operational_accept": 0,
+      "predownstream_reject": 98,
+      "predownstream_rejection_reasons": {
+        "midED": 76,
+        "record": 22
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_A:firewall_ambiguous": 2
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 91364.20240963856,
+      "A3_closed_boundary_binary_harmful_se": 91364.20240963856,
+      "A3_closed_boundary_infidelity_estimate": 91364.20240963857,
+      "A3_closed_boundary_infidelity_se": 91364.20240963856,
+      "A3_intrinsic_oracle_estimate": 91364.20240963857,
+      "A3_intrinsic_oracle_se": 91364.20240963856,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 75466831.19036144,
+      "R3_operational_rejection_se": 182397.4747472197,
+      "closed_boundary_harmful_samples": 1,
+      "counts": {
+        "CORE_POST": 1,
+        "DOWN_DIRECT_D5_D13": 1,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 52,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [
+        {
+          "actual_A": "I",
+          "actual_B": "I",
+          "decoder_p": 0.0005,
+          "infidelity": 1.0,
+          "pred_A": "I",
+          "pred_B": "I",
+          "record_A": "0x0",
+          "record_B": "0x80040c0000028000",
+          "sample_index": 738,
+          "shot_seed": 738102286403,
+          "stratum": "MIDED1+CORE_POST1+DOWN_DIRECT_D5_D131",
+          "tier_A": "zero_structural",
+          "tier_B": "firewall_exact",
+          "trace": {
+            "downstream": [
+              {
+                "conditional_weight": 1.0,
+                "downstream_location": 279,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x8004000000000000",
+                "patch": "B",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              }
+            ],
+            "predownstream": [
+              {
+                "a": 1,
+                "b": 75,
+                "fault_class": "Z",
+                "group": "MIDED",
+                "kind": "mided",
+                "option_count": 3,
+                "option_index": 2
+              },
+              {
+                "a": 174,
+                "b": -1,
+                "check": "C1",
+                "check_index": 3,
+                "coordinate": 1,
+                "fault_class": [
+                  [
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          -0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          -0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -1.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          1.0,
+                          -0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          -0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          1.0,
+                          -0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          -0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          -1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      }
+                    ]
+                  ],
+                  0,
+                  "XYY"
+                ],
+                "gate_index": 4,
+                "group": "CORE_POST",
+                "kind": "core",
+                "option_count": 63,
+                "option_index": 25
+              }
+            ],
+            "sampled_groups": [
+              "MIDED",
+              "CORE_POST",
+              "DOWN_DIRECT_D5_D13"
+            ]
+          },
+          "truth_A": "0x0",
+          "truth_B": "0x0"
+        }
+      ],
+      "index": 72,
+      "key": "MIDED1+CORE_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 75832288,
+      "operational_accept": 4,
+      "predownstream_reject": 774,
+      "predownstream_rejection_reasons": {
+        "midED": 631,
+        "record": 143
+      },
+      "shots": 830,
+      "tier_counts": {
+        "A:firewall_exact": 1,
+        "A:zero_structural": 3,
+        "B:firewall_exact": 3,
+        "B:zero_structural": 1,
+        "reject_A:d2_gap_abstain": 1,
+        "reject_A:firewall_ambiguous": 36,
+        "reject_B:firewall_ambiguous": 15
+      },
+      "truth_closed_operational_accept": 4
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 1.825676440183919e-10,
+      "A3_closed_boundary_infidelity_se": 6.082297737310097e-11,
+      "A3_intrinsic_oracle_estimate": 1.825676440183919e-10,
+      "A3_intrinsic_oracle_se": 6.082297737310097e-11,
+      "D3_detectable_residual_accept_estimate": 41384649.20308067,
+      "D3_detectable_residual_accept_se": 1884101.183056451,
+      "R3_operational_rejection_estimate": 627712858.0008107,
+      "R3_operational_rejection_se": 2026623.7388237237,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "DOWN_DIRECT_D5_D13": 2,
+        "MIDED": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 314,
+      "detectable_residual_operational_accept": 453,
+      "harmful_examples": [],
+      "index": 73,
+      "key": "MIDED1+DOWN_DIRECT_D5_D132",
+      "location_triples": 676131984,
+      "operational_accept": 530,
+      "predownstream_reject": 6557,
+      "predownstream_rejection_reasons": {
+        "midED": 5660,
+        "record": 897
+      },
+      "shots": 7401,
+      "tier_counts": {
+        "A:cheap_exact": 34,
+        "A:d2_high": 14,
+        "A:firewall_exact": 236,
+        "A:zero_structural": 246,
+        "B:cheap_exact": 33,
+        "B:d2_high": 19,
+        "B:firewall_exact": 246,
+        "B:zero_structural": 232,
+        "reject_A:d2_gap_abstain": 24,
+        "reject_A:firewall_ambiguous": 171,
+        "reject_B:d2_gap_abstain": 16,
+        "reject_B:firewall_ambiguous": 103
+      },
+      "truth_closed_operational_accept": 77
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 187460.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 3
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 1,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 74,
+      "key": "CAT_POST3",
+      "location_triples": 187460,
+      "operational_accept": 0,
+      "predownstream_reject": 99,
+      "predownstream_rejection_reasons": {
+        "CAT3": 41,
+        "CAT4": 30,
+        "CAT5": 14,
+        "record": 14
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_A:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 879060.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 2,
+        "CORE_POST": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 6,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 75,
+      "key": "CAT_POST2+CORE_POST1",
+      "location_triples": 879060,
+      "operational_accept": 0,
+      "predownstream_reject": 94,
+      "predownstream_rejection_reasons": {
+        "CAT3": 39,
+        "CAT4": 15,
+        "CAT5": 11,
+        "record": 29
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_A:firewall_ambiguous": 5,
+        "reject_B:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 729354.4186046511,
+      "D3_detectable_residual_accept_se": 252532.62533399474,
+      "R3_operational_rejection_estimate": 14860596.279069768,
+      "R3_operational_rejection_se": 267033.42929943604,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 2,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 3,
+      "detectable_residual_operational_accept": 8,
+      "harmful_examples": [],
+      "index": 76,
+      "key": "CAT_POST2+DOWN_DIRECT_D5_D131",
+      "location_triples": 15681120,
+      "operational_accept": 9,
+      "predownstream_reject": 160,
+      "predownstream_rejection_reasons": {
+        "CAT3": 45,
+        "CAT4": 37,
+        "CAT5": 40,
+        "record": 38
+      },
+      "shots": 172,
+      "tier_counts": {
+        "A:firewall_exact": 4,
+        "A:zero_structural": 5,
+        "B:cheap_exact": 1,
+        "B:firewall_exact": 1,
+        "B:zero_structural": 7,
+        "reject_A:firewall_ambiguous": 2,
+        "reject_B:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 1
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 1352400.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_POST": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 16,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 77,
+      "key": "CAT_POST1+CORE_POST2",
+      "location_triples": 1352400,
+      "operational_accept": 0,
+      "predownstream_reject": 84,
+      "predownstream_rejection_reasons": {
+        "CAT3": 11,
+        "CAT4": 12,
+        "CAT5": 13,
+        "record": 48
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_A:firewall_ambiguous": 15,
+        "reject_B:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 91433.44632768362,
+      "A3_closed_boundary_binary_harmful_se": 91433.44632768362,
+      "A3_closed_boundary_infidelity_estimate": 68575.08474576277,
+      "A3_closed_boundary_infidelity_se": 68575.08474576271,
+      "A3_intrinsic_oracle_estimate": 68575.08474576277,
+      "A3_intrinsic_oracle_se": 68575.08474576271,
+      "D3_detectable_residual_accept_estimate": 274300.33898305084,
+      "D3_detectable_residual_accept_se": 158068.2857576632,
+      "R3_operational_rejection_estimate": 47728258.98305085,
+      "R3_operational_rejection_se": 272222.27618206677,
+      "closed_boundary_harmful_samples": 1,
+      "counts": {
+        "CAT_POST": 1,
+        "CORE_POST": 1,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 46,
+      "detectable_residual_operational_accept": 3,
+      "harmful_examples": [
+        {
+          "actual_A": "I",
+          "actual_B": "X",
+          "decoder_p": 0.0005,
+          "infidelity": 0.75,
+          "pred_A": "I",
+          "pred_B": "X",
+          "record_A": "0x0",
+          "record_B": "0x8051000",
+          "sample_index": 517,
+          "shot_seed": 517108284874,
+          "stratum": "CAT_POST1+CORE_POST1+DOWN_DIRECT_D5_D131",
+          "tier_A": "zero_structural",
+          "tier_B": "firewall_exact",
+          "trace": {
+            "downstream": [
+              {
+                "conditional_weight": 1.0,
+                "downstream_location": 215,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x8000000",
+                "patch": "B",
+                "pauli": "X",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              }
+            ],
+            "predownstream": [
+              {
+                "a": 4,
+                "b": 1,
+                "fault_class": "X",
+                "group": "CAT_POST",
+                "kind": "cat",
+                "option_count": 3,
+                "option_index": 0
+              },
+              {
+                "a": 298,
+                "b": -1,
+                "check": "C12",
+                "check_index": 5,
+                "coordinate": 2,
+                "fault_class": [
+                  [
+                    [
+                      {
+                        "__complex__": [
+                          1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -1.0,
+                          0.0
+                        ]
+                      }
+                    ]
+                  ],
+                  0,
+                  "Z"
+                ],
+                "gate_index": 1,
+                "group": "CORE_POST",
+                "kind": "core",
+                "option_count": 3,
+                "option_index": 2
+              }
+            ],
+            "sampled_groups": [
+              "CAT_POST",
+              "CORE_POST",
+              "DOWN_DIRECT_D5_D13"
+            ]
+          },
+          "truth_A": "0x0",
+          "truth_B": "0x0"
+        }
+      ],
+      "index": 78,
+      "key": "CAT_POST1+CORE_POST1+DOWN_DIRECT_D5_D131",
+      "location_triples": 48551160,
+      "operational_accept": 9,
+      "predownstream_reject": 476,
+      "predownstream_rejection_reasons": {
+        "CAT3": 78,
+        "CAT4": 79,
+        "CAT5": 85,
+        "record": 234
+      },
+      "shots": 531,
+      "tier_counts": {
+        "A:cheap_exact": 1,
+        "A:firewall_exact": 5,
+        "A:zero_structural": 3,
+        "B:firewall_exact": 3,
+        "B:zero_structural": 6,
+        "reject_A:d2_gap_abstain": 3,
+        "reject_A:firewall_ambiguous": 32,
+        "reject_B:firewall_ambiguous": 11
+      },
+      "truth_closed_operational_accept": 6
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 1.0143599763438345e-10,
+      "A3_closed_boundary_infidelity_se": 4.53444003067358e-11,
+      "A3_intrinsic_oracle_estimate": 1.0143599763438345e-10,
+      "A3_intrinsic_oracle_se": 4.53444003067358e-11,
+      "D3_detectable_residual_accept_estimate": 42850383.96369776,
+      "D3_detectable_residual_accept_se": 1878363.6771525168,
+      "R3_operational_rejection_estimate": 380445626.4921908,
+      "R3_operational_rejection_se": 2052303.0442120216,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CAT_POST": 1,
+        "DOWN_DIRECT_D5_D13": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 456,
+      "detectable_residual_operational_accept": 469,
+      "harmful_examples": [],
+      "index": 79,
+      "key": "CAT_POST1+DOWN_DIRECT_D5_D132",
+      "location_triples": 432889380,
+      "operational_accept": 574,
+      "predownstream_reject": 3708,
+      "predownstream_rejection_reasons": {
+        "CAT3": 714,
+        "CAT4": 744,
+        "CAT5": 721,
+        "record": 1529
+      },
+      "shots": 4738,
+      "tier_counts": {
+        "A:cheap_exact": 40,
+        "A:d2_high": 6,
+        "A:firewall_exact": 258,
+        "A:zero_structural": 270,
+        "B:cheap_exact": 57,
+        "B:d2_high": 17,
+        "B:firewall_exact": 260,
+        "B:zero_structural": 240,
+        "reject_A:d2_gap_abstain": 39,
+        "reject_A:firewall_ambiguous": 242,
+        "reject_B:d2_gap_abstain": 26,
+        "reject_B:firewall_ambiguous": 149
+      },
+      "truth_closed_operational_accept": 105
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 0.0,
+      "A3_closed_boundary_binary_harmful_se": 0.0,
+      "A3_closed_boundary_infidelity_estimate": 0.0,
+      "A3_closed_boundary_infidelity_se": 0.0,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 0.0,
+      "D3_detectable_residual_accept_se": 0.0,
+      "R3_operational_rejection_estimate": 682640.0,
+      "R3_operational_rejection_se": 0.0,
+      "closed_boundary_harmful_samples": 0,
+      "counts": {
+        "CORE_POST": 3
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 24,
+      "detectable_residual_operational_accept": 0,
+      "harmful_examples": [],
+      "index": 80,
+      "key": "CORE_POST3",
+      "location_triples": 682640,
+      "operational_accept": 0,
+      "predownstream_reject": 76,
+      "predownstream_rejection_reasons": {
+        "record": 76
+      },
+      "shots": 100,
+      "tier_counts": {
+        "reject_A:firewall_ambiguous": 23,
+        "reject_B:firewall_ambiguous": 1
+      },
+      "truth_closed_operational_accept": 0
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 41055.89345172031,
+      "A3_closed_boundary_binary_harmful_se": 41055.89345172031,
+      "A3_closed_boundary_infidelity_estimate": 30791.92008879025,
+      "A3_closed_boundary_infidelity_se": 30791.920088790233,
+      "A3_intrinsic_oracle_estimate": 61583.84017758049,
+      "A3_intrinsic_oracle_se": 43522.151860000995,
+      "D3_detectable_residual_accept_estimate": 410558.9345172031,
+      "D3_detectable_residual_accept_se": 129179.35296508574,
+      "R3_operational_rejection_estimate": 36211298.02441731,
+      "R3_operational_rejection_se": 177159.8671487309,
+      "closed_boundary_harmful_samples": 1,
+      "counts": {
+        "CORE_POST": 2,
+        "DOWN_DIRECT_D5_D13": 1
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 188,
+      "detectable_residual_operational_accept": 10,
+      "harmful_examples": [
+        {
+          "actual_A": "X",
+          "actual_B": "I",
+          "decoder_p": 0.0005,
+          "infidelity": 0.75,
+          "pred_A": "X",
+          "pred_B": "I",
+          "record_A": "0x10400000000000020001000",
+          "record_B": "0x0",
+          "sample_index": 62,
+          "shot_seed": 62111281698,
+          "stratum": "CORE_POST2+DOWN_DIRECT_D5_D131",
+          "tier_A": "firewall_exact",
+          "tier_B": "zero_structural",
+          "trace": {
+            "downstream": [
+              {
+                "conditional_weight": 1.0,
+                "downstream_location": 357,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x10400000000000000000000",
+                "patch": "A",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              }
+            ],
+            "predownstream": [
+              {
+                "a": 320,
+                "b": -1,
+                "check": "C12",
+                "check_index": 5,
+                "coordinate": 6,
+                "fault_class": [
+                  [
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          1.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      }
+                    ]
+                  ],
+                  0,
+                  "X"
+                ],
+                "gate_index": 3,
+                "group": "CORE_POST",
+                "kind": "core",
+                "option_count": 3,
+                "option_index": 0
+              },
+              {
+                "a": 307,
+                "b": -1,
+                "check": "C12",
+                "check_index": 5,
+                "coordinate": 4,
+                "fault_class": [
+                  [
+                    [
+                      {
+                        "__complex__": [
+                          1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -1.0,
+                          0.0
+                        ]
+                      }
+                    ]
+                  ],
+                  0,
+                  "Z"
+                ],
+                "gate_index": 0,
+                "group": "CORE_POST",
+                "kind": "core",
+                "option_count": 3,
+                "option_index": 2
+              }
+            ],
+            "sampled_groups": [
+              "CORE_POST",
+              "CORE_POST",
+              "DOWN_DIRECT_D5_D13"
+            ]
+          },
+          "truth_A": "0x0",
+          "truth_B": "0x0"
+        }
+      ],
+      "index": 81,
+      "key": "CORE_POST2+DOWN_DIRECT_D5_D131",
+      "location_triples": 36991360,
+      "operational_accept": 19,
+      "predownstream_reject": 694,
+      "predownstream_rejection_reasons": {
+        "record": 694
+      },
+      "shots": 901,
+      "tier_counts": {
+        "A:cheap_exact": 2,
+        "A:firewall_exact": 6,
+        "A:zero_structural": 11,
+        "B:cheap_exact": 3,
+        "B:firewall_exact": 4,
+        "B:zero_structural": 12,
+        "reject_A:d2_gap_abstain": 18,
+        "reject_A:firewall_ambiguous": 114,
+        "reject_B:firewall_ambiguous": 56
+      },
+      "truth_closed_operational_accept": 9
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 182729.1716448727,
+      "A3_closed_boundary_binary_harmful_se": 129200.14229077312,
+      "A3_closed_boundary_infidelity_estimate": 159888.02518926415,
+      "A3_closed_boundary_infidelity_se": 114198.18539439932,
+      "A3_intrinsic_oracle_estimate": 5.680363741662958e-10,
+      "A3_intrinsic_oracle_se": 1.0714909308422584e-10,
+      "D3_detectable_residual_accept_estimate": 48605959.657536134,
+      "D3_detectable_residual_accept_se": 2028850.7293320284,
+      "R3_operational_rejection_estimate": 604285370.629594,
+      "R3_operational_rejection_se": 2224398.336479426,
+      "closed_boundary_harmful_samples": 2,
+      "counts": {
+        "CORE_POST": 1,
+        "DOWN_DIRECT_D5_D13": 2
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 1603,
+      "detectable_residual_operational_accept": 532,
+      "harmful_examples": [
+        {
+          "actual_A": "I",
+          "actual_B": "I",
+          "decoder_p": 0.0005,
+          "infidelity": 0.7499999999999999,
+          "pred_A": "X",
+          "pred_B": "I",
+          "record_A": "0x20024001000",
+          "record_B": "0x0",
+          "sample_index": 1440,
+          "shot_seed": 1440112291347,
+          "stratum": "CORE_POST1+DOWN_DIRECT_D5_D132",
+          "tier_A": "firewall_exact",
+          "tier_B": "zero_structural",
+          "trace": {
+            "downstream": [
+              {
+                "conditional_weight": 1.0,
+                "downstream_location": 62,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x4000000",
+                "patch": "A",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              },
+              {
+                "conditional_weight": 1.0,
+                "downstream_location": 216,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x20000000000",
+                "patch": "A",
+                "pauli": "X",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              }
+            ],
+            "predownstream": [
+              {
+                "a": 174,
+                "b": -1,
+                "check": "C1",
+                "check_index": 3,
+                "coordinate": 1,
+                "fault_class": [
+                  [
+                    [
+                      {
+                        "__complex__": [
+                          1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          1.0,
+                          -0.0
+                        ]
+                      }
+                    ]
+                  ],
+                  0,
+                  "IZZ"
+                ],
+                "gate_index": 4,
+                "group": "CORE_POST",
+                "kind": "core",
+                "option_count": 63,
+                "option_index": 14
+              }
+            ],
+            "sampled_groups": [
+              "CORE_POST",
+              "DOWN_DIRECT_D5_D13",
+              "DOWN_DIRECT_D5_D13"
+            ]
+          },
+          "truth_A": "0x0",
+          "truth_B": "0x0"
+        },
+        {
+          "actual_A": "I",
+          "actual_B": "I",
+          "decoder_p": 0.0005,
+          "infidelity": 1.0,
+          "pred_A": "I",
+          "pred_B": "Z",
+          "record_A": "0x0",
+          "record_B": "0x5100000001000",
+          "sample_index": 5454,
+          "shot_seed": 5454112319445,
+          "stratum": "CORE_POST1+DOWN_DIRECT_D5_D132",
+          "tier_A": "zero_structural",
+          "tier_B": "firewall_exact",
+          "trace": {
+            "downstream": [
+              {
+                "conditional_weight": 0.06666666666666667,
+                "downstream_location": 293,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x5000000000000",
+                "patch": "B",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              },
+              {
+                "conditional_weight": 0.06666666666666667,
+                "downstream_location": 108,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x1c0000029000",
+                "patch": "B",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              }
+            ],
+            "predownstream": [
+              {
+                "a": 301,
+                "b": -1,
+                "check": "C12",
+                "check_index": 5,
+                "coordinate": 2,
+                "fault_class": [
+                  [
+                    [
+                      {
+                        "__complex__": [
+                          1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          1.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      {
+                        "__complex__": [
+                          -1.0,
+                          0.0
+                        ]
+                      }
+                    ]
+                  ],
+                  0,
+                  "Z"
+                ],
+                "gate_index": 4,
+                "group": "CORE_POST",
+                "kind": "core",
+                "option_count": 3,
+                "option_index": 2
+              }
+            ],
+            "sampled_groups": [
+              "CORE_POST",
+              "DOWN_DIRECT_D5_D13",
+              "DOWN_DIRECT_D5_D13"
+            ]
+          },
+          "truth_A": "0x0",
+          "truth_B": "0x0"
+        }
+      ],
+      "index": 82,
+      "key": "CORE_POST1+DOWN_DIRECT_D5_D132",
+      "location_triples": 663763716,
+      "operational_accept": 651,
+      "predownstream_reject": 5011,
+      "predownstream_rejection_reasons": {
+        "record": 5011
+      },
+      "shots": 7265,
+      "tier_counts": {
+        "A:cheap_exact": 115,
+        "A:d2_high": 5,
+        "A:firewall_exact": 391,
+        "A:zero_structural": 140,
+        "B:cheap_exact": 96,
+        "B:d2_high": 4,
+        "B:firewall_exact": 404,
+        "B:zero_structural": 147,
+        "reject_A:cheap_ambiguous": 1,
+        "reject_A:d2_gap_abstain": 204,
+        "reject_A:firewall_ambiguous": 874,
+        "reject_B:d2_gap_abstain": 59,
+        "reject_B:firewall_ambiguous": 465
+      },
+      "truth_closed_operational_accept": 119
+    },
+    {
+      "A3_closed_boundary_binary_harmful_estimate": 913600.1575131454,
+      "A3_closed_boundary_binary_harmful_se": 288875.6200122928,
+      "A3_closed_boundary_infidelity_estimate": 867920.1496374882,
+      "A3_closed_boundary_infidelity_se": 275948.39888196706,
+      "A3_intrinsic_oracle_estimate": 0.0,
+      "A3_intrinsic_oracle_se": 0.0,
+      "D3_detectable_residual_accept_estimate": 2376730809.7704477,
+      "D3_detectable_residual_accept_se": 9289344.631407531,
+      "R3_operational_rejection_estimate": 1405847922.3812282,
+      "R3_operational_rejection_se": 9091714.715018712,
+      "closed_boundary_harmful_samples": 10,
+      "counts": {
+        "DOWN_DIRECT_D5_D13": 3
+      },
+      "decoder_p": 0.0005,
+      "decoder_reject": 15388,
+      "detectable_residual_operational_accept": 26015,
+      "harmful_examples": [
+        {
+          "actual_A": "I",
+          "actual_B": "I",
+          "decoder_p": 0.0005,
+          "infidelity": 1.0,
+          "pred_A": "Z",
+          "pred_B": "I",
+          "record_A": "0x1010840000000000",
+          "record_B": "0x0",
+          "sample_index": 1126,
+          "shot_seed": 1126113289152,
+          "stratum": "DOWN_DIRECT_D5_D133",
+          "tier_A": "firewall_exact",
+          "tier_B": "zero_structural",
+          "trace": {
+            "downstream": [
+              {
+                "conditional_weight": 1.0,
+                "downstream_location": 276,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x1000800000000000",
+                "patch": "A",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              },
+              {
+                "conditional_weight": 1.0,
+                "downstream_location": 243,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x140000000000",
+                "patch": "A",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              },
+              {
+                "conditional_weight": 1.0,
+                "downstream_location": 244,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x10100000000000",
+                "patch": "A",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              }
+            ],
+            "predownstream": [],
+            "sampled_groups": [
+              "DOWN_DIRECT_D5_D13",
+              "DOWN_DIRECT_D5_D13",
+              "DOWN_DIRECT_D5_D13"
+            ]
+          },
+          "truth_A": "0x0",
+          "truth_B": "0x0"
+        },
+        {
+          "actual_A": "Z",
+          "actual_B": "I",
+          "decoder_p": 0.0005,
+          "infidelity": 1.0,
+          "pred_A": "I",
+          "pred_B": "I",
+          "record_A": "0x100020062010",
+          "record_B": "0x0",
+          "sample_index": 5459,
+          "shot_seed": 5459113319483,
+          "stratum": "DOWN_DIRECT_D5_D133",
+          "tier_A": "firewall_exact",
+          "tier_B": "zero_structural",
+          "trace": {
+            "downstream": [
+              {
+                "conditional_weight": 1.0,
+                "downstream_location": 90,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x2010",
+                "patch": "A",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              },
+              {
+                "conditional_weight": 0.06666666666666667,
+                "downstream_location": 191,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x100000000000",
+                "patch": "A",
+                "pauli": "Z",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              },
+              {
+                "conditional_weight": 0.06666666666666667,
+                "downstream_location": 121,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x20060000",
+                "patch": "A",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              }
+            ],
+            "predownstream": [],
+            "sampled_groups": [
+              "DOWN_DIRECT_D5_D13",
+              "DOWN_DIRECT_D5_D13",
+              "DOWN_DIRECT_D5_D13"
+            ]
+          },
+          "truth_A": "0x0",
+          "truth_B": "0x0"
+        },
+        {
+          "actual_A": "X",
+          "actual_B": "I",
+          "decoder_p": 0.0005,
+          "infidelity": 0.75,
+          "pred_A": "I",
+          "pred_B": "I",
+          "record_A": "0x4000000000000000a009000000000000",
+          "record_B": "0x0",
+          "sample_index": 13838,
+          "shot_seed": 13838113378136,
+          "stratum": "DOWN_DIRECT_D5_D133",
+          "tier_A": "firewall_exact",
+          "tier_B": "zero_structural",
+          "trace": {
+            "downstream": [
+              {
+                "conditional_weight": 1.0,
+                "downstream_location": 279,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x8004000000000000",
+                "patch": "A",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              },
+              {
+                "conditional_weight": 0.06666666666666667,
+                "downstream_location": 293,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0xd000000000000",
+                "patch": "A",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              },
+              {
+                "conditional_weight": 0.06666666666666667,
+                "downstream_location": 762,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x40000000000000002000000000000000",
+                "patch": "A",
+                "pauli": "X",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              }
+            ],
+            "predownstream": [],
+            "sampled_groups": [
+              "DOWN_DIRECT_D5_D13",
+              "DOWN_DIRECT_D5_D13",
+              "DOWN_DIRECT_D5_D13"
+            ]
+          },
+          "truth_A": "0x0",
+          "truth_B": "0x0"
+        },
+        {
+          "actual_A": "Z",
+          "actual_B": "I",
+          "decoder_p": 0.0005,
+          "infidelity": 1.0,
+          "pred_A": "I",
+          "pred_B": "I",
+          "record_A": "0x40a30080000",
+          "record_B": "0x0",
+          "sample_index": 16158,
+          "shot_seed": 16158113394376,
+          "stratum": "DOWN_DIRECT_D5_D133",
+          "tier_A": "firewall_exact",
+          "tier_B": "zero_structural",
+          "trace": {
+            "downstream": [
+              {
+                "conditional_weight": 0.06666666666666667,
+                "downstream_location": 146,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x1c0a20000000",
+                "patch": "A",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              },
+              {
+                "conditional_weight": 0.06666666666666667,
+                "downstream_location": 156,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x180010000000",
+                "patch": "A",
+                "pauli": "Z",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              },
+              {
+                "conditional_weight": 0.06666666666666667,
+                "downstream_location": 159,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x80000",
+                "patch": "A",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              }
+            ],
+            "predownstream": [],
+            "sampled_groups": [
+              "DOWN_DIRECT_D5_D13",
+              "DOWN_DIRECT_D5_D13",
+              "DOWN_DIRECT_D5_D13"
+            ]
+          },
+          "truth_A": "0x0",
+          "truth_B": "0x0"
+        },
+        {
+          "actual_A": "Z",
+          "actual_B": "I",
+          "decoder_p": 0.0005,
+          "infidelity": 1.0,
+          "pred_A": "I",
+          "pred_B": "I",
+          "record_A": "0x4000000000000040000a000000000",
+          "record_B": "0x0",
+          "sample_index": 20405,
+          "shot_seed": 20405113424105,
+          "stratum": "DOWN_DIRECT_D5_D133",
+          "tier_A": "firewall_exact",
+          "tier_B": "zero_structural",
+          "trace": {
+            "downstream": [
+              {
+                "conditional_weight": 0.06666666666666667,
+                "downstream_location": 219,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x2000000000",
+                "patch": "A",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              },
+              {
+                "conditional_weight": 1.0,
+                "downstream_location": 432,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x40000000000000400000000000000",
+                "patch": "A",
+                "pauli": "I",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              },
+              {
+                "conditional_weight": 0.06666666666666667,
+                "downstream_location": 149,
+                "group": "DOWN_DIRECT_D5_D13",
+                "op_hex": "0x8000000000",
+                "patch": "A",
+                "pauli": "Z",
+                "stage": "direct_d5_to_d13",
+                "truth_hex": "0x0"
+              }
+            ],
+            "predownstream": [],
+            "sampled_groups": [
+              "DOWN_DIRECT_D5_D13",
+              "DOWN_DIRECT_D5_D13",
+              "DOWN_DIRECT_D5_D13"
+            ]
+          },
+          "truth_A": "0x0",
+          "truth_B": "0x0"
+        }
+      ],
+      "index": 83,
+      "key": "DOWN_DIRECT_D5_D133",
+      "location_triples": 3944103240,
+      "operational_accept": 27783,
+      "predownstream_reject": 0,
+      "predownstream_rejection_reasons": {},
+      "shots": 43171,
+      "tier_counts": {
+        "A:cheap_exact": 1630,
+        "A:d2_high": 1877,
+        "A:firewall_exact": 15009,
+        "A:zero_structural": 9267,
+        "B:cheap_exact": 1525,
+        "B:d2_high": 1863,
+        "B:firewall_exact": 15128,
+        "B:zero_structural": 9267,
+        "reject_A:d2_gap_abstain": 3123,
+        "reject_A:firewall_ambiguous": 5217,
+        "reject_B:cheap_ambiguous": 1,
+        "reject_B:d2_gap_abstain": 2778,
+        "reject_B:firewall_ambiguous": 4269
+      },
+      "truth_closed_operational_accept": 1768
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "cheap_ambiguous_after_firewall": 0,
+    "cheap_exact_after_firewall": 39,
+    "coverage_histogram": {
+      "4": 244
+    },
+    "d2_failure": 0,
+    "d2_success": 244,
+    "d2_unknown": 244,
+    "evaluation_seed": 20270921,
+    "finite_gap_count": 244,
+    "firewall_ambiguous": 232,
+    "firewall_exact": 543,
+    "firewall_higher_order_only": 283,
+    "gap_median": 8.952346021726987,
+    "new_decode_seconds": 30.868711471557617,
+    "observed_records": 1058,
+    "p": 0.0005,
+    "prior_seed": 20270901,
+    "shots": 5000
+  },
+  {
+    "cheap_ambiguous_after_firewall": 1,
+    "cheap_exact_after_firewall": 52,
+    "coverage_histogram": {
+      "4": 495
+    },
+    "d2_failure": 0,
+    "d2_success": 495,
+    "d2_unknown": 495,
+    "evaluation_seed": 20270922,
+    "finite_gap_count": 495,
+    "firewall_ambiguous": 250,
+    "firewall_exact": 742,
+    "firewall_higher_order_only": 548,
+    "gap_median": 7.130095388106048,
+    "new_decode_seconds": 63.25685238838196,
+    "observed_records": 1540,
+    "p": 0.0008,
+    "prior_seed": 20270902,
+    "shots": 5000
+  },
+  {
+    "cheap_ambiguous_after_firewall": 0,
+    "cheap_exact_after_firewall": 41,
+    "coverage_histogram": {
+      "4": 610
+    },
+    "d2_failure": 0,
+    "d2_success": 610,
+    "d2_unknown": 610,
+    "evaluation_seed": 20270923,
+    "finite_gap_count": 610,
+    "firewall_ambiguous": 231,
+    "firewall_exact": 753,
+    "firewall_higher_order_only": 651,
+    "gap_median": 7.01221073448491,
+    "new_decode_seconds": 80.68074488639832,
+    "observed_records": 1635,
+    "p": 0.0009,
+    "prior_seed": 20270903,
+    "shots": 5000
+  },
+  {
+    "cheap_ambiguous_after_firewall": 0,
+    "cheap_exact_after_firewall": 39,
+    "coverage_histogram": {
+      "4": 676
+    },
+    "d2_failure": 0,
+    "d2_success": 676,
+    "d2_unknown": 676,
+    "evaluation_seed": 20270924,
+    "finite_gap_count": 676,
+    "firewall_ambiguous": 228,
+    "firewall_exact": 756,
+    "firewall_higher_order_only": 715,
+    "gap_median": 6.9067488705582,
+    "new_decode_seconds": 88.19682598114014,
+    "observed_records": 1699,
+    "p": 0.001,
+    "prior_seed": 20270904,
+    "shots": 5000
+  }
+]

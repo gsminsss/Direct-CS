@@ -1,0 +1,191 @@
+S21-OPT3C1: rebuilding 263+168 truth-operational model...
+S18-B1: recovering X truth-closed physical mechanisms...
+S18-B1: recovering Z truth-closed physical mechanisms...
+S21-OPT3C1: closure-conditioning decoder effect columns...
+S21-OPT3C1: raw effects=1071, decoder effects=1068, latent zero-op residuals excluded=3
+S21-OPT3C1: matrix/rank audit...
+S21-OPT3C1: fresh sector prior p=0.0005, seed=30270901 ...
+S21-OPT3C1: fresh physical evaluation p=0.0005, shots=5000, seed=30270921 ...
+S21-OPT3C1: fresh sector prior p=0.001, seed=30270902 ...
+S21-OPT3C1: fresh physical evaluation p=0.001, shots=5000, seed=30270922 ...
+S21-OPT3C1: scanning exact OPT3C0 firewall for 2405 observed records...
+S21-OPT3C1 p=0.0005: records=1104, firewall exact=565, ambiguous=232, higher=307, D2 unknown=277, cached=0, decode=277
+  decoded 25/277
+  decoded 50/277
+  decoded 75/277
+  decoded 100/277
+  decoded 125/277
+  decoded 150/277
+  decoded 175/277
+  decoded 200/277
+  decoded 225/277
+  decoded 250/277
+  decoded 275/277
+  decoded 277/277
+S21-OPT3C1 p=0.001: records=1652, firewall exact=760, ambiguous=232, higher=660, D2 unknown=624, cached=0, decode=624
+  decoded 25/624
+  decoded 50/624
+  decoded 75/624
+  decoded 100/624
+  decoded 125/624
+  decoded 150/624
+  decoded 175/624
+  decoded 200/624
+  decoded 225/624
+  decoded 250/624
+  decoded 275/624
+  decoded 300/624
+  decoded 325/624
+  decoded 350/624
+  decoded 375/624
+  decoded 400/624
+  decoded 425/624
+  decoded 450/624
+  decoded 475/624
+  decoded 500/624
+  decoded 525/624
+  decoded 550/624
+  decoded 575/624
+  decoded 600/624
+  decoded 624/624
+{
+  "status": "PASS",
+  "matrix": {
+    "H_shape": [
+      136,
+      1067
+    ],
+    "H_aug_shape": [
+      138,
+      1067
+    ],
+    "H_rank": 136,
+    "H_aug_rank": 138,
+    "logical_rows_independent": true,
+    "effect_columns": 1067,
+    "raw_effect_classes": 1071,
+    "closure_conditioned_decoder_effect_classes": 1068,
+    "latent_residual_filter": {
+      "raw_effect_classes": 1071,
+      "decoder_effect_classes": 1068,
+      "latent_zero_syndrome_nonidentity_excluded": 3,
+      "policy": "excluded from decoder columns only; retained in physical sampling/truth scoring",
+      "OPT3C0_zero_record_truth_closed_identity_only_required": true,
+      "examples": [
+        "JointEffectData(syndrome=0, pauli=1, loc_weight={1109: 0.26666666666666666, 1111: 0.26666666666666666, 1113: 0.26666666666666666, 1115: 0.26666666666666666, 1117: 0.26666666666666666, 1126: 0.13333333333333333, 1127: 0.26666666666666666, 1128: 0.26666666666666666, 1270: 0.5333333333333333, 1271: 0.26666666666666666, 1272: 0.5333333333333333, 1273: 0.26666666666666666, 1274: 0.5333333333333333, 1275: 0.26666666666666666, 1276: 0.5333333333333333, 1277: 0.26666666666666666, 1278: 0.533333333333333",
+        "JointEffectData(syndrome=0, pauli=2, loc_weight={1007: 0.5333333333333333, 1008: 0.26666666666666666, 1033: 0.5333333333333333, 1034: 0.26666666666666666, 1059: 0.5333333333333333, 1060: 0.26666666666666666, 1085: 0.5333333333333333, 1086: 0.26666666666666666, 1126: 0.13333333333333333, 1147: 0.5333333333333333, 1172: 0.5333333333333333, 1197: 0.5333333333333333, 1222: 0.5333333333333333, 1247: 0.5333333333333333, 634: 0.13333333333333333, 650: 0.26666666666666666, 675: 0.26666666666666666, 700:",
+        "JointEffectData(syndrome=0, pauli=3, loc_weight={1126: 0.13333333333333333, 959: 0.06666666666666667}, loc_count={1126: 2, 959: 1}, example_mechanism=(1126, ((10, 'Z'), (235, 'Y'))))"
+      ]
+    },
+    "fast_catalogue": {
+      "catalogue_records": 19735,
+      "unique_raw_frame_records": 17958,
+      "ambiguous_raw_frame_records": 1777,
+      "scope": "sector-only + boundary weight<=1 plus one downstream physical effect; acceleration only"
+    },
+    "model_meta": {
+      "operational_detectors": 136,
+      "truth_bits_per_probe": 168,
+      "truth_bits_decoder_visible": false,
+      "physical_locations_per_patch": 1436,
+      "concrete_pauli_mechanisms_per_patch": 12734,
+      "mechanism_count_per_location_histogram": {
+        "1": 629,
+        "15": 807
+      },
+      "mechanisms_with_nonzero_terminal_truth": 7867,
+      "stage_mechanism_counts": {
+        "hirano_escape_plus_two_d5_rounds": 12734
+      },
+      "joint_effect_meta": {
+        "joint_unique_effects": 1071,
+        "joint_physical_pauli_mechanisms": 12734,
+        "physical_locations": 1436,
+        "all_same_mechanism_detector_syndromes_match_across_probes": true,
+        "per_location_conditional_weights_sum_to_one": true,
+        "mechanism_count_per_location_histogram": {
+          "1": 629,
+          "15": 807
+        },
+        "joint_pauli_mechanism_counts": {
+          "I": 11316,
+          "X": 688,
+          "Y": 64,
+          "Z": 666
+        },
+        "total_first_order_conditional_weight": 1436.0
+      },
+      "X_recovery_meta": {
+        "probe": "X",
+        "explained_error_objects": 3177,
+        "unique_physical_pauli_mechanisms": 11728,
+        "unique_physical_noise_locations": 1436,
+        "duplicate_same_mechanism_mappings": 0,
+        "mechanism_gate_counts": {
+          "DEPOLARIZE2": 11099,
+          "X_ERROR": 319,
+          "Z_ERROR": 310
+        },
+        "mechanism_stage_counts": {
+          "hirano_escape_plus_two_d5_rounds": 11728
+        }
+      },
+      "Z_recovery_meta": {
+        "probe": "Z",
+        "explained_error_objects": 3177,
+        "unique_physical_pauli_mechanisms": 11728,
+        "unique_physical_noise_locations": 1436,
+        "duplicate_same_mechanism_mappings": 0,
+        "mechanism_gate_counts": {
+          "DEPOLARIZE2": 11099,
+          "X_ERROR": 319,
+          "Z_ERROR": 310
+        },
+        "mechanism_stage_counts": {
+          "hirano_escape_plus_two_d5_rounds": 11728
+        }
+      }
+    }
+  },
+  "resource": {
+    "predownstream_locations": 890,
+    "downstream_locations_per_patch": 1436,
+    "two_patch_downstream_locations": 2872,
+    "full_factory_potential_locations": 3762,
+    "old_full_factory_potential_locations": 7960,
+    "potential_location_reduction_fraction": 0.5273869346733668
+  },
+  "rows": [
+    {
+      "p": 0.0005,
+      "acceptance": 0.5302,
+      "truth_closed": 1218,
+      "closed_harmful": 0,
+      "harmful_le2": 0,
+      "expected_locations_per_attempt": 2776.7136,
+      "locations_per_accept": 5237.105997736703
+    },
+    {
+      "p": 0.001,
+      "acceptance": 0.299,
+      "truth_closed": 333,
+      "closed_harmful": 0,
+      "harmful_le2": 0,
+      "expected_locations_per_attempt": 2139.232,
+      "locations_per_accept": 7154.6220735785955
+    }
+  ],
+  "main_gate": {
+    "OPT3B_structural_pass": true,
+    "OPT3C0_263_plus_168_split_pass": true,
+    "truth_bits_decoder_visible": false,
+    "matrix_rank_pass": true,
+    "no_threshold_sweep": true,
+    "fresh_prior_and_evaluation_seeds": true,
+    "sampled_closed_boundary_harmful_le2_total": 0,
+    "sampled_le2_regression_pass": true,
+    "D2_four_coset_coverage_pass": true,
+    "passed": true
+  }
+}
+S21-OPT3C1 PASS

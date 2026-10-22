@@ -1,0 +1,24 @@
+Required existing artifacts under the original project root
+
+stim_pipeline/interface/s21opt3b_results/
+  s21opt3b_X_direct_d5_d13_noisy.stim
+  s21opt3b_Z_direct_d5_d13_noisy.stim
+  s21opt3b_summary.json
+
+stim_pipeline/interface/s21opt3c0_results/
+  s21opt3c0_preflight.json
+  s21opt3c0_sector_map_263_truth.json
+  s21opt3c0_firewall.jsonl.gz
+
+src_current/
+  direct_cs_step10_physical_frontend.py
+
+The S10 module also loads the original project-local escape/handoff dependencies
+through the project tree. Keep the original project tree intact when running.
+
+Python environment:
+  Python 3.11
+  numpy
+  scipy
+  stim
+  ldpc

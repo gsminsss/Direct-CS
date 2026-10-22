@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "certificate": "<V2>/escwork/src_base/DIRECT_CS_HIGHSTAT_VALIDATION_WITH_DEPENDENCIES_2026-09-09/direct_cs_s17b_v13d_joint_postselection_certificate.py",
+    "core_boundary_map": "<V2>/escwork/src_base/stim_pipeline/interface/zxz_core_boundary_signature_map.py",
+    "hirano_src": "<V2>/escwork/src_base/msc-ls/src",
+    "s18m": "<V2>/escwork/src_base/stim_pipeline/interface/direct_cs_s18m_modular_noisy_d13_certificate.py",
+    "s7b": "<V2>/escwork/src_base/stim_pipeline/interface/zxz_online_handoff_audit.py",
+    "sector_map": "<V2>/escwork/src_base/stim_pipeline/interface/direct_cs_s17c_a_sector_to_470_map.py",
+    "surface_code_expansion": "<V2>/escwork/src_base/msc-ls/src/surface_code_expansion.py"
+  },
+  "expansion_pattern": "UPWARD",
+  "passed": true,
+  "signature_p": 0.001,
+  "stage": "S21-OPT3B preflight",
+  "wait_rounds": 1
+}

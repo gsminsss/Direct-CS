@@ -1,0 +1,6 @@
+# Use versions compatible with the official msc-ls experiment-2025-sep branch.
+# The upstream README specifically notes Sinter <= 1.13 for
+# lattice_surgery_error_detection.py.
+numpy
+stim<=1.13
+pymatching

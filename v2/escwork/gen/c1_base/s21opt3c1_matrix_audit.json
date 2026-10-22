@@ -1,0 +1,100 @@
+{
+  "H_aug_rank": 265,
+  "H_aug_shape": [
+    265,
+    3339
+  ],
+  "H_rank": 263,
+  "H_shape": [
+    263,
+    3339
+  ],
+  "closure_conditioned_decoder_effect_classes": 3340,
+  "effect_columns": 3339,
+  "fast_catalogue": {
+    "ambiguous_raw_frame_records": 2129,
+    "catalogue_records": 69367,
+    "scope": "sector-only + boundary weight<=1 plus one downstream physical effect; acceleration only",
+    "unique_raw_frame_records": 67238
+  },
+  "latent_residual_filter": {
+    "OPT3C0_zero_record_truth_closed_identity_only_required": true,
+    "decoder_effect_classes": 3340,
+    "examples": [
+      "JointEffectData(syndrome=0, pauli=1, loc_weight={1499: 0.06666666666666667, 1501: 0.06666666666666667, 1641: 0.26666666666666666, 1643: 0.26666666666666666, 1645: 0.26666666666666666, 1647: 0.26666666666666666, 1666: 0.06666666666666667, 1668: 0.13333333333333333, 1808: 0.26666666666666666, 1810: 0.26666666666666666, 1812: 0.26666666666666666, 1814: 0.26666666666666666, 1833: 0.13333333333333333, 1834: 0.26666666666666666, 1835: 0.26666666666666666, 1836: 0.26666666666666666, 1837: 0.26666666666",
+      "JointEffectData(syndrome=0, pauli=2, loc_weight={1332: 0.13333333333333333, 1340: 0.13333333333333333, 1359: 0.26666666666666666, 1384: 0.26666666666666666, 1409: 0.26666666666666666, 1434: 0.26666666666666666, 1484: 0.06666666666666667, 1493: 0.06666666666666667, 1505: 0.26666666666666666, 1536: 0.26666666666666666, 1562: 0.26666666666666666, 1588: 0.26666666666666666, 1656: 0.26666666666666666, 1657: 0.13333333333333333, 1665: 0.26666666666666666, 1666: 0.06666666666666667, 1672: 0.26666666666",
+      "JointEffectData(syndrome=0, pauli=3, loc_weight={1666: 0.06666666666666667, 1833: 0.13333333333333333}, loc_count={1666: 1, 1833: 2}, example_mechanism=(1666, ((27, 'X'), (237, 'Z'))))"
+    ],
+    "latent_zero_syndrome_nonidentity_excluded": 3,
+    "policy": "excluded from decoder columns only; retained in physical sampling/truth scoring",
+    "raw_effect_classes": 3343
+  },
+  "logical_rows_independent": true,
+  "model_meta": {
+    "X_recovery_meta": {
+      "duplicate_same_mechanism_mappings": 0,
+      "explained_error_objects": 5463,
+      "mechanism_gate_counts": {
+        "DEPOLARIZE2": 17445,
+        "X_ERROR": 444,
+        "Z_ERROR": 441
+      },
+      "mechanism_stage_counts": {
+        "direct_d5_to_d13": 6836,
+        "hirano_escape_plus_two_d5_rounds": 11494
+      },
+      "probe": "X",
+      "unique_physical_noise_locations": 2132,
+      "unique_physical_pauli_mechanisms": 18330
+    },
+    "Z_recovery_meta": {
+      "duplicate_same_mechanism_mappings": 0,
+      "explained_error_objects": 5463,
+      "mechanism_gate_counts": {
+        "DEPOLARIZE2": 17445,
+        "X_ERROR": 444,
+        "Z_ERROR": 441
+      },
+      "mechanism_stage_counts": {
+        "direct_d5_to_d13": 6836,
+        "hirano_escape_plus_two_d5_rounds": 11494
+      },
+      "probe": "Z",
+      "unique_physical_noise_locations": 2132,
+      "unique_physical_pauli_mechanisms": 18330
+    },
+    "concrete_pauli_mechanisms_per_patch": 19590,
+    "joint_effect_meta": {
+      "all_same_mechanism_detector_syndromes_match_across_probes": true,
+      "joint_pauli_mechanism_counts": {
+        "I": 17094,
+        "X": 1318,
+        "Y": 100,
+        "Z": 1078
+      },
+      "joint_physical_pauli_mechanisms": 19590,
+      "joint_unique_effects": 3343,
+      "mechanism_count_per_location_histogram": {
+        "1": 885,
+        "15": 1247
+      },
+      "per_location_conditional_weights_sum_to_one": true,
+      "physical_locations": 2132,
+      "total_first_order_conditional_weight": 2132.0
+    },
+    "mechanism_count_per_location_histogram": {
+      "1": 885,
+      "15": 1247
+    },
+    "mechanisms_with_nonzero_terminal_truth": 7867,
+    "operational_detectors": 263,
+    "physical_locations_per_patch": 2132,
+    "stage_mechanism_counts": {
+      "direct_d5_to_d13": 7200,
+      "hirano_escape_plus_two_d5_rounds": 12390
+    },
+    "truth_bits_decoder_visible": false,
+    "truth_bits_per_probe": 168
+  },
+  "raw_effect_classes": 3343
+}

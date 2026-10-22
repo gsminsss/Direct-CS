@@ -1,8 +1,6 @@
-# Public release checklist
+# Public release checklist (v2)
 
-- [ ] Replace `REPLACE_WITH_OWNER` in `CITATION.cff` with the actual GitHub owner.
-- [ ] Choose and add a code/data license; none is selected automatically.
-- [ ] Add the final GitHub URL or DOI to the manuscript Data Availability section.
-- [ ] If desired, connect Zenodo to GitHub after the first tagged release.
-- [ ] Tag the submission snapshot, e.g. `v1.0-paper`.
-- [ ] Do not add exploratory/high-stat pilot outputs unless they enter a revised manuscript.
+- [ ] Choose and add a license for the authors' code and data (for example MIT for code and CC BY 4.0 for data). `v2/escwork/src_base/msc-ls/` keeps its own Apache-2.0 license.
+- [ ] Confirm that the repository URL in the manuscript Data/Code availability matches `https://github.com/gsminsss/Direct-CS`.
+- [ ] Tag the submission snapshot, for example `v2.0-paper`, and optionally archive it on Zenodo for a DOI.
+- [ ] Do not add the third-party comparator circuit or raw data unless its license permits redistribution.

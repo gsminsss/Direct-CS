@@ -1,0 +1,207 @@
+S21-OPT3C1: rebuilding 263+168 truth-operational model...
+S18-B1: recovering X truth-closed physical mechanisms...
+S18-B1: recovering Z truth-closed physical mechanisms...
+S21-OPT3C1: closure-conditioning decoder effect columns...
+S21-OPT3C1: raw effects=1071, decoder effects=1068, latent zero-op residuals excluded=3
+S21-OPT3C1: matrix/rank audit...
+S21-OPT3C1: fresh sector prior p=0.0004, seed=20270941 ...
+S21-OPT3C1: fresh physical evaluation p=0.0004, shots=5000, seed=20270961 ...
+S21-OPT3C1: fresh sector prior p=0.0006, seed=20270942 ...
+S21-OPT3C1: fresh physical evaluation p=0.0006, shots=5000, seed=20270962 ...
+S21-OPT3C1: fresh sector prior p=0.0007, seed=20270943 ...
+S21-OPT3C1: fresh physical evaluation p=0.0007, shots=5000, seed=20270963 ...
+S21-OPT3C1: scanning exact OPT3C0 firewall for 2837 observed records...
+S21-OPT3C1 p=0.0004: records=957, firewall exact=478, ambiguous=245, higher=234, D2 unknown=199, cached=0, decode=199
+  decoded 25/199
+  decoded 50/199
+  decoded 75/199
+  decoded 100/199
+  decoded 125/199
+  decoded 150/199
+  decoded 175/199
+  decoded 199/199
+S21-OPT3C1 p=0.0006: records=1273, firewall exact=621, ambiguous=242, higher=410, D2 unknown=371, cached=0, decode=371
+  decoded 25/371
+  decoded 50/371
+  decoded 75/371
+  decoded 100/371
+  decoded 125/371
+  decoded 150/371
+  decoded 175/371
+  decoded 200/371
+  decoded 225/371
+  decoded 250/371
+  decoded 275/371
+  decoded 300/371
+  decoded 325/371
+  decoded 350/371
+  decoded 371/371
+S21-OPT3C1 p=0.0007: records=1418, firewall exact=713, ambiguous=244, higher=461, D2 unknown=427, cached=0, decode=427
+  decoded 25/427
+  decoded 50/427
+  decoded 75/427
+  decoded 100/427
+  decoded 125/427
+  decoded 150/427
+  decoded 175/427
+  decoded 200/427
+  decoded 225/427
+  decoded 250/427
+  decoded 275/427
+  decoded 300/427
+  decoded 325/427
+  decoded 350/427
+  decoded 375/427
+  decoded 400/427
+  decoded 425/427
+  decoded 427/427
+{
+  "status": "PASS",
+  "matrix": {
+    "H_shape": [
+      136,
+      1067
+    ],
+    "H_aug_shape": [
+      138,
+      1067
+    ],
+    "H_rank": 136,
+    "H_aug_rank": 138,
+    "logical_rows_independent": true,
+    "effect_columns": 1067,
+    "raw_effect_classes": 1071,
+    "closure_conditioned_decoder_effect_classes": 1068,
+    "latent_residual_filter": {
+      "raw_effect_classes": 1071,
+      "decoder_effect_classes": 1068,
+      "latent_zero_syndrome_nonidentity_excluded": 3,
+      "policy": "excluded from decoder columns only; retained in physical sampling/truth scoring",
+      "OPT3C0_zero_record_truth_closed_identity_only_required": true,
+      "examples": [
+        "JointEffectData(syndrome=0, pauli=1, loc_weight={1109: 0.26666666666666666, 1111: 0.26666666666666666, 1113: 0.26666666666666666, 1115: 0.26666666666666666, 1117: 0.26666666666666666, 1126: 0.13333333333333333, 1127: 0.26666666666666666, 1128: 0.26666666666666666, 1270: 0.5333333333333333, 1271: 0.26666666666666666, 1272: 0.5333333333333333, 1273: 0.26666666666666666, 1274: 0.5333333333333333, 1275: 0.26666666666666666, 1276: 0.5333333333333333, 1277: 0.26666666666666666, 1278: 0.533333333333333",
+        "JointEffectData(syndrome=0, pauli=2, loc_weight={1007: 0.5333333333333333, 1008: 0.26666666666666666, 1033: 0.5333333333333333, 1034: 0.26666666666666666, 1059: 0.5333333333333333, 1060: 0.26666666666666666, 1085: 0.5333333333333333, 1086: 0.26666666666666666, 1126: 0.13333333333333333, 1147: 0.5333333333333333, 1172: 0.5333333333333333, 1197: 0.5333333333333333, 1222: 0.5333333333333333, 1247: 0.5333333333333333, 634: 0.13333333333333333, 650: 0.26666666666666666, 675: 0.26666666666666666, 700:",
+        "JointEffectData(syndrome=0, pauli=3, loc_weight={1126: 0.13333333333333333, 959: 0.06666666666666667}, loc_count={1126: 2, 959: 1}, example_mechanism=(1126, ((10, 'Z'), (235, 'Y'))))"
+      ]
+    },
+    "fast_catalogue": {
+      "catalogue_records": 19735,
+      "unique_raw_frame_records": 17958,
+      "ambiguous_raw_frame_records": 1777,
+      "scope": "sector-only + boundary weight<=1 plus one downstream physical effect; acceleration only"
+    },
+    "model_meta": {
+      "operational_detectors": 136,
+      "truth_bits_per_probe": 168,
+      "truth_bits_decoder_visible": false,
+      "physical_locations_per_patch": 1436,
+      "concrete_pauli_mechanisms_per_patch": 12734,
+      "mechanism_count_per_location_histogram": {
+        "1": 629,
+        "15": 807
+      },
+      "mechanisms_with_nonzero_terminal_truth": 7867,
+      "stage_mechanism_counts": {
+        "hirano_escape_plus_two_d5_rounds": 12734
+      },
+      "joint_effect_meta": {
+        "joint_unique_effects": 1071,
+        "joint_physical_pauli_mechanisms": 12734,
+        "physical_locations": 1436,
+        "all_same_mechanism_detector_syndromes_match_across_probes": true,
+        "per_location_conditional_weights_sum_to_one": true,
+        "mechanism_count_per_location_histogram": {
+          "1": 629,
+          "15": 807
+        },
+        "joint_pauli_mechanism_counts": {
+          "I": 11316,
+          "X": 688,
+          "Y": 64,
+          "Z": 666
+        },
+        "total_first_order_conditional_weight": 1436.0
+      },
+      "X_recovery_meta": {
+        "probe": "X",
+        "explained_error_objects": 3177,
+        "unique_physical_pauli_mechanisms": 11728,
+        "unique_physical_noise_locations": 1436,
+        "duplicate_same_mechanism_mappings": 0,
+        "mechanism_gate_counts": {
+          "DEPOLARIZE2": 11099,
+          "X_ERROR": 319,
+          "Z_ERROR": 310
+        },
+        "mechanism_stage_counts": {
+          "hirano_escape_plus_two_d5_rounds": 11728
+        }
+      },
+      "Z_recovery_meta": {
+        "probe": "Z",
+        "explained_error_objects": 3177,
+        "unique_physical_pauli_mechanisms": 11728,
+        "unique_physical_noise_locations": 1436,
+        "duplicate_same_mechanism_mappings": 0,
+        "mechanism_gate_counts": {
+          "DEPOLARIZE2": 11099,
+          "X_ERROR": 319,
+          "Z_ERROR": 310
+        },
+        "mechanism_stage_counts": {
+          "hirano_escape_plus_two_d5_rounds": 11728
+        }
+      }
+    }
+  },
+  "resource": {
+    "predownstream_locations": 890,
+    "downstream_locations_per_patch": 1436,
+    "two_patch_downstream_locations": 2872,
+    "full_factory_potential_locations": 3762,
+    "old_full_factory_potential_locations": 7960,
+    "potential_location_reduction_fraction": 0.5273869346733668
+  },
+  "rows": [
+    {
+      "p": 0.0004,
+      "acceptance": 0.5956,
+      "truth_closed": 1594,
+      "closed_harmful": 0,
+      "harmful_le2": 0,
+      "expected_locations_per_attempt": 2957.0704000000005,
+      "locations_per_accept": 4964.859637340498
+    },
+    {
+      "p": 0.0006,
+      "acceptance": 0.4756,
+      "truth_closed": 955,
+      "closed_harmful": 0,
+      "harmful_le2": 0,
+      "expected_locations_per_attempt": 2665.2816000000003,
+      "locations_per_accept": 5604.040370058873
+    },
+    {
+      "p": 0.0007,
+      "acceptance": 0.42,
+      "truth_closed": 726,
+      "closed_harmful": 0,
+      "harmful_le2": 0,
+      "expected_locations_per_attempt": 2520.7632,
+      "locations_per_accept": 6001.817142857143
+    }
+  ],
+  "main_gate": {
+    "OPT3B_structural_pass": true,
+    "OPT3C0_263_plus_168_split_pass": true,
+    "truth_bits_decoder_visible": false,
+    "matrix_rank_pass": true,
+    "no_threshold_sweep": true,
+    "fresh_prior_and_evaluation_seeds": true,
+    "sampled_closed_boundary_harmful_le2_total": 0,
+    "sampled_le2_regression_pass": true,
+    "D2_four_coset_coverage_pass": true,
+    "passed": true
+  }
+}
+S21-OPT3C1 PASS

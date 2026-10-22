@@ -1,0 +1,497 @@
+{
+  "decoder_audit": [
+    {
+      "cheap_ambiguous_after_firewall": 0,
+      "cheap_exact_after_firewall": 39,
+      "coverage_histogram": {
+        "4": 302
+      },
+      "d2_failure": 0,
+      "d2_success": 302,
+      "d2_unknown": 302,
+      "evaluation_seed": 20271311,
+      "finite_gap_count": 302,
+      "firewall_ambiguous": 281,
+      "firewall_exact": 647,
+      "firewall_higher_order_only": 341,
+      "gap_median": 7.60040172786554,
+      "new_decode_seconds": 53.506248235702515,
+      "observed_records": 1269,
+      "p": 0.0005,
+      "prior_seed": 20271301,
+      "shots": 5000
+    }
+  ],
+  "detector_contract": {
+    "future_truth_bits": 168,
+    "operational_bits": 136,
+    "truth_bits_decoder_visible": false
+  },
+  "evaluation_rows": [
+    {
+      "accepted_fault_histogram": {
+        "0": 551,
+        "1": 713,
+        "2": 461,
+        "3": 227,
+        "4": 86,
+        "5": 35,
+        "6": 8,
+        "7": 2
+      },
+      "attempts_per_operational_accept": 2.400384061449832,
+      "closed_boundary_conditional_raw_frame_infidelity": 2.337311630789803e-19,
+      "closed_boundary_harmful": 0,
+      "closed_boundary_harmful_fraction_among_truth_closed": 0.0,
+      "closed_boundary_harmful_wilson95": [
+        4.336808689942018e-19,
+        0.004027355683871834
+      ],
+      "closed_boundary_intrinsic_oracle_infidelity": 2.337311630789803e-19,
+      "closed_boundary_zero_harmful_upper95_if_applicable": 0.0031484356419813064,
+      "detectable_residual_accepted": 1133,
+      "detectable_residual_fraction_among_accepted": 0.5439270283245319,
+      "downstream_locations_per_patch": 1669,
+      "evaluation_seed": 20271311,
+      "examples": {
+        "closed_boundary_harmful": [],
+        "detectable_residual": [
+          {
+            "raw_proxy_infidelity": 1.0,
+            "record_A": "0x40100000000000000000",
+            "record_B": "0x0",
+            "tier_A": "firewall_exact",
+            "tier_B": "zero_structural",
+            "total_fault_locations": 2,
+            "truth_A": "0x4000000000000000000000000000000000000000004000000000000000000000",
+            "truth_B": "0x0"
+          },
+          {
+            "raw_proxy_infidelity": 0.75,
+            "record_A": "0x4000000000000000000000000000000000",
+            "record_B": "0x40000000000000000",
+            "tier_A": "firewall_exact",
+            "tier_B": "firewall_exact",
+            "total_fault_locations": 2,
+            "truth_A": "0x200000000000000000000000000000000000000000200000000000000000000000000000000000000000",
+            "truth_B": "0x80000000000000000000000000000000000000000080000"
+          },
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x0",
+            "record_B": "0x8000000000000000000000000",
+            "tier_A": "zero_structural",
+            "tier_B": "firewall_exact",
+            "total_fault_locations": 4,
+            "truth_A": "0xc00800000000000000000000000000000100000000c00800000000000000000000000000000100",
+            "truth_B": "0x800000000000000010000000000000000000000000800000000000000010000000000000000000000"
+          },
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x200000040000000000000",
+            "record_B": "0x20000002000000000",
+            "tier_A": "firewall_exact",
+            "tier_B": "firewall_exact",
+            "total_fault_locations": 4,
+            "truth_A": "0x400000000000000000000000000000000000000000400",
+            "truth_B": "0x0"
+          },
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x100020100006",
+            "record_B": "0x0",
+            "tier_A": "firewall_exact",
+            "tier_B": "zero_structural",
+            "total_fault_locations": 4,
+            "truth_A": "0x1000000000000000000000000000000000000000001000000",
+            "truth_B": "0x18040000000000000000000000000000000000080018040000000000000000000000000000000000080"
+          },
+          {
+            "raw_proxy_infidelity": 0.75,
+            "record_A": "0x3000000060200000000",
+            "record_B": "0x0",
+            "tier_A": "firewall_exact",
+            "tier_B": "zero_structural",
+            "total_fault_locations": 4,
+            "truth_A": "0x0",
+            "truth_B": "0xc00040060040000000000000000000000000002000c0004006004000000000000000000000000000200"
+          },
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x20000000000000000002",
+            "record_B": "0x0",
+            "tier_A": "d2_high",
+            "tier_B": "zero_structural",
+            "total_fault_locations": 2,
+            "truth_A": "0x8000000000000000000000000000000000000000008000000000000",
+            "truth_B": "0x0"
+          },
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x0",
+            "record_B": "0x1040000000000000000000",
+            "tier_A": "zero_structural",
+            "tier_B": "firewall_exact",
+            "total_fault_locations": 2,
+            "truth_A": "0x8000000000000000000000000000000000000000008000000000000000000000000000000",
+            "truth_B": "0x0"
+          },
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x0",
+            "record_B": "0x2000000000000000000000",
+            "tier_A": "zero_structural",
+            "tier_B": "firewall_exact",
+            "total_fault_locations": 3,
+            "truth_A": "0x0",
+            "truth_B": "0x40000000000000000000100000080000000000000040000000000000000000100000080000000000000"
+          },
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x0",
+            "record_B": "0x0",
+            "tier_A": "zero_structural",
+            "tier_B": "zero_structural",
+            "total_fault_locations": 1,
+            "truth_A": "0x0",
+            "truth_B": "0x400000000002000000000000000000000000000000400000000002"
+          }
+        ]
+      },
+      "full_factory_potential_locations": 4228,
+      "gap": 10.0,
+      "operational_acceptance": 0.4166,
+      "operational_acceptance_wilson95": [
+        0.4030042390563258,
+        0.43032381362810984
+      ],
+      "operational_accepted": 2083,
+      "p": 0.0005,
+      "prior_seed": 20271301,
+      "raw_terminal_proxy_harmful_all_accepted_DO_NOT_QUOTE_AS_LOGICAL": 186,
+      "residual_fault_histogram": {
+        "1": 443,
+        "2": 368,
+        "3": 198,
+        "4": 81,
+        "5": 33,
+        "6": 8,
+        "7": 2
+      },
+      "sampled_closed_boundary_harmful_with_total_fault_locations_le2": 0,
+      "sampled_le2_regression_gate_pass": true,
+      "shots": 5000,
+      "stage_level_active_location_proxy_per_operational_accept": 6132.316850696111,
+      "stage_level_expected_active_locations_per_attempt": 2554.7232,
+      "tier_counts": {
+        "A:cheap_exact": 71,
+        "A:d2_high": 39,
+        "A:firewall_exact": 597,
+        "A:zero_structural": 1376,
+        "B:cheap_exact": 71,
+        "B:d2_high": 34,
+        "B:firewall_exact": 582,
+        "B:zero_structural": 1396,
+        "reject_A:d2_gap_abstain": 113,
+        "reject_A:firewall_ambiguous": 421,
+        "reject_B:d2_gap_abstain": 79,
+        "reject_B:firewall_ambiguous": 327
+      },
+      "truth_closed_accepted": 950,
+      "truth_closed_fraction_among_accepted": 0.45607297167546806
+    }
+  ],
+  "firewall_scan_seconds": 1.6307153701782227,
+  "frozen_decoder": {
+    "bp_max_iter": 30,
+    "bp_method": "minimum_sum",
+    "gap": 10.0,
+    "max_correction_effects": 8,
+    "ms_scaling_factor": 0.625,
+    "osd_method": "osd_cs",
+    "osd_order": 2,
+    "sector_candidates": 8,
+    "threshold_sweep": false
+  },
+  "interpretation": {
+    "A3_recalculated": false,
+    "note": "This stage validates finite-p practical performance/resource after direct expansion. It does not recompute the S19 exact-three A3 coefficient.",
+    "paper_final_resource_update_allowed": true
+  },
+  "main_gate": {
+    "D2_four_coset_coverage_pass": true,
+    "OPT3B_structural_pass": true,
+    "OPT3C0_263_plus_168_split_pass": true,
+    "fresh_prior_and_evaluation_seeds": true,
+    "matrix_rank_pass": true,
+    "no_threshold_sweep": true,
+    "passed": true,
+    "sampled_closed_boundary_harmful_le2_total": 0,
+    "sampled_le2_regression_pass": true,
+    "truth_bits_decoder_visible": false
+  },
+  "matrix": {
+    "H_aug_rank": 138,
+    "H_aug_shape": [
+      138,
+      1067
+    ],
+    "H_rank": 136,
+    "H_shape": [
+      136,
+      1067
+    ],
+    "closure_conditioned_decoder_effect_classes": 1068,
+    "effect_columns": 1067,
+    "fast_catalogue": {
+      "ambiguous_raw_frame_records": 1777,
+      "catalogue_records": 19735,
+      "scope": "sector-only + boundary weight<=1 plus one downstream physical effect; acceleration only",
+      "unique_raw_frame_records": 17958
+    },
+    "latent_residual_filter": {
+      "OPT3C0_zero_record_truth_closed_identity_only_required": true,
+      "decoder_effect_classes": 1068,
+      "examples": [
+        "JointEffectData(syndrome=0, pauli=1, loc_weight={1012: 0.06666666666666667, 1162: 0.26666666666666666, 1164: 0.26666666666666666, 1166: 0.26666666666666666, 1168: 0.26666666666666666, 1170: 0.26666666666666666, 1176: 0.3333333333333333, 1183: 0.6666666666666666, 1184: 0.6666666666666666, 1185: 0.6666666666666666, 1186: 0.6666666666666666, 1187: 0.6666666666666666, 1192: 0.06666666666666667, 1342: 0.26666666666666666, 1344: 0.26666666666666666, 1346: 0.26666666666666666, 1348: 0.26666666666666666",
+        "JointEffectData(syndrome=0, pauli=2, loc_weight={1008: 0.06666666666666667, 1015: 0.26666666666666666, 1046: 0.26666666666666666, 1072: 0.26666666666666666, 1098: 0.26666666666666666, 1124: 0.26666666666666666, 1191: 0.26666666666666666, 1192: 0.06666666666666667, 1195: 0.26666666666666666, 1214: 0.5333333333333333, 1215: 0.26666666666666666, 1240: 0.5333333333333333, 1241: 0.26666666666666666, 1266: 0.5333333333333333, 1267: 0.26666666666666666, 1292: 0.5333333333333333, 1293: 0.266666666666666",
+        "JointEffectData(syndrome=0, pauli=3, loc_weight={1192: 0.06666666666666667, 1359: 0.13333333333333333}, loc_count={1192: 1, 1359: 2}, example_mechanism=(1192, ((25, 'X'), (235, 'Z'))))"
+      ],
+      "latent_zero_syndrome_nonidentity_excluded": 3,
+      "policy": "excluded from decoder columns only; retained in physical sampling/truth scoring",
+      "raw_effect_classes": 1071
+    },
+    "logical_rows_independent": true,
+    "model_meta": {
+      "X_recovery_meta": {
+        "duplicate_same_mechanism_mappings": 0,
+        "explained_error_objects": 3177,
+        "mechanism_gate_counts": {
+          "DEPOLARIZE1": 690,
+          "DEPOLARIZE2": 11099,
+          "X_ERROR": 319,
+          "Z_ERROR": 310
+        },
+        "mechanism_stage_counts": {
+          "hirano_escape_plus_two_d5_rounds": 12418
+        },
+        "probe": "X",
+        "unique_physical_noise_locations": 1669,
+        "unique_physical_pauli_mechanisms": 12418
+      },
+      "Z_recovery_meta": {
+        "duplicate_same_mechanism_mappings": 0,
+        "explained_error_objects": 3177,
+        "mechanism_gate_counts": {
+          "DEPOLARIZE1": 690,
+          "DEPOLARIZE2": 11099,
+          "X_ERROR": 319,
+          "Z_ERROR": 310
+        },
+        "mechanism_stage_counts": {
+          "hirano_escape_plus_two_d5_rounds": 12418
+        },
+        "probe": "Z",
+        "unique_physical_noise_locations": 1669,
+        "unique_physical_pauli_mechanisms": 12418
+      },
+      "concrete_pauli_mechanisms_per_patch": 13433,
+      "joint_effect_meta": {
+        "all_same_mechanism_detector_syndromes_match_across_probes": true,
+        "joint_pauli_mechanism_counts": {
+          "I": 11763,
+          "X": 770,
+          "Y": 78,
+          "Z": 822
+        },
+        "joint_physical_pauli_mechanisms": 13433,
+        "joint_unique_effects": 1071,
+        "mechanism_count_per_location_histogram": {
+          "1": 629,
+          "3": 233,
+          "15": 807
+        },
+        "per_location_conditional_weights_sum_to_one": true,
+        "physical_locations": 1669,
+        "total_first_order_conditional_weight": 1669.0
+      },
+      "mechanism_count_per_location_histogram": {
+        "1": 629,
+        "15": 807,
+        "3": 233
+      },
+      "mechanisms_with_nonzero_terminal_truth": 7934,
+      "operational_detectors": 136,
+      "physical_locations_per_patch": 1669,
+      "stage_mechanism_counts": {
+        "hirano_escape_plus_two_d5_rounds": 13433
+      },
+      "truth_bits_decoder_visible": false,
+      "truth_bits_per_probe": 168
+    },
+    "raw_effect_classes": 1071
+  },
+  "next_if_pass": "S21-OPT4/S20R: recalculate direct-CS active-location and qubit-step resource table using measured OPT3C1 reach/acceptance; only run new A3 rare-event study if the manuscript requires a coefficient for the optimized schedule.",
+  "prior_calibrations": [
+    {
+      "calibration_attempts": 30000,
+      "core_accepted": 18054,
+      "laplace_alpha_per_sector": 0.5,
+      "p": 0.0005,
+      "rejection_reasons": {
+        "core_CAT0": 242,
+        "core_CAT1": 200,
+        "core_CAT2": 227,
+        "core_CAT3": 225,
+        "core_CAT4": 205,
+        "core_CAT5": 214,
+        "core_midED": 5204,
+        "core_record": 2294,
+        "initial_frontend_ED": 3135
+      },
+      "sector_count_smoothed": {
+        "0": 35110.5,
+        "1": 54.5,
+        "10": 0.5,
+        "11": 2.5,
+        "12": 0.5,
+        "13": 0.5,
+        "14": 0.5,
+        "15": 0.5,
+        "16": 62.5,
+        "17": 0.5,
+        "18": 58.5,
+        "19": 0.5,
+        "2": 31.5,
+        "20": 0.5,
+        "21": 0.5,
+        "22": 0.5,
+        "23": 0.5,
+        "24": 50.5,
+        "25": 0.5,
+        "26": 0.5,
+        "27": 49.5,
+        "28": 0.5,
+        "29": 0.5,
+        "3": 31.5,
+        "30": 0.5,
+        "31": 0.5,
+        "32": 63.5,
+        "33": 0.5,
+        "34": 0.5,
+        "35": 0.5,
+        "36": 65.5,
+        "37": 0.5,
+        "38": 2.5,
+        "39": 0.5,
+        "4": 37.5,
+        "40": 30.5,
+        "41": 0.5,
+        "42": 2.5,
+        "43": 0.5,
+        "44": 0.5,
+        "45": 44.5,
+        "46": 0.5,
+        "47": 0.5,
+        "48": 45.5,
+        "49": 0.5,
+        "5": 35.5,
+        "50": 2.5,
+        "51": 0.5,
+        "52": 0.5,
+        "53": 0.5,
+        "54": 40.5,
+        "55": 0.5,
+        "56": 43.5,
+        "57": 0.5,
+        "58": 0.5,
+        "59": 1.5,
+        "6": 22.5,
+        "60": 0.5,
+        "61": 0.5,
+        "62": 0.5,
+        "63": 49.5,
+        "7": 43.5,
+        "8": 56.5,
+        "9": 82.5
+      },
+      "sector_probability": {
+        "0": 0.971513558384062,
+        "1": 0.0015080243497509684,
+        "10": 1.383508577753182e-05,
+        "11": 6.91754288876591e-05,
+        "12": 1.383508577753182e-05,
+        "13": 1.383508577753182e-05,
+        "14": 1.383508577753182e-05,
+        "15": 1.383508577753182e-05,
+        "16": 0.0017293857221914776,
+        "17": 1.383508577753182e-05,
+        "18": 0.001618705035971223,
+        "19": 1.383508577753182e-05,
+        "2": 0.0008716104039845047,
+        "20": 1.383508577753182e-05,
+        "21": 1.383508577753182e-05,
+        "22": 1.383508577753182e-05,
+        "23": 1.383508577753182e-05,
+        "24": 0.001397343663530714,
+        "25": 1.383508577753182e-05,
+        "26": 1.383508577753182e-05,
+        "27": 0.0013696734919756502,
+        "28": 1.383508577753182e-05,
+        "29": 1.383508577753182e-05,
+        "3": 0.0008716104039845047,
+        "30": 1.383508577753182e-05,
+        "31": 1.383508577753182e-05,
+        "32": 0.0017570558937465412,
+        "33": 1.383508577753182e-05,
+        "34": 1.383508577753182e-05,
+        "35": 1.383508577753182e-05,
+        "36": 0.0018123962368566686,
+        "37": 1.383508577753182e-05,
+        "38": 6.91754288876591e-05,
+        "39": 1.383508577753182e-05,
+        "4": 0.0010376314333148866,
+        "40": 0.0008439402324294411,
+        "41": 1.383508577753182e-05,
+        "42": 6.91754288876591e-05,
+        "43": 1.383508577753182e-05,
+        "44": 1.383508577753182e-05,
+        "45": 0.001231322634200332,
+        "46": 1.383508577753182e-05,
+        "47": 1.383508577753182e-05,
+        "48": 0.0012589928057553956,
+        "49": 1.383508577753182e-05,
+        "5": 0.0009822910902047592,
+        "50": 6.91754288876591e-05,
+        "51": 1.383508577753182e-05,
+        "52": 1.383508577753182e-05,
+        "53": 1.383508577753182e-05,
+        "54": 0.0011206419479800774,
+        "55": 1.383508577753182e-05,
+        "56": 0.0012036524626452684,
+        "57": 1.383508577753182e-05,
+        "58": 1.383508577753182e-05,
+        "59": 4.150525733259546e-05,
+        "6": 0.0006225788599889319,
+        "60": 1.383508577753182e-05,
+        "61": 1.383508577753182e-05,
+        "62": 1.383508577753182e-05,
+        "63": 0.0013696734919756502,
+        "7": 0.0012036524626452684,
+        "8": 0.0015633646928610958,
+        "9": 0.0022827891532927504
+      },
+      "seed": 20271301
+    }
+  ],
+  "resource_contract": {
+    "downstream_locations_per_patch": 1669,
+    "full_factory_potential_locations": 4228,
+    "old_full_factory_potential_locations": 7960,
+    "potential_location_reduction_fraction": 0.4688442211055276,
+    "predownstream_locations": 890,
+    "two_patch_downstream_locations": 3338
+  },
+  "stage": "S21-OPT3C1 direct d5->d13 practical decoder freeze and fresh finite-p validation",
+  "status": "PASS"
+}

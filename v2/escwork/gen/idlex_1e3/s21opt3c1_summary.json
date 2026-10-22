@@ -1,0 +1,516 @@
+{
+  "decoder_audit": [
+    {
+      "cheap_ambiguous_after_firewall": 0,
+      "cheap_exact_after_firewall": 50,
+      "coverage_histogram": {
+        "4": 685
+      },
+      "d2_failure": 0,
+      "d2_success": 685,
+      "d2_unknown": 685,
+      "evaluation_seed": 20271312,
+      "finite_gap_count": 685,
+      "firewall_ambiguous": 250,
+      "firewall_exact": 742,
+      "firewall_higher_order_only": 735,
+      "gap_median": 6.7728134775893345,
+      "new_decode_seconds": 84.59164619445801,
+      "observed_records": 1727,
+      "p": 0.001,
+      "prior_seed": 20271302,
+      "shots": 5000
+    }
+  ],
+  "detector_contract": {
+    "future_truth_bits": 168,
+    "operational_bits": 136,
+    "truth_bits_decoder_visible": false
+  },
+  "evaluation_rows": [
+    {
+      "accepted_fault_histogram": {
+        "0": 63,
+        "1": 131,
+        "2": 227,
+        "3": 202,
+        "4": 145,
+        "5": 67,
+        "6": 34,
+        "7": 9,
+        "8": 5,
+        "9": 1
+      },
+      "attempts_per_operational_accept": 5.656108597285068,
+      "closed_boundary_conditional_raw_frame_infidelity": 0.005347593582887702,
+      "closed_boundary_harmful": 1,
+      "closed_boundary_harmful_fraction_among_truth_closed": 0.0053475935828877,
+      "closed_boundary_harmful_wilson95": [
+        0.0009446061174064463,
+        0.029664355147045487
+      ],
+      "closed_boundary_intrinsic_oracle_infidelity": 1.187404304411932e-18,
+      "closed_boundary_zero_harmful_upper95_if_applicable": null,
+      "detectable_residual_accepted": 697,
+      "detectable_residual_fraction_among_accepted": 0.7884615384615384,
+      "downstream_locations_per_patch": 1669,
+      "evaluation_seed": 20271312,
+      "examples": {
+        "closed_boundary_harmful": [
+          {
+            "actual_A": "I",
+            "actual_B": "Z",
+            "infidelity": 1.0,
+            "pred_A": "I",
+            "pred_B": "I",
+            "record_A": "0x0",
+            "record_B": "0x11c0000088000",
+            "tier_A": "zero_structural",
+            "tier_B": "firewall_exact",
+            "total_fault_locations": 3,
+            "truth_A": "0x0",
+            "truth_B": "0x0"
+          }
+        ],
+        "detectable_residual": [
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x10024002000000000",
+            "record_B": "0x0",
+            "tier_A": "firewall_exact",
+            "tier_B": "zero_structural",
+            "total_fault_locations": 5,
+            "truth_A": "0x0",
+            "truth_B": "0x40000000000000000000000000000000000000000040000"
+          },
+          {
+            "raw_proxy_infidelity": 1.0,
+            "record_A": "0x10",
+            "record_B": "0x10000000000000000000",
+            "tier_A": "firewall_exact",
+            "tier_B": "firewall_exact",
+            "total_fault_locations": 2,
+            "truth_A": "0x0",
+            "truth_B": "0x1000000000000000000000000000000000000000001000000000"
+          },
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x10000000000000000000000000000000",
+            "record_B": "0x1000000000000000000000040",
+            "tier_A": "cheap_exact",
+            "tier_B": "firewall_exact",
+            "total_fault_locations": 4,
+            "truth_A": "0x2000000000000000000000800000000000000000002000000000000000000000800000000000000",
+            "truth_B": "0x400400000000000000000000000000000000000000400400000000000000000"
+          },
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x0",
+            "record_B": "0x0",
+            "tier_A": "zero_structural",
+            "tier_B": "zero_structural",
+            "total_fault_locations": 1,
+            "truth_A": "0x0",
+            "truth_B": "0x800000000000000000000000000000000000000000800000000"
+          },
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x0",
+            "record_B": "0x0",
+            "tier_A": "zero_structural",
+            "tier_B": "zero_structural",
+            "total_fault_locations": 1,
+            "truth_A": "0x0",
+            "truth_B": "0x2000200000000000000000000000000000000000002000200000"
+          },
+          {
+            "raw_proxy_infidelity": 0.75,
+            "record_A": "0x1000000000000000000000000000000000",
+            "record_B": "0x41000000000000000000000000000",
+            "tier_A": "firewall_exact",
+            "tier_B": "firewall_exact",
+            "total_fault_locations": 2,
+            "truth_A": "0x100000000000000000000000000000000000100000100000000000000000000000000000000000100",
+            "truth_B": "0x0"
+          },
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x800000000000000000000000000000",
+            "record_B": "0x0",
+            "tier_A": "cheap_exact",
+            "tier_B": "zero_structural",
+            "total_fault_locations": 1,
+            "truth_A": "0x2000000000000000000000000000000000000000002000000000000000000000000000000000",
+            "truth_B": "0x0"
+          },
+          {
+            "raw_proxy_infidelity": 1.0,
+            "record_A": "0x2090",
+            "record_B": "0x4000000000000000000000000",
+            "tier_A": "firewall_exact",
+            "tier_B": "firewall_exact",
+            "total_fault_locations": 2,
+            "truth_A": "0x0",
+            "truth_B": "0x4000000000000000000000000000000000000000004000000000000000000000"
+          },
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x400",
+            "record_B": "0x1001000000000000000000",
+            "tier_A": "firewall_exact",
+            "tier_B": "firewall_exact",
+            "total_fault_locations": 4,
+            "truth_A": "0x0",
+            "truth_B": "0x40080040080000000000000000000000000000000040080040080000000000"
+          },
+          {
+            "raw_proxy_infidelity": 0.0,
+            "record_A": "0x0",
+            "record_B": "0x21",
+            "tier_A": "zero_structural",
+            "tier_B": "firewall_exact",
+            "total_fault_locations": 2,
+            "truth_A": "0x4000000000000000000000000000000000000000004000000000000000000000000000000000000",
+            "truth_B": "0x0"
+          }
+        ]
+      },
+      "full_factory_potential_locations": 4228,
+      "gap": 10.0,
+      "operational_acceptance": 0.1768,
+      "operational_acceptance_wilson95": [
+        0.16647484096388418,
+        0.18762140157340082
+      ],
+      "operational_accepted": 884,
+      "p": 0.001,
+      "prior_seed": 20271302,
+      "raw_terminal_proxy_harmful_all_accepted_DO_NOT_QUOTE_AS_LOGICAL": 124,
+      "residual_fault_histogram": {
+        "1": 85,
+        "2": 182,
+        "3": 174,
+        "4": 141,
+        "5": 66,
+        "6": 34,
+        "7": 9,
+        "8": 5,
+        "9": 1
+      },
+      "sampled_closed_boundary_harmful_with_total_fault_locations_le2": 0,
+      "sampled_le2_regression_gate_pass": true,
+      "shots": 5000,
+      "stage_level_active_location_proxy_per_operational_accept": 10180.70588235294,
+      "stage_level_expected_active_locations_per_attempt": 1799.9488000000001,
+      "tier_counts": {
+        "A:cheap_exact": 47,
+        "A:d2_high": 54,
+        "A:firewall_exact": 399,
+        "A:zero_structural": 384,
+        "B:cheap_exact": 47,
+        "B:d2_high": 48,
+        "B:firewall_exact": 407,
+        "B:zero_structural": 382,
+        "reject_A:d2_gap_abstain": 257,
+        "reject_A:firewall_ambiguous": 284,
+        "reject_B:d2_gap_abstain": 204,
+        "reject_B:firewall_ambiguous": 190
+      },
+      "truth_closed_accepted": 187,
+      "truth_closed_fraction_among_accepted": 0.21153846153846154
+    }
+  ],
+  "firewall_scan_seconds": 0.9977297782897949,
+  "frozen_decoder": {
+    "bp_max_iter": 30,
+    "bp_method": "minimum_sum",
+    "gap": 10.0,
+    "max_correction_effects": 8,
+    "ms_scaling_factor": 0.625,
+    "osd_method": "osd_cs",
+    "osd_order": 2,
+    "sector_candidates": 8,
+    "threshold_sweep": false
+  },
+  "interpretation": {
+    "A3_recalculated": false,
+    "note": "This stage validates finite-p practical performance/resource after direct expansion. It does not recompute the S19 exact-three A3 coefficient.",
+    "paper_final_resource_update_allowed": true
+  },
+  "main_gate": {
+    "D2_four_coset_coverage_pass": true,
+    "OPT3B_structural_pass": true,
+    "OPT3C0_263_plus_168_split_pass": true,
+    "fresh_prior_and_evaluation_seeds": true,
+    "matrix_rank_pass": true,
+    "no_threshold_sweep": true,
+    "passed": true,
+    "sampled_closed_boundary_harmful_le2_total": 0,
+    "sampled_le2_regression_pass": true,
+    "truth_bits_decoder_visible": false
+  },
+  "matrix": {
+    "H_aug_rank": 138,
+    "H_aug_shape": [
+      138,
+      1067
+    ],
+    "H_rank": 136,
+    "H_shape": [
+      136,
+      1067
+    ],
+    "closure_conditioned_decoder_effect_classes": 1068,
+    "effect_columns": 1067,
+    "fast_catalogue": {
+      "ambiguous_raw_frame_records": 1777,
+      "catalogue_records": 19735,
+      "scope": "sector-only + boundary weight<=1 plus one downstream physical effect; acceleration only",
+      "unique_raw_frame_records": 17958
+    },
+    "latent_residual_filter": {
+      "OPT3C0_zero_record_truth_closed_identity_only_required": true,
+      "decoder_effect_classes": 1068,
+      "examples": [
+        "JointEffectData(syndrome=0, pauli=1, loc_weight={1012: 0.06666666666666667, 1162: 0.26666666666666666, 1164: 0.26666666666666666, 1166: 0.26666666666666666, 1168: 0.26666666666666666, 1170: 0.26666666666666666, 1176: 0.3333333333333333, 1183: 0.6666666666666666, 1184: 0.6666666666666666, 1185: 0.6666666666666666, 1186: 0.6666666666666666, 1187: 0.6666666666666666, 1192: 0.06666666666666667, 1342: 0.26666666666666666, 1344: 0.26666666666666666, 1346: 0.26666666666666666, 1348: 0.26666666666666666",
+        "JointEffectData(syndrome=0, pauli=2, loc_weight={1008: 0.06666666666666667, 1015: 0.26666666666666666, 1046: 0.26666666666666666, 1072: 0.26666666666666666, 1098: 0.26666666666666666, 1124: 0.26666666666666666, 1191: 0.26666666666666666, 1192: 0.06666666666666667, 1195: 0.26666666666666666, 1214: 0.5333333333333333, 1215: 0.26666666666666666, 1240: 0.5333333333333333, 1241: 0.26666666666666666, 1266: 0.5333333333333333, 1267: 0.26666666666666666, 1292: 0.5333333333333333, 1293: 0.266666666666666",
+        "JointEffectData(syndrome=0, pauli=3, loc_weight={1192: 0.06666666666666667, 1359: 0.13333333333333333}, loc_count={1192: 1, 1359: 2}, example_mechanism=(1192, ((25, 'X'), (235, 'Z'))))"
+      ],
+      "latent_zero_syndrome_nonidentity_excluded": 3,
+      "policy": "excluded from decoder columns only; retained in physical sampling/truth scoring",
+      "raw_effect_classes": 1071
+    },
+    "logical_rows_independent": true,
+    "model_meta": {
+      "X_recovery_meta": {
+        "duplicate_same_mechanism_mappings": 0,
+        "explained_error_objects": 3177,
+        "mechanism_gate_counts": {
+          "DEPOLARIZE1": 690,
+          "DEPOLARIZE2": 11099,
+          "X_ERROR": 319,
+          "Z_ERROR": 310
+        },
+        "mechanism_stage_counts": {
+          "hirano_escape_plus_two_d5_rounds": 12418
+        },
+        "probe": "X",
+        "unique_physical_noise_locations": 1669,
+        "unique_physical_pauli_mechanisms": 12418
+      },
+      "Z_recovery_meta": {
+        "duplicate_same_mechanism_mappings": 0,
+        "explained_error_objects": 3177,
+        "mechanism_gate_counts": {
+          "DEPOLARIZE1": 690,
+          "DEPOLARIZE2": 11099,
+          "X_ERROR": 319,
+          "Z_ERROR": 310
+        },
+        "mechanism_stage_counts": {
+          "hirano_escape_plus_two_d5_rounds": 12418
+        },
+        "probe": "Z",
+        "unique_physical_noise_locations": 1669,
+        "unique_physical_pauli_mechanisms": 12418
+      },
+      "concrete_pauli_mechanisms_per_patch": 13433,
+      "joint_effect_meta": {
+        "all_same_mechanism_detector_syndromes_match_across_probes": true,
+        "joint_pauli_mechanism_counts": {
+          "I": 11763,
+          "X": 770,
+          "Y": 78,
+          "Z": 822
+        },
+        "joint_physical_pauli_mechanisms": 13433,
+        "joint_unique_effects": 1071,
+        "mechanism_count_per_location_histogram": {
+          "1": 629,
+          "3": 233,
+          "15": 807
+        },
+        "per_location_conditional_weights_sum_to_one": true,
+        "physical_locations": 1669,
+        "total_first_order_conditional_weight": 1669.0
+      },
+      "mechanism_count_per_location_histogram": {
+        "1": 629,
+        "15": 807,
+        "3": 233
+      },
+      "mechanisms_with_nonzero_terminal_truth": 7934,
+      "operational_detectors": 136,
+      "physical_locations_per_patch": 1669,
+      "stage_mechanism_counts": {
+        "hirano_escape_plus_two_d5_rounds": 13433
+      },
+      "truth_bits_decoder_visible": false,
+      "truth_bits_per_probe": 168
+    },
+    "raw_effect_classes": 1071
+  },
+  "next_if_pass": "S21-OPT4/S20R: recalculate direct-CS active-location and qubit-step resource table using measured OPT3C1 reach/acceptance; only run new A3 rare-event study if the manuscript requires a coefficient for the optimized schedule.",
+  "prior_calibrations": [
+    {
+      "calibration_attempts": 30000,
+      "core_accepted": 10849,
+      "laplace_alpha_per_sector": 0.5,
+      "p": 0.001,
+      "rejection_reasons": {
+        "core_CAT0": 382,
+        "core_CAT1": 391,
+        "core_CAT2": 371,
+        "core_CAT3": 387,
+        "core_CAT4": 348,
+        "core_CAT5": 355,
+        "core_midED": 8213,
+        "core_record": 2816,
+        "initial_frontend_ED": 5888
+      },
+      "sector_count_smoothed": {
+        "0": 20429.5,
+        "1": 55.5,
+        "10": 0.5,
+        "11": 1.5,
+        "12": 1.5,
+        "13": 1.5,
+        "14": 0.5,
+        "15": 1.5,
+        "16": 72.5,
+        "17": 2.5,
+        "18": 76.5,
+        "19": 1.5,
+        "2": 52.5,
+        "20": 0.5,
+        "21": 0.5,
+        "22": 2.5,
+        "23": 2.5,
+        "24": 53.5,
+        "25": 0.5,
+        "26": 1.5,
+        "27": 61.5,
+        "28": 1.5,
+        "29": 0.5,
+        "3": 29.5,
+        "30": 3.5,
+        "31": 4.5,
+        "32": 74.5,
+        "33": 1.5,
+        "34": 1.5,
+        "35": 2.5,
+        "36": 83.5,
+        "37": 3.5,
+        "38": 0.5,
+        "39": 0.5,
+        "4": 63.5,
+        "40": 54.5,
+        "41": 1.5,
+        "42": 3.5,
+        "43": 0.5,
+        "44": 2.5,
+        "45": 58.5,
+        "46": 1.5,
+        "47": 0.5,
+        "48": 50.5,
+        "49": 0.5,
+        "5": 45.5,
+        "50": 0.5,
+        "51": 1.5,
+        "52": 0.5,
+        "53": 5.5,
+        "54": 45.5,
+        "55": 2.5,
+        "56": 66.5,
+        "57": 0.5,
+        "58": 0.5,
+        "59": 0.5,
+        "6": 37.5,
+        "60": 0.5,
+        "61": 1.5,
+        "62": 1.5,
+        "63": 52.5,
+        "7": 42.5,
+        "8": 73.5,
+        "9": 85.5
+      },
+      "sector_probability": {
+        "0": 0.9401518637827888,
+        "1": 0.002554072710538426,
+        "10": 2.300966405890474e-05,
+        "11": 6.902899217671422e-05,
+        "12": 6.902899217671422e-05,
+        "13": 6.902899217671422e-05,
+        "14": 2.300966405890474e-05,
+        "15": 6.902899217671422e-05,
+        "16": 0.003336401288541187,
+        "17": 0.0001150483202945237,
+        "18": 0.0035204786010124252,
+        "19": 6.902899217671422e-05,
+        "2": 0.0024160147261849977,
+        "20": 2.300966405890474e-05,
+        "21": 2.300966405890474e-05,
+        "22": 0.0001150483202945237,
+        "23": 0.0001150483202945237,
+        "24": 0.002462034054302807,
+        "25": 2.300966405890474e-05,
+        "26": 6.902899217671422e-05,
+        "27": 0.002830188679245283,
+        "28": 6.902899217671422e-05,
+        "29": 2.300966405890474e-05,
+        "3": 0.0013575701794753797,
+        "30": 0.0001610676484123332,
+        "31": 0.00020708697653014265,
+        "32": 0.0034284399447768064,
+        "33": 6.902899217671422e-05,
+        "34": 6.902899217671422e-05,
+        "35": 0.0001150483202945237,
+        "36": 0.0038426138978370915,
+        "37": 0.0001610676484123332,
+        "38": 2.300966405890474e-05,
+        "39": 2.300966405890474e-05,
+        "4": 0.002922227335480902,
+        "40": 0.0025080533824206165,
+        "41": 6.902899217671422e-05,
+        "42": 0.0001610676484123332,
+        "43": 2.300966405890474e-05,
+        "44": 0.0001150483202945237,
+        "45": 0.0026921306948918546,
+        "46": 6.902899217671422e-05,
+        "47": 2.300966405890474e-05,
+        "48": 0.002323976069949379,
+        "49": 2.300966405890474e-05,
+        "5": 0.0020938794293603315,
+        "50": 2.300966405890474e-05,
+        "51": 6.902899217671422e-05,
+        "52": 2.300966405890474e-05,
+        "53": 0.0002531063046479521,
+        "54": 0.0020938794293603315,
+        "55": 0.0001150483202945237,
+        "56": 0.0030602853198343303,
+        "57": 2.300966405890474e-05,
+        "58": 2.300966405890474e-05,
+        "59": 2.300966405890474e-05,
+        "6": 0.0017257248044178556,
+        "60": 2.300966405890474e-05,
+        "61": 6.902899217671422e-05,
+        "62": 6.902899217671422e-05,
+        "63": 0.0024160147261849977,
+        "7": 0.001955821445006903,
+        "8": 0.0033824206166589966,
+        "9": 0.003934652554072711
+      },
+      "seed": 20271302
+    }
+  ],
+  "resource_contract": {
+    "downstream_locations_per_patch": 1669,
+    "full_factory_potential_locations": 4228,
+    "old_full_factory_potential_locations": 7960,
+    "potential_location_reduction_fraction": 0.4688442211055276,
+    "predownstream_locations": 890,
+    "two_patch_downstream_locations": 3338
+  },
+  "stage": "S21-OPT3C1 direct d5->d13 practical decoder freeze and fresh finite-p validation",
+  "status": "PASS"
+}

@@ -1,0 +1,319 @@
+{
+  "C_N_3": 22804951904,
+  "D2_unknown_records": 111,
+  "decoder_policy": "zero -> OPT3C0 exact<=2 firewall -> closure-conditioned cheap exact -> D2 gap10",
+  "decoder_results": {
+    "0.0005": {
+      "active_strata_count": 7,
+      "aggregate": {
+        "A3_closed_boundary_binary_harmful_estimate": 1112136.48,
+        "A3_closed_boundary_binary_harmful_naive_se": 683336.0121794225,
+        "A3_closed_boundary_infidelity_estimate": 1043486.08000001,
+        "A3_closed_boundary_infidelity_naive_95pct": [
+          0.0,
+          2334903.6960808253
+        ],
+        "A3_closed_boundary_infidelity_naive_se": 658898.6462340066,
+        "A3_decoder_excess_estimate": 0.0,
+        "A3_decoder_excess_naive_se_conservative": 931823.4017334041,
+        "A3_intrinsic_oracle_estimate": 1043486.08000001,
+        "A3_intrinsic_oracle_naive_se": 658898.6462340066,
+        "D3_detectable_residual_accept_estimate": 8545010353.88,
+        "D3_detectable_residual_accept_naive_se": 446557633.1063384,
+        "R3_operational_rejection_estimate": 12026026543.15,
+        "R3_operational_rejection_naive_se": 384808966.9379835,
+        "closed_boundary_harmful_samples": 3,
+        "p3_predictions": {
+          "0.0001": 1.0434860800000101e-06,
+          "0.0002": 8.347888640000081e-06,
+          "0.0005": 0.00013043576000000125,
+          "0.001": 0.00104348608000001
+        },
+        "total_conditional_exact3_shots": 16800
+      },
+      "decoder_p": 0.0005,
+      "harmful_strata_count": 2,
+      "top_active_strata": [
+        {
+          "A3_closed_boundary_infidelity_estimate": 562933.28,
+          "A3_closed_boundary_infidelity_se": 562933.2800000001,
+          "A3_intrinsic_oracle_estimate": 562933.28,
+          "closed_boundary_harmful_samples": 1,
+          "counts": {
+            "CORE_POST": 1,
+            "DOWN_DIRECT_D5_D13": 1,
+            "MIDED": 1
+          },
+          "decoder_reject": 13,
+          "key": "MIDED1+CORE_POST1+DOWN_DIRECT_D5_D131",
+          "location_triples": 112586656,
+          "shots": 200
+        },
+        {
+          "A3_closed_boundary_infidelity_estimate": 480552.80000000005,
+          "A3_closed_boundary_infidelity_se": 342423.05453553796,
+          "A3_intrinsic_oracle_estimate": 480552.80000000005,
+          "closed_boundary_harmful_samples": 2,
+          "counts": {
+            "CORE_POST": 2,
+            "DOWN_DIRECT_D5_D13": 1
+          },
+          "decoder_reject": 39,
+          "key": "CORE_POST2+DOWN_DIRECT_D5_D131",
+          "location_triples": 54920320,
+          "shots": 200
+        },
+        {
+          "A3_closed_boundary_infidelity_estimate": 4.9645268695996946e-09,
+          "A3_closed_boundary_infidelity_se": 2.8518311807001533e-09,
+          "A3_intrinsic_oracle_estimate": 4.9645268695996946e-09,
+          "closed_boundary_harmful_samples": 0,
+          "counts": {
+            "DOWN_DIRECT_D5_D13": 2,
+            "MIDED": 1
+          },
+          "decoder_reject": 2,
+          "key": "MIDED1+DOWN_DIRECT_D5_D132",
+          "location_triples": 1490549424,
+          "shots": 200
+        },
+        {
+          "A3_closed_boundary_infidelity_estimate": 4.873712353692383e-09,
+          "A3_closed_boundary_infidelity_se": 2.7996635371507605e-09,
+          "A3_intrinsic_oracle_estimate": 4.873712353692383e-09,
+          "closed_boundary_harmful_samples": 0,
+          "counts": {
+            "CORE_POST": 1,
+            "DOWN_DIRECT_D5_D13": 2
+          },
+          "decoder_reject": 46,
+          "key": "CORE_POST1+DOWN_DIRECT_D5_D132",
+          "location_triples": 1463283276,
+          "shots": 200
+        },
+        {
+          "A3_closed_boundary_infidelity_estimate": 8.00281174662132e-11,
+          "A3_closed_boundary_infidelity_se": 8.00281174662132e-11,
+          "A3_intrinsic_oracle_estimate": 8.00281174662132e-11,
+          "closed_boundary_harmful_samples": 0,
+          "counts": {
+            "CAT_POST": 1,
+            "CORE_POST": 1,
+            "DOWN_DIRECT_D5_D13": 1
+          },
+          "decoder_reject": 17,
+          "key": "CAT_POST1+CORE_POST1+DOWN_DIRECT_D5_D131",
+          "location_triples": 72082920,
+          "shots": 200
+        },
+        {
+          "A3_closed_boundary_infidelity_estimate": 1.5581202994496836e-12,
+          "A3_closed_boundary_infidelity_se": 1.5581202994496838e-12,
+          "A3_intrinsic_oracle_estimate": 1.5581202994496836e-12,
+          "closed_boundary_harmful_samples": 0,
+          "counts": {
+            "CAT_PRE": 1,
+            "MIDED": 2
+          },
+          "decoder_reject": 0,
+          "key": "CAT_PRE1+MIDED2",
+          "location_triples": 1403430,
+          "shots": 200
+        },
+        {
+          "A3_closed_boundary_infidelity_estimate": 9.941381051703501e-13,
+          "A3_closed_boundary_infidelity_se": 9.941381051703503e-13,
+          "A3_intrinsic_oracle_estimate": 9.941381051703501e-13,
+          "closed_boundary_harmful_samples": 0,
+          "counts": {
+            "CAT_POST": 2,
+            "MIDED": 1
+          },
+          "decoder_reject": 1,
+          "key": "MIDED1+CAT_POST2",
+          "location_triples": 895440,
+          "shots": 200
+        }
+      ]
+    },
+    "0.001": {
+      "active_strata_count": 7,
+      "aggregate": {
+        "A3_closed_boundary_binary_harmful_estimate": 1112136.48,
+        "A3_closed_boundary_binary_harmful_naive_se": 683336.0121794225,
+        "A3_closed_boundary_infidelity_estimate": 1043486.0800000083,
+        "A3_closed_boundary_infidelity_naive_95pct": [
+          0.0,
+          2334903.696080824
+        ],
+        "A3_closed_boundary_infidelity_naive_se": 658898.6462340066,
+        "A3_decoder_excess_estimate": 0.0,
+        "A3_decoder_excess_naive_se_conservative": 931823.4017334041,
+        "A3_intrinsic_oracle_estimate": 1043486.0800000083,
+        "A3_intrinsic_oracle_naive_se": 658898.6462340066,
+        "D3_detectable_residual_accept_estimate": 8408573578.86,
+        "D3_detectable_residual_accept_naive_se": 448753271.98519033,
+        "R3_operational_rejection_estimate": 12234339913.87,
+        "R3_operational_rejection_naive_se": 393500910.8471189,
+        "closed_boundary_harmful_samples": 3,
+        "p3_predictions": {
+          "0.0001": 1.0434860800000086e-06,
+          "0.0002": 8.347888640000069e-06,
+          "0.0005": 0.00013043576000000106,
+          "0.001": 0.0010434860800000085
+        },
+        "total_conditional_exact3_shots": 16800
+      },
+      "decoder_p": 0.001,
+      "harmful_strata_count": 2,
+      "top_active_strata": [
+        {
+          "A3_closed_boundary_infidelity_estimate": 562933.28,
+          "A3_closed_boundary_infidelity_se": 562933.2800000001,
+          "A3_intrinsic_oracle_estimate": 562933.28,
+          "closed_boundary_harmful_samples": 1,
+          "counts": {
+            "CORE_POST": 1,
+            "DOWN_DIRECT_D5_D13": 1,
+            "MIDED": 1
+          },
+          "decoder_reject": 13,
+          "key": "MIDED1+CORE_POST1+DOWN_DIRECT_D5_D131",
+          "location_triples": 112586656,
+          "shots": 200
+        },
+        {
+          "A3_closed_boundary_infidelity_estimate": 480552.80000000005,
+          "A3_closed_boundary_infidelity_se": 342423.05453553796,
+          "A3_intrinsic_oracle_estimate": 480552.80000000005,
+          "closed_boundary_harmful_samples": 2,
+          "counts": {
+            "CORE_POST": 2,
+            "DOWN_DIRECT_D5_D13": 1
+          },
+          "decoder_reject": 39,
+          "key": "CORE_POST2+DOWN_DIRECT_D5_D131",
+          "location_triples": 54920320,
+          "shots": 200
+        },
+        {
+          "A3_closed_boundary_infidelity_estimate": 4.9645268695996946e-09,
+          "A3_closed_boundary_infidelity_se": 2.8518311807001533e-09,
+          "A3_intrinsic_oracle_estimate": 4.9645268695996946e-09,
+          "closed_boundary_harmful_samples": 0,
+          "counts": {
+            "DOWN_DIRECT_D5_D13": 2,
+            "MIDED": 1
+          },
+          "decoder_reject": 2,
+          "key": "MIDED1+DOWN_DIRECT_D5_D132",
+          "location_triples": 1490549424,
+          "shots": 200
+        },
+        {
+          "A3_closed_boundary_infidelity_estimate": 3.2491415691282554e-09,
+          "A3_closed_boundary_infidelity_se": 2.29171017826058e-09,
+          "A3_intrinsic_oracle_estimate": 3.2491415691282554e-09,
+          "closed_boundary_harmful_samples": 0,
+          "counts": {
+            "CORE_POST": 1,
+            "DOWN_DIRECT_D5_D13": 2
+          },
+          "decoder_reject": 48,
+          "key": "CORE_POST1+DOWN_DIRECT_D5_D132",
+          "location_triples": 1463283276,
+          "shots": 200
+        },
+        {
+          "A3_closed_boundary_infidelity_estimate": 8.00281174662132e-11,
+          "A3_closed_boundary_infidelity_se": 8.00281174662132e-11,
+          "A3_intrinsic_oracle_estimate": 8.00281174662132e-11,
+          "closed_boundary_harmful_samples": 0,
+          "counts": {
+            "CAT_POST": 1,
+            "CORE_POST": 1,
+            "DOWN_DIRECT_D5_D13": 1
+          },
+          "decoder_reject": 17,
+          "key": "CAT_POST1+CORE_POST1+DOWN_DIRECT_D5_D131",
+          "location_triples": 72082920,
+          "shots": 200
+        },
+        {
+          "A3_closed_boundary_infidelity_estimate": 1.5581202994496836e-12,
+          "A3_closed_boundary_infidelity_se": 1.5581202994496838e-12,
+          "A3_intrinsic_oracle_estimate": 1.5581202994496836e-12,
+          "closed_boundary_harmful_samples": 0,
+          "counts": {
+            "CAT_PRE": 1,
+            "MIDED": 2
+          },
+          "decoder_reject": 0,
+          "key": "CAT_PRE1+MIDED2",
+          "location_triples": 1403430,
+          "shots": 200
+        },
+        {
+          "A3_closed_boundary_infidelity_estimate": 9.941381051703501e-13,
+          "A3_closed_boundary_infidelity_se": 9.941381051703503e-13,
+          "A3_intrinsic_oracle_estimate": 9.941381051703501e-13,
+          "closed_boundary_harmful_samples": 0,
+          "counts": {
+            "CAT_POST": 2,
+            "MIDED": 1
+          },
+          "decoder_reject": 1,
+          "key": "MIDED1+CAT_POST2",
+          "location_triples": 895440,
+          "shots": 200
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 578.5382549762726,
+  "firewall_observed_query_matches": 502,
+  "harmful_witness_count": 6,
+  "location_inventory": {
+    "CAT_POST": 105,
+    "CAT_PRE": 105,
+    "CORE_POST": 161,
+    "CORE_PRE": 161,
+    "DOWN_DIRECT_D5_D13": 4264,
+    "FRONT": 194,
+    "MIDED": 164,
+    "total": 5154
+  },
+  "matrix": {
+    "H_aug_rank": 265,
+    "H_rank": 263,
+    "closure_conditioned_effect_classes": 3340,
+    "effect_columns": 3339,
+    "latent_zero_op_residuals": 3,
+    "raw_effect_classes": 3343
+  },
+  "next_stage_rule": {
+    "if_harmful_strata_found": "Run S21-OPT4C targeted high-stat only on the dominant harmful/uncertain strata, with the same paired priors.",
+    "if_no_harmful_events": "Do not call A3 zero. Increase targeted/statistically efficient exact-three sampling using intrinsic/decoder-active strata."
+  },
+  "observed_queries": 643,
+  "paired_decoder_prior_difference": {
+    "A3_high": 1043486.0800000083,
+    "A3_low": 1043486.08000001,
+    "delta_high_minus_low": -1.6298145055770874e-09,
+    "naive_independent_se_for_delta": 931823.4017334041,
+    "note": "Same physical samples are used; this SE is conservative because covariance is not subtracted.",
+    "pdec_high": 0.001,
+    "pdec_low": 0.0005
+  },
+  "paper_use": "Pilot only. Do not use the global A3 estimate as paper-final until targeted precision/prior-stability is closed.",
+  "seed": 20270951,
+  "shots_per_stratum": 200,
+  "stage": "S21-OPT4B optimized direct-d5->d13 exact-three pilot",
+  "status": "PILOT_NOT_PAPER_FINAL",
+  "stratum_count": 84,
+  "structural_source": "S21-OPT3B + OPT3C0; pilot does not replace <=2 certificate",
+  "threshold_sweep": false,
+  "total_conditional_shots": 16800,
+  "total_potential_locations": 5154,
+  "truth_bits_decoder_visible": false
+}

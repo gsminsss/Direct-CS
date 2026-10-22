@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+reproduced_figures/
+v2/reproduced_figures/
+v2/snap/cc/direct_cs_review/source/reference/*.stim
+.DS_Store

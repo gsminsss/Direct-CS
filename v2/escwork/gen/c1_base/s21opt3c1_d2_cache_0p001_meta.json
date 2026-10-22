@@ -1,0 +1,15 @@
+{
+  "bp_max_iter": 30,
+  "bp_method": "minimum_sum",
+  "gap": 10.0,
+  "matrix_hash": "19a780656e36e7397b027a3f08c7fd595685251a1ab525f903cc46a51c9aed3d",
+  "max_correction_effects": 8,
+  "ms_scaling_factor": 0.625,
+  "osd_method": "osd_cs",
+  "osd_order": 2,
+  "p": 0.001,
+  "prior_hash": "8493d83ecc94a22e5e53bfca22b6a66fdd1b148903cbb5a6f635788fb84638cc",
+  "prior_seed": 20270902,
+  "sector_candidates": 8,
+  "stage": "S21-OPT3C1"
+}

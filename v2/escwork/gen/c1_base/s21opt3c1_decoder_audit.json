@@ -1,0 +1,44 @@
+[
+  {
+    "cheap_ambiguous_after_firewall": 1,
+    "cheap_exact_after_firewall": 37,
+    "coverage_histogram": {
+      "4": 719
+    },
+    "d2_failure": 0,
+    "d2_success": 719,
+    "d2_unknown": 719,
+    "evaluation_seed": 20270921,
+    "finite_gap_count": 719,
+    "firewall_ambiguous": 141,
+    "firewall_exact": 1684,
+    "firewall_higher_order_only": 757,
+    "gap_median": 9.615293623947721,
+    "new_decode_seconds": 715.8819391727448,
+    "observed_records": 2582,
+    "p": 0.0005,
+    "prior_seed": 20270901,
+    "shots": 5000
+  },
+  {
+    "cheap_ambiguous_after_firewall": 2,
+    "cheap_exact_after_firewall": 45,
+    "coverage_histogram": {
+      "4": 1407
+    },
+    "d2_failure": 0,
+    "d2_success": 1407,
+    "d2_unknown": 1407,
+    "evaluation_seed": 20270922,
+    "finite_gap_count": 1407,
+    "firewall_ambiguous": 108,
+    "firewall_exact": 1558,
+    "firewall_higher_order_only": 1454,
+    "gap_median": 7.709329494840468,
+    "new_decode_seconds": 1342.3696019649506,
+    "observed_records": 3120,
+    "p": 0.001,
+    "prior_seed": 20270902,
+    "shots": 5000
+  }
+]
