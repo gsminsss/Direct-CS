@@ -1636,128 +1636,128 @@
   },
   {
     "path": "v2/escwork/src_base/msc-ls/LICENSE",
-    "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
-    "bytes": 11558
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357
   },
   {
     "path": "v2/escwork/src_base/msc-ls/fig/plot_distillation_lifetime.py",
-    "sha256": "29ca279c67600f1233df6af0551e52e389e3fc874f3e1e1b24bf448d8e0e68a5",
-    "bytes": 6668
+    "sha256": "30a5d3df6b147d184f02d1d052c44bb222e7622e5463287b7f55249217c8494a",
+    "bytes": 6503
   },
   {
     "path": "v2/escwork/src_base/msc-ls/fig/plot_distillation_overhead.py",
-    "sha256": "e99ae764b39826fa38274354370f10e5af21faf83583e8d75493768b0d65369f",
-    "bytes": 6122
+    "sha256": "adc64fa06992ef09d947379c69c62c1bb068c5b530768d3657d0216fe94a7a21",
+    "bytes": 6008
   },
   {
     "path": "v2/escwork/src_base/msc-ls/fig/plot_end_to_end.py",
-    "sha256": "4d558d583e2d83e61aa9574215fe6f8e7ea3edf859b3cb274db4ac8313dcdff4",
-    "bytes": 6247
+    "sha256": "7e2edc2595c25f664dbcdfe882bb44a2d9fa079c07aaec48b953bf79c0d10aed",
+    "bytes": 6121
   },
   {
     "path": "v2/escwork/src_base/msc-ls/fig/plot_error_detection.py",
-    "sha256": "d7cfc644944b7043c98080ab4a7e5e64ec90e688c79ec18f6c3d6444a139e4af",
-    "bytes": 4211
+    "sha256": "9ff2a660d47b78b6d9d6336a2aa8b0e761cc7263fd22fb4767f532dfd6c1e513",
+    "bytes": 4112
   },
   {
     "path": "v2/escwork/src_base/msc-ls/fig/plot_lookup_table_coverage.py",
-    "sha256": "298e9414c00285e8d4d27be210ce9b5263d3b6d0708030f02a658ee1e8c6d048",
-    "bytes": 5812
+    "sha256": "66dc471f7340938639c0a0100db979eaa9b6164043e813ce54bd75a0d78c9c10",
+    "bytes": 5682
   },
   {
     "path": "v2/escwork/src_base/msc-ls/fig/plot_msc_qubit_count.py",
-    "sha256": "6b8e210be4891f0574f40817861187197f6d4373c1f98fc164a2e635511691e5",
-    "bytes": 3958
+    "sha256": "bf74476c7e90d52cd4888c4a3da98aeddb5d42d2e916ad4349b45b9fbbb31681",
+    "bytes": 3828
   },
   {
     "path": "v2/escwork/src_base/msc-ls/fig/plot_msc_survival_probability.py",
-    "sha256": "2bc0c1e3c98dcf281dd2b7adc6207144d2ba7aac6c910a63313dd7ad0da7ce30",
-    "bytes": 3267
+    "sha256": "17600042e6a19db2e38d04b314b04b33f0effb9777f3f417e1ea2d9ef559fbb0",
+    "bytes": 3167
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/extract_lookup_table.py",
-    "sha256": "70d975d48f39b55172dabe6681a84f562c4c2e6b4f5292e321005eda1bd0d573",
-    "bytes": 5708
+    "sha256": "2b45c493dc458b5a89010b10caaf08b7b70e44692ab2129bd703e81edc1307b0",
+    "bytes": 5595
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/inject_cultivate.py",
-    "sha256": "7c513eac40fb6bc93a7c5148cbdd2ab4e66b5bfe2efc9051060e9919fb425146",
-    "bytes": 7354
+    "sha256": "9e715f153c7ddc8d7e6de0c05b5b7f935bdb0bf2ea03b8524c244657e6098a64",
+    "bytes": 7153
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/lattice_surgery_complementary_gap.py",
-    "sha256": "a23fabbb729f48e25cd3ff2dd784505d297fbc9e94067f5b14ab342c812be6e5",
-    "bytes": 67173
+    "sha256": "0ddd3bdd624446fab50eb7688d20016819f65319e0f83c296f0d1a8c4c156e62",
+    "bytes": 65791
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/lattice_surgery_complementary_gap_test.py",
-    "sha256": "10a01c18268c1d3792d112c35db345c81a407f5138da04ebbff5e9ef4b7a5fd3",
-    "bytes": 20273
+    "sha256": "9732318ad24eaf7dfb66270d540311c7bd8ac26477d527f8dfb6c74f0e414065",
+    "bytes": 19874
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/lattice_surgery_error_detection.py",
-    "sha256": "a1cf20ed790306a932e5733c08268046e8aa8c975e8d6765fe4b2274d5276d37",
-    "bytes": 20804
+    "sha256": "8f389e67e6cc1088da99426bfff089c48479b167fbd42131922b1c5d1ad69b0a",
+    "bytes": 20360
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/lattice_surgery_error_detection_test.py",
-    "sha256": "0b117f53ec4b1e9388777f5c4cfd0a1b50ee12b6a2780b9387f1c235598a7ff9",
-    "bytes": 3438
+    "sha256": "2a6f9962284035eb7922483826ee0a609de0b53029a19f1e67051a9c01a17519",
+    "bytes": 3370
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/lookup_table.py",
-    "sha256": "ec4e258bda7397cb1a5ef09e09f8f810693cc7a70b12465147b8c5a459f91689",
-    "bytes": 7236
+    "sha256": "64aff1a1b926ad34e41ef7bf6e3afe55502db68709b6ae0657e1ed4e489366c3",
+    "bytes": 7040
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/steane_code.py",
-    "sha256": "c2943e155764e4269b562441cf6a2d74e138bd5a097691aa36b91959ef462009",
-    "bytes": 74679
+    "sha256": "8e4c97faf281192a61dd33e50645e6b694f49e4ca5b48ca55b9210a72e7b5d13",
+    "bytes": 72666
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/steane_code_test.py",
-    "sha256": "d64c9e7f0a2f65e1c1a19bf2dcfda0cfef0806014ec6625b13d7dcf08d951ae9",
-    "bytes": 75468
+    "sha256": "61ce332bedb74d92626c4b016457d05ae0c69559e20fd48bd7ae59a74ed2a23a",
+    "bytes": 73624
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/surface_code.py",
-    "sha256": "1c0a00d918d1840a600bcac940e6e122cc82074f325b6bb0b2ee7299802ab7d1",
-    "bytes": 9303
+    "sha256": "fcf8156554a196f3059a5f08422741850d88868b0b056d0c066600d0303b1a5d",
+    "bytes": 9051
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/surface_code_expansion.py",
-    "sha256": "51d6b2cfcb8af39937edf8d7a5dcb932972780976ef55cb62eed6add707ee2f2",
-    "bytes": 26547
+    "sha256": "cdfabcd6f6498ce56bc45538fe62969c4e1e0eac24a6da5849a12033e656ab4a",
+    "bytes": 25952
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/surface_code_expansion_test.py",
-    "sha256": "0b17c01ed240a955772ce4f27d55870be028a688a4c9cb8b0894d1dcd02fa570",
-    "bytes": 9654
+    "sha256": "7c104e4742e5b988dbe5b88f49e5865c5415dfb334dfde22fb8ab2d5aa7590a6",
+    "bytes": 9500
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/surface_code_test.py",
-    "sha256": "eca5ef660b3ce826b036a6d32c930bf89098b0de0cbe9cf6788ca7029aee99c1",
-    "bytes": 32603
+    "sha256": "a7149a59e014765d9bcb5f84a276526cb5a1db88453b6fec99ecafb87e2eb554",
+    "bytes": 31543
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/surface_complementary_gap.py",
-    "sha256": "52f281359caff36a141be2bf31ab0968e41ec4892e2f4861ef47b73b2371918a",
-    "bytes": 26434
+    "sha256": "c1ac951c5191b08fe4bb3a6f7710cfcb7a69ae70dffd09f07fea9b58d0c565e4",
+    "bytes": 25848
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/surface_lattice_surgery_complementary_gap.py",
-    "sha256": "61eb7f7d672b860087f6beab6a87b20d24d03da1d7485f2abb89c3f8f05423f9",
-    "bytes": 34340
+    "sha256": "dbfad766daef2e1c5353d3947dbeb9e7b84f09b10c299b6417d8385cbb840f99",
+    "bytes": 33639
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/util.py",
-    "sha256": "a6f79618e4ef8feb378d7a570e84073b2b7c690b1027d95cd09daad479813c3b",
-    "bytes": 16110
+    "sha256": "39c17839ac954b225609d22f3d3136da449f691f02d07c4d5694ecf8b376ed07",
+    "bytes": 15736
   },
   {
     "path": "v2/escwork/src_base/msc-ls/src/util_test.py",
-    "sha256": "a5eff1ec67d8e5a1a84c64b4cf901f9b8a1fad2f0833d2a6bf9260e3326f32cb",
-    "bytes": 7633
+    "sha256": "8c23f726988939a3eef49825a0274378cd4e2c26a4ca21d73de1a2098d6bdc9b",
+    "bytes": 7418
   },
   {
     "path": "v2/escwork/src_base/requirements_s1.txt",
@@ -2426,8 +2426,8 @@
   },
   {
     "path": "v2/figure_data/d5_interface_sweep.csv",
-    "sha256": "2a4161ffb911ff01bd163477243c0a7a0f6df5ccb4fcb9b1d83b6cefb81c5bed",
-    "bytes": 1527
+    "sha256": "88433b9f80d2e51da295c669d4b9a868b6cbdd873e628b9e7199553f8bc416ca",
+    "bytes": 1516
   },
   {
     "path": "v2/figure_data/final_compare.json",
